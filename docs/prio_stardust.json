@@ -1,0 +1,1201 @@
+{
+  "tiers": [
+    {
+      "tier": 0,
+      "title": "Nucleo (object model + math + time)",
+      "why": "Sem isso nada funciona: hierarquia GameObject/Transform, tipos matematicos, Time, Debug. Enums e atributos sao gratuitos (so declarar).",
+      "classes": 36,
+      "members": 152,
+      "items": [
+        {
+          "type": "UnityEngine.Transform",
+          "assembly": "UnityEngine.CoreModule",
+          "members": [
+            "GetEnumerator",
+            "LookAt",
+            "Rotate",
+            "RotateAround",
+            "SetParent",
+            "TransformDirection",
+            "TransformPoint",
+            "Translate",
+            "get_forward",
+            "get_localPosition",
+            "get_localRotation",
+            "get_localScale",
+            "get_lossyScale",
+            "get_parent",
+            "get_position",
+            "get_rotation",
+            "get_up",
+            "set_forward",
+            "set_localPosition",
+            "set_localRotation",
+            "set_localScale",
+            "set_parent",
+            "set_position",
+            "set_rotation"
+          ],
+          "n_members": 24
+        },
+        {
+          "type": "UnityEngine.Vector3",
+          "assembly": "UnityEngine.CoreModule",
+          "members": [
+            ".ctor",
+            "Cross",
+            "Dot",
+            "Lerp",
+            "Project",
+            "SmoothDamp",
+            "get_forward",
+            "get_magnitude",
+            "get_normalized",
+            "get_one",
+            "get_right",
+            "get_up",
+            "get_zero",
+            "op_Addition",
+            "op_Division",
+            "op_Multiply",
+            "op_Subtraction",
+            "op_UnaryNegation",
+            "x",
+            "y",
+            "z"
+          ],
+          "n_members": 21
+        },
+        {
+          "type": "UnityEngine.GameObject",
+          "assembly": "UnityEngine.CoreModule",
+          "members": [
+            ".ctor",
+            "AddComponent",
+            "AddComponent<T>",
+            "Find",
+            "FindGameObjectWithTag",
+            "GetComponent",
+            "GetComponent<T>",
+            "GetComponentInChildren",
+            "GetComponentInChildren<T>",
+            "GetComponentInParent",
+            "GetComponentInParent<T>",
+            "GetComponentsInChildren",
+            "GetComponentsInChildren<T>",
+            "SendMessageUpwards",
+            "SetActive",
+            "get_activeInHierarchy",
+            "get_activeSelf",
+            "get_gameObject",
+            "get_transform"
+          ],
+          "n_members": 19
+        },
+        {
+          "type": "UnityEngine.Quaternion",
+          "assembly": "UnityEngine.CoreModule",
+          "members": [
+            ".ctor",
+            "AngleAxis",
+            "Euler",
+            "Lerp",
+            "LookRotation",
+            "RotateTowards",
+            "Slerp",
+            "get_eulerAngles",
+            "get_identity",
+            "op_Multiply",
+            "w",
+            "x",
+            "y",
+            "z"
+          ],
+          "n_members": 14
+        },
+        {
+          "type": "UnityEngine.Component",
+          "assembly": "UnityEngine.CoreModule",
+          "members": [
+            "CompareTag",
+            "GetComponent",
+            "GetComponent<T>",
+            "GetComponentInChildren",
+            "GetComponentInChildren<T>",
+            "GetComponentsInChildren",
+            "GetComponentsInChildren<T>",
+            "get_gameObject",
+            "get_tag",
+            "get_transform"
+          ],
+          "n_members": 10
+        },
+        {
+          "type": "UnityEngine.Mathf",
+          "assembly": "UnityEngine.CoreModule",
+          "members": [
+            "Abs",
+            "Acos",
+            "Clamp",
+            "Clamp01",
+            "Cos",
+            "Max",
+            "PingPong",
+            "RoundToInt",
+            "Sin",
+            "SmoothStep"
+          ],
+          "n_members": 10
+        },
+        {
+          "type": "UnityEngine.Object",
+          "assembly": "UnityEngine.CoreModule",
+          "members": [
+            "Destroy",
+            "DontDestroyOnLoad",
+            "Instantiate",
+            "Instantiate<T>",
+            "get_name",
+            "op_Equality",
+            "op_Implicit",
+            "op_Inequality"
+          ],
+          "n_members": 8
+        },
+        {
+          "type": "UnityEngine.Time",
+          "assembly": "UnityEngine.CoreModule",
+          "members": [
+            "get_deltaTime",
+            "get_fixedDeltaTime",
+            "get_realtimeSinceStartup",
+            "get_time",
+            "get_timeScale",
+            "get_unscaledDeltaTime",
+            "set_timeScale"
+          ],
+          "n_members": 7
+        },
+        {
+          "type": "UnityEngine.Vector2",
+          "assembly": "UnityEngine.CoreModule",
+          "members": [
+            ".ctor",
+            "get_magnitude",
+            "get_one",
+            "op_Implicit",
+            "op_Subtraction",
+            "x",
+            "y"
+          ],
+          "n_members": 7
+        },
+        {
+          "type": "UnityEngine.Color32",
+          "assembly": "UnityEngine.CoreModule",
+          "members": [
+            ".ctor",
+            "b",
+            "g",
+            "op_Implicit",
+            "r"
+          ],
+          "n_members": 5
+        },
+        {
+          "type": "UnityEngine.Color",
+          "assembly": "UnityEngine.CoreModule",
+          "members": [
+            "Lerp",
+            "a",
+            "get_black"
+          ],
+          "n_members": 3
+        },
+        {
+          "type": "UnityEngine.Debug",
+          "assembly": "UnityEngine.CoreModule",
+          "members": [
+            "Log",
+            "LogError",
+            "LogWarning"
+          ],
+          "n_members": 3
+        },
+        {
+          "type": "UnityEngine.Matrix4x4",
+          "assembly": "UnityEngine.CoreModule",
+          "members": [
+            "MultiplyPoint3x4",
+            "SetTRS",
+            "TRS"
+          ],
+          "n_members": 3
+        },
+        {
+          "type": "UnityEngine.MonoBehaviour",
+          "assembly": "UnityEngine.CoreModule",
+          "members": [
+            ".ctor",
+            "Invoke",
+            "StartCoroutine"
+          ],
+          "n_members": 3
+        },
+        {
+          "type": "UnityEngine.Behaviour",
+          "assembly": "UnityEngine.CoreModule",
+          "members": [
+            "get_enabled",
+            "set_enabled"
+          ],
+          "n_members": 2
+        },
+        {
+          "type": "UnityEngine.Bounds",
+          "assembly": "UnityEngine.CoreModule",
+          "members": [
+            "get_max",
+            "get_min"
+          ],
+          "n_members": 2
+        },
+        {
+          "type": "UnityEngine.Random",
+          "assembly": "UnityEngine.CoreModule",
+          "members": [
+            "Range",
+            "get_insideUnitSphere"
+          ],
+          "n_members": 2
+        },
+        {
+          "type": "UnityEngine.ExecuteInEditMode",
+          "assembly": "UnityEngine.CoreModule",
+          "members": [
+            ".ctor"
+          ],
+          "n_members": 1
+        },
+        {
+          "type": "UnityEngine.HeaderAttribute",
+          "assembly": "UnityEngine.CoreModule",
+          "members": [
+            ".ctor"
+          ],
+          "n_members": 1
+        },
+        {
+          "type": "UnityEngine.HideInInspector",
+          "assembly": "UnityEngine.CoreModule",
+          "members": [
+            ".ctor"
+          ],
+          "n_members": 1
+        },
+        {
+          "type": "UnityEngine.RangeAttribute",
+          "assembly": "UnityEngine.CoreModule",
+          "members": [
+            ".ctor"
+          ],
+          "n_members": 1
+        },
+        {
+          "type": "UnityEngine.RequireComponent",
+          "assembly": "UnityEngine.CoreModule",
+          "members": [
+            ".ctor"
+          ],
+          "n_members": 1
+        },
+        {
+          "type": "UnityEngine.SerializeField",
+          "assembly": "UnityEngine.CoreModule",
+          "members": [
+            ".ctor"
+          ],
+          "n_members": 1
+        },
+        {
+          "type": "UnityEngine.SpaceAttribute",
+          "assembly": "UnityEngine.CoreModule",
+          "members": [
+            ".ctor"
+          ],
+          "n_members": 1
+        },
+        {
+          "type": "UnityEngine.TextAreaAttribute",
+          "assembly": "UnityEngine.CoreModule",
+          "members": [
+            ".ctor"
+          ],
+          "n_members": 1
+        },
+        {
+          "type": "UnityEngine.Vector4",
+          "assembly": "UnityEngine.CoreModule",
+          "members": [
+            ".ctor"
+          ],
+          "n_members": 1
+        },
+        {
+          "type": "UnityEngine.ForceMode",
+          "assembly": "UnityEngine.PhysicsModule",
+          "members": [],
+          "n_members": 0
+        },
+        {
+          "type": "UnityEngine.KeyCode",
+          "assembly": "UnityEngine.CoreModule",
+          "members": [],
+          "n_members": 0
+        },
+        {
+          "type": "UnityEngine.Ray",
+          "assembly": "UnityEngine.CoreModule",
+          "members": [],
+          "n_members": 0
+        },
+        {
+          "type": "UnityEngine.RenderMode",
+          "assembly": "UnityEngine.UIModule",
+          "members": [],
+          "n_members": 0
+        },
+        {
+          "type": "UnityEngine.RuntimePlatform",
+          "assembly": "UnityEngine.CoreModule",
+          "members": [],
+          "n_members": 0
+        },
+        {
+          "type": "UnityEngine.SceneManagement.LoadSceneMode",
+          "assembly": "UnityEngine.CoreModule",
+          "members": [],
+          "n_members": 0
+        },
+        {
+          "type": "UnityEngine.Space",
+          "assembly": "UnityEngine.CoreModule",
+          "members": [],
+          "n_members": 0
+        },
+        {
+          "type": "UnityEngine.TextAnchor",
+          "assembly": "UnityEngine.TextRenderingModule",
+          "members": [],
+          "n_members": 0
+        },
+        {
+          "type": "UnityEngine.TouchPhase",
+          "assembly": "UnityEngine.CoreModule",
+          "members": [],
+          "n_members": 0
+        },
+        {
+          "type": "UnityEngine.WrapMode",
+          "assembly": "UnityEngine.CoreModule",
+          "members": [],
+          "n_members": 0
+        }
+      ]
+    },
+    {
+      "tier": 1,
+      "title": "Gameplay (input + fisica + audio + cenas)",
+      "why": "O loop do jogo: ler input, mover/colidir, tocar audio, trocar de cena, corotinas. Depende do Tier 0.",
+      "classes": 22,
+      "members": 57,
+      "items": [
+        {
+          "type": "UnityEngine.AudioSource",
+          "assembly": "UnityEngine.AudioModule",
+          "members": [
+            "Play",
+            "Stop",
+            "get_clip",
+            "get_isPlaying",
+            "get_time",
+            "set_clip",
+            "set_loop",
+            "set_outputAudioMixerGroup",
+            "set_pitch",
+            "set_volume"
+          ],
+          "n_members": 10
+        },
+        {
+          "type": "UnityEngine.Input",
+          "assembly": "UnityEngine.CoreModule",
+          "members": [
+            "GetAxis",
+            "GetButtonDown",
+            "GetKey",
+            "GetKeyDown",
+            "GetMouseButton",
+            "GetTouch",
+            "get_mousePosition",
+            "get_touchCount",
+            "set_simulateMouseWithTouches"
+          ],
+          "n_members": 9
+        },
+        {
+          "type": "UnityEngine.AnimationCurve",
+          "assembly": "UnityEngine.CoreModule",
+          "members": [
+            ".ctor",
+            "Evaluate",
+            "get_keys",
+            "set_keys",
+            "set_postWrapMode",
+            "set_preWrapMode"
+          ],
+          "n_members": 6
+        },
+        {
+          "type": "UnityEngine.Camera",
+          "assembly": "UnityEngine.CoreModule",
+          "members": [
+            "ScreenPointToRay",
+            "ViewportToWorldPoint",
+            "WorldToScreenPoint",
+            "get_main",
+            "set_orthographicSize"
+          ],
+          "n_members": 5
+        },
+        {
+          "type": "UnityEngine.Application",
+          "assembly": "UnityEngine.CoreModule",
+          "members": [
+            "Quit",
+            "get_platform",
+            "get_version",
+            "set_targetFrameRate"
+          ],
+          "n_members": 4
+        },
+        {
+          "type": "UnityEngine.SceneManagement.SceneManager",
+          "assembly": "UnityEngine.CoreModule",
+          "members": [
+            "GetActiveScene",
+            "LoadSceneAsync",
+            "add_sceneLoaded",
+            "get_sceneCountInBuildSettings"
+          ],
+          "n_members": 4
+        },
+        {
+          "type": "UnityEngine.Touch",
+          "assembly": "UnityEngine.CoreModule",
+          "members": [
+            "get_deltaPosition",
+            "get_phase",
+            "get_position"
+          ],
+          "n_members": 3
+        },
+        {
+          "type": "UnityEngine.AsyncOperation",
+          "assembly": "UnityEngine.CoreModule",
+          "members": [
+            "get_isDone",
+            "get_progress"
+          ],
+          "n_members": 2
+        },
+        {
+          "type": "UnityEngine.Keyframe",
+          "assembly": "UnityEngine.CoreModule",
+          "members": [
+            ".ctor",
+            "get_value"
+          ],
+          "n_members": 2
+        },
+        {
+          "type": "UnityEngine.Resources",
+          "assembly": "UnityEngine.CoreModule",
+          "members": [
+            "Load",
+            "Load<T>"
+          ],
+          "n_members": 2
+        },
+        {
+          "type": "UnityEngine.Audio.AudioMixer",
+          "assembly": "UnityEngine.AudioModule",
+          "members": [
+            "SetFloat"
+          ],
+          "n_members": 1
+        },
+        {
+          "type": "UnityEngine.Audio.AudioMixerSnapshot",
+          "assembly": "UnityEngine.AudioModule",
+          "members": [
+            "TransitionTo"
+          ],
+          "n_members": 1
+        },
+        {
+          "type": "UnityEngine.AudioClip",
+          "assembly": "UnityEngine.AudioModule",
+          "members": [
+            "get_length"
+          ],
+          "n_members": 1
+        },
+        {
+          "type": "UnityEngine.Collider",
+          "assembly": "UnityEngine.PhysicsModule",
+          "members": [
+            "ClosestPointOnBounds"
+          ],
+          "n_members": 1
+        },
+        {
+          "type": "UnityEngine.Physics",
+          "assembly": "UnityEngine.PhysicsModule",
+          "members": [
+            "Raycast"
+          ],
+          "n_members": 1
+        },
+        {
+          "type": "UnityEngine.RaycastHit",
+          "assembly": "UnityEngine.PhysicsModule",
+          "members": [
+            "get_transform"
+          ],
+          "n_members": 1
+        },
+        {
+          "type": "UnityEngine.Rigidbody",
+          "assembly": "UnityEngine.PhysicsModule",
+          "members": [
+            "AddForce"
+          ],
+          "n_members": 1
+        },
+        {
+          "type": "UnityEngine.SceneManagement.Scene",
+          "assembly": "UnityEngine.CoreModule",
+          "members": [
+            "get_buildIndex"
+          ],
+          "n_members": 1
+        },
+        {
+          "type": "UnityEngine.WaitForEndOfFrame",
+          "assembly": "UnityEngine.CoreModule",
+          "members": [
+            ".ctor"
+          ],
+          "n_members": 1
+        },
+        {
+          "type": "UnityEngine.WaitForSeconds",
+          "assembly": "UnityEngine.CoreModule",
+          "members": [
+            ".ctor"
+          ],
+          "n_members": 1
+        },
+        {
+          "type": "UnityEngine.Audio.AudioMixerGroup",
+          "assembly": "UnityEngine.AudioModule",
+          "members": [],
+          "n_members": 0
+        },
+        {
+          "type": "UnityEngine.Coroutine",
+          "assembly": "UnityEngine.CoreModule",
+          "members": [],
+          "n_members": 0
+        }
+      ]
+    },
+    {
+      "tier": 2,
+      "title": "Apresentacao (render + UI)",
+      "why": "Tudo que desenha na tela: meshes/materiais, uGUI, TextMeshPro, Animator. Depende dos Tiers 0+1.",
+      "classes": 59,
+      "members": 133,
+      "items": [
+        {
+          "type": "TMPro.TMP_Text",
+          "assembly": "TextMeshPro-2017.3-Runtime",
+          "members": [
+            "ForceMeshUpdate",
+            "GetPreferredValues",
+            "SetText",
+            "UpdateGeometry",
+            "UpdateVertexData",
+            "get_bounds",
+            "get_font",
+            "get_fontSharedMaterial",
+            "get_havePropertiesChanged",
+            "get_mesh",
+            "get_rectTransform",
+            "get_text",
+            "get_textInfo",
+            "set_alignment",
+            "set_autoSizeTextContainer",
+            "set_enableKerning",
+            "set_enableWordWrapping",
+            "set_extraPadding",
+            "set_font",
+            "set_fontSharedMaterial",
+            "set_fontSize",
+            "set_havePropertiesChanged",
+            "set_isOrthographic",
+            "set_isOverlay",
+            "set_margin",
+            "set_maxVisibleCharacters",
+            "set_text"
+          ],
+          "n_members": 27
+        },
+        {
+          "type": "TMPro.TMP_CharacterInfo",
+          "assembly": "TextMeshPro-2017.3-Runtime",
+          "members": [
+            "baseLine",
+            "bottomLeft",
+            "bottomRight",
+            "character",
+            "elementType",
+            "isVisible",
+            "materialReferenceIndex",
+            "topRight",
+            "vertexIndex"
+          ],
+          "n_members": 9
+        },
+        {
+          "type": "TMPro.TMP_TextInfo",
+          "assembly": "TextMeshPro-2017.3-Runtime",
+          "members": [
+            "CopyMeshInfoVertexData",
+            "characterCount",
+            "characterInfo",
+            "lineCount",
+            "lineInfo",
+            "linkInfo",
+            "meshInfo",
+            "wordCount",
+            "wordInfo"
+          ],
+          "n_members": 9
+        },
+        {
+          "type": "UnityEngine.RectTransform",
+          "assembly": "UnityEngine.CoreModule",
+          "members": [
+            "get_anchoredPosition",
+            "get_rect",
+            "get_sizeDelta",
+            "set_anchorMax",
+            "set_anchorMin",
+            "set_anchoredPosition",
+            "set_pivot",
+            "set_sizeDelta"
+          ],
+          "n_members": 8
+        },
+        {
+          "type": "TMPro.TMP_MeshInfo",
+          "assembly": "TextMeshPro-2017.3-Runtime",
+          "members": [
+            "SortGeometry",
+            "SwapVertexData",
+            "colors32",
+            "mesh",
+            "uvs0",
+            "uvs2",
+            "vertices"
+          ],
+          "n_members": 7
+        },
+        {
+          "type": "UnityEngine.TextMesh",
+          "assembly": "UnityEngine.TextRenderingModule",
+          "members": [
+            "get_color",
+            "get_font",
+            "set_anchor",
+            "set_color",
+            "set_font",
+            "set_fontSize",
+            "set_text"
+          ],
+          "n_members": 7
+        },
+        {
+          "type": "TMPro.TMP_TextUtilities",
+          "assembly": "TextMeshPro-2017.3-Runtime",
+          "members": [
+            "FindIntersectingCharacter",
+            "FindIntersectingLine",
+            "FindIntersectingLink",
+            "FindIntersectingWord",
+            "IsIntersectingRectTransform"
+          ],
+          "n_members": 5
+        },
+        {
+          "type": "TMPro.TMP_WordInfo",
+          "assembly": "TextMeshPro-2017.3-Runtime",
+          "members": [
+            "GetWord",
+            "characterCount",
+            "firstCharacterIndex",
+            "lastCharacterIndex"
+          ],
+          "n_members": 4
+        },
+        {
+          "type": "UnityEngine.EventSystems.EventSystem",
+          "assembly": "UnityEngine.UI",
+          "members": [
+            "SetSelectedGameObject",
+            "get_current",
+            "get_currentSelectedGameObject",
+            "get_firstSelectedGameObject"
+          ],
+          "n_members": 4
+        },
+        {
+          "type": "UnityEngine.Material",
+          "assembly": "UnityEngine.CoreModule",
+          "members": [
+            "SetFloat",
+            "SetMatrix",
+            "get_color",
+            "set_color"
+          ],
+          "n_members": 4
+        },
+        {
+          "type": "UnityEngine.UI.Dropdown",
+          "assembly": "UnityEngine.UI",
+          "members": [
+            "AddOptions",
+            "ClearOptions",
+            "RefreshShownValue",
+            "set_value"
+          ],
+          "n_members": 4
+        },
+        {
+          "type": "UnityEngine.UI.Text",
+          "assembly": "UnityEngine.UI",
+          "members": [
+            "set_alignment",
+            "set_font",
+            "set_fontSize",
+            "set_text"
+          ],
+          "n_members": 4
+        },
+        {
+          "type": "TMPro.TMP_InputField",
+          "assembly": "TextMeshPro-2017.3-Runtime",
+          "members": [
+            "ActivateInputField",
+            "get_onSubmit",
+            "set_text"
+          ],
+          "n_members": 3
+        },
+        {
+          "type": "TMPro.TMP_LineInfo",
+          "assembly": "TextMeshPro-2017.3-Runtime",
+          "members": [
+            "characterCount",
+            "firstCharacterIndex",
+            "lastCharacterIndex"
+          ],
+          "n_members": 3
+        },
+        {
+          "type": "UnityEngine.Animator",
+          "assembly": "UnityEngine.AnimationModule",
+          "members": [
+            "GetCurrentAnimatorStateInfo",
+            "get_speed",
+            "set_speed"
+          ],
+          "n_members": 3
+        },
+        {
+          "type": "UnityEngine.Canvas",
+          "assembly": "UnityEngine.UIModule",
+          "members": [
+            "get_renderMode",
+            "get_worldCamera",
+            "set_worldCamera"
+          ],
+          "n_members": 3
+        },
+        {
+          "type": "UnityEngine.Mesh",
+          "assembly": "UnityEngine.CoreModule",
+          "members": [
+            "set_colors32",
+            "set_uv",
+            "set_vertices"
+          ],
+          "n_members": 3
+        },
+        {
+          "type": "UnityEngine.Renderer",
+          "assembly": "UnityEngine.CoreModule",
+          "members": [
+            "get_material",
+            "set_material",
+            "set_sharedMaterial"
+          ],
+          "n_members": 3
+        },
+        {
+          "type": "TMPro.TMP_Dropdown",
+          "assembly": "TextMeshPro-2017.3-Runtime",
+          "members": [
+            "RefreshShownValue",
+            "set_value"
+          ],
+          "n_members": 2
+        },
+        {
+          "type": "TMPro.TMP_LinkInfo",
+          "assembly": "TextMeshPro-2017.3-Runtime",
+          "members": [
+            "GetLinkID",
+            "GetLinkText"
+          ],
+          "n_members": 2
+        },
+        {
+          "type": "TMPro.TMPro_ExtensionMethods",
+          "assembly": "TextMeshPro-2017.3-Runtime",
+          "members": [
+            "Compare",
+            "Tint"
+          ],
+          "n_members": 2
+        },
+        {
+          "type": "UnityEngine.UI.Graphic",
+          "assembly": "UnityEngine.UI",
+          "members": [
+            "get_color",
+            "set_color"
+          ],
+          "n_members": 2
+        },
+        {
+          "type": "TMPro.ShaderUtilities",
+          "assembly": "TextMeshPro-2017.3-Runtime",
+          "members": [
+            "ID_GlowPower"
+          ],
+          "n_members": 1
+        },
+        {
+          "type": "TMPro.TMP_Asset",
+          "assembly": "TextMeshPro-2017.3-Runtime",
+          "members": [
+            "material"
+          ],
+          "n_members": 1
+        },
+        {
+          "type": "TMPro.TMP_InputValidator",
+          "assembly": "TextMeshPro-2017.3-Runtime",
+          "members": [
+            ".ctor"
+          ],
+          "n_members": 1
+        },
+        {
+          "type": "TMPro.TMPro_EventManager",
+          "assembly": "TextMeshPro-2017.3-Runtime",
+          "members": [
+            "TEXT_CHANGED_EVENT"
+          ],
+          "n_members": 1
+        },
+        {
+          "type": "TMPro.TextContainer",
+          "assembly": "TextMeshPro-2017.3-Runtime",
+          "members": [
+            "set_anchorPosition"
+          ],
+          "n_members": 1
+        },
+        {
+          "type": "TMPro.TextMeshPro",
+          "assembly": "TextMeshPro-2017.3-Runtime",
+          "members": [
+            "get_transform"
+          ],
+          "n_members": 1
+        },
+        {
+          "type": "UnityEngine.AnimatorStateInfo",
+          "assembly": "UnityEngine.AnimationModule",
+          "members": [
+            "IsName"
+          ],
+          "n_members": 1
+        },
+        {
+          "type": "UnityEngine.Font",
+          "assembly": "UnityEngine.TextRenderingModule",
+          "members": [
+            "get_material"
+          ],
+          "n_members": 1
+        },
+        {
+          "type": "UnityEngine.Light",
+          "assembly": "UnityEngine.CoreModule",
+          "members": [
+            "get_color"
+          ],
+          "n_members": 1
+        },
+        {
+          "type": "UnityEngine.Rect",
+          "assembly": "UnityEngine.CoreModule",
+          "members": [
+            "get_height"
+          ],
+          "n_members": 1
+        },
+        {
+          "type": "UnityEngine.RectTransformUtility",
+          "assembly": "UnityEngine.UIModule",
+          "members": [
+            "ScreenPointToWorldPointInRectangle"
+          ],
+          "n_members": 1
+        },
+        {
+          "type": "UnityEngine.UI.ScrollRect",
+          "assembly": "UnityEngine.UI",
+          "members": [
+            "get_content"
+          ],
+          "n_members": 1
+        },
+        {
+          "type": "UnityEngine.UI.Scrollbar",
+          "assembly": "UnityEngine.UI",
+          "members": [
+            "set_value"
+          ],
+          "n_members": 1
+        },
+        {
+          "type": "UnityEngine.UI.Slider",
+          "assembly": "UnityEngine.UI",
+          "members": [
+            "set_value"
+          ],
+          "n_members": 1
+        },
+        {
+          "type": "UnityEngine.UI.Toggle",
+          "assembly": "UnityEngine.UI",
+          "members": [
+            "set_isOn"
+          ],
+          "n_members": 1
+        },
+        {
+          "type": "TMP_InputField+SubmitEvent",
+          "assembly": "TextMeshPro-2017.3-Runtime",
+          "members": [],
+          "n_members": 0
+        },
+        {
+          "type": "TMPro.FastAction`1",
+          "assembly": "TextMeshPro-2017.3-Runtime",
+          "members": [],
+          "n_members": 0
+        },
+        {
+          "type": "TMPro.TMP_FontAsset",
+          "assembly": "TextMeshPro-2017.3-Runtime",
+          "members": [],
+          "n_members": 0
+        },
+        {
+          "type": "TMPro.TMP_TextElementType",
+          "assembly": "TextMeshPro-2017.3-Runtime",
+          "members": [],
+          "n_members": 0
+        },
+        {
+          "type": "TMPro.TMP_VertexDataUpdateFlags",
+          "assembly": "TextMeshPro-2017.3-Runtime",
+          "members": [],
+          "n_members": 0
+        },
+        {
+          "type": "TMPro.TextAlignmentOptions",
+          "assembly": "TextMeshPro-2017.3-Runtime",
+          "members": [],
+          "n_members": 0
+        },
+        {
+          "type": "TMPro.TextContainerAnchors",
+          "assembly": "TextMeshPro-2017.3-Runtime",
+          "members": [],
+          "n_members": 0
+        },
+        {
+          "type": "TMPro.TextMeshProUGUI",
+          "assembly": "TextMeshPro-2017.3-Runtime",
+          "members": [],
+          "n_members": 0
+        },
+        {
+          "type": "UnityEngine.EventSystems.IEventSystemHandler",
+          "assembly": "UnityEngine.UI",
+          "members": [],
+          "n_members": 0
+        },
+        {
+          "type": "UnityEngine.EventSystems.IPointerClickHandler",
+          "assembly": "UnityEngine.UI",
+          "members": [],
+          "n_members": 0
+        },
+        {
+          "type": "UnityEngine.EventSystems.IPointerEnterHandler",
+          "assembly": "UnityEngine.UI",
+          "members": [],
+          "n_members": 0
+        },
+        {
+          "type": "UnityEngine.EventSystems.IPointerExitHandler",
+          "assembly": "UnityEngine.UI",
+          "members": [],
+          "n_members": 0
+        },
+        {
+          "type": "UnityEngine.EventSystems.IPointerUpHandler",
+          "assembly": "UnityEngine.UI",
+          "members": [],
+          "n_members": 0
+        },
+        {
+          "type": "UnityEngine.EventSystems.PointerEventData",
+          "assembly": "UnityEngine.UI",
+          "members": [],
+          "n_members": 0
+        },
+        {
+          "type": "UnityEngine.Events.UnityAction`1",
+          "assembly": "UnityEngine.CoreModule",
+          "members": [],
+          "n_members": 0
+        },
+        {
+          "type": "UnityEngine.Events.UnityAction`2",
+          "assembly": "UnityEngine.CoreModule",
+          "members": [],
+          "n_members": 0
+        },
+        {
+          "type": "UnityEngine.Events.UnityAction`3",
+          "assembly": "UnityEngine.CoreModule",
+          "members": [],
+          "n_members": 0
+        },
+        {
+          "type": "UnityEngine.Events.UnityEvent`1",
+          "assembly": "UnityEngine.CoreModule",
+          "members": [],
+          "n_members": 0
+        },
+        {
+          "type": "UnityEngine.Events.UnityEvent`2",
+          "assembly": "UnityEngine.CoreModule",
+          "members": [],
+          "n_members": 0
+        },
+        {
+          "type": "UnityEngine.Events.UnityEvent`3",
+          "assembly": "UnityEngine.CoreModule",
+          "members": [],
+          "n_members": 0
+        },
+        {
+          "type": "UnityEngine.MeshRenderer",
+          "assembly": "UnityEngine.CoreModule",
+          "members": [],
+          "n_members": 0
+        },
+        {
+          "type": "UnityEngine.UI.Image",
+          "assembly": "UnityEngine.UI",
+          "members": [],
+          "n_members": 0
+        }
+      ]
+    },
+    {
+      "tier": 3,
+      "title": "Sistema/polimento",
+      "why": "Resolucao e quality settings. Por ultimo, nao afeta gameplay.",
+      "classes": 3,
+      "members": 12,
+      "items": [
+        {
+          "type": "UnityEngine.Screen",
+          "assembly": "UnityEngine.CoreModule",
+          "members": [
+            "SetResolution",
+            "get_currentResolution",
+            "get_fullScreen",
+            "get_height",
+            "get_resolutions",
+            "get_width",
+            "set_fullScreen"
+          ],
+          "n_members": 7
+        },
+        {
+          "type": "UnityEngine.QualitySettings",
+          "assembly": "UnityEngine.CoreModule",
+          "members": [
+            "GetQualityLevel",
+            "SetQualityLevel",
+            "get_vSyncCount"
+          ],
+          "n_members": 3
+        },
+        {
+          "type": "UnityEngine.Resolution",
+          "assembly": "UnityEngine.CoreModule",
+          "members": [
+            "get_height",
+            "get_width"
+          ],
+          "n_members": 2
+        }
+      ]
+    }
+  ],
+  "unmatched_note": "Tier 3 inclui nao-classificados: revisar manualmente."
+}

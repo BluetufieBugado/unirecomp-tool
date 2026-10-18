@@ -1,0 +1,481 @@
+{
+ "clips": {
+  "sharedassets0.assets|41": {
+   "name": "Boost",
+   "resource": "sharedassets0.resource",
+   "offset": 0,
+   "size": 230688,
+   "freq": 44100,
+   "ch": 2,
+   "length": 3.74900221824646,
+   "fmt": 1
+  },
+  "sharedassets0.assets|42": {
+   "name": "game_over",
+   "resource": "sharedassets0.resource",
+   "offset": 230688,
+   "size": 353216,
+   "freq": 48000,
+   "ch": 2,
+   "length": 16.040000915527344,
+   "fmt": 1
+  },
+  "sharedassets0.assets|43": {
+   "name": "Start",
+   "resource": "sharedassets0.resource",
+   "offset": 583904,
+   "size": 38272,
+   "freq": 44100,
+   "ch": 2,
+   "length": 0.6328344941139221,
+   "fmt": 1
+  },
+  "sharedassets0.assets|44": {
+   "name": "Hurt",
+   "resource": "sharedassets0.resource",
+   "offset": 622176,
+   "size": 29088,
+   "freq": 44100,
+   "ch": 2,
+   "length": 0.4806349277496338,
+   "fmt": 1
+  },
+  "sharedassets0.assets|45": {
+   "name": "boss_level",
+   "resource": "sharedassets0.resource",
+   "offset": 651264,
+   "size": 874912,
+   "freq": 44100,
+   "ch": 2,
+   "length": 49.84163284301758,
+   "fmt": 1
+  },
+  "sharedassets0.assets|46": {
+   "name": "main_theme_loop",
+   "resource": "sharedassets0.resource",
+   "offset": 1526176,
+   "size": 675040,
+   "freq": 44100,
+   "ch": 2,
+   "length": 44.12081527709961,
+   "fmt": 1
+  },
+  "sharedassets0.assets|47": {
+   "name": "Selection2",
+   "resource": "sharedassets0.resource",
+   "offset": 2201216,
+   "size": 6080,
+   "freq": 44100,
+   "ch": 2,
+   "length": 0.09693877398967743,
+   "fmt": 1
+  },
+  "sharedassets0.assets|48": {
+   "name": "HitSound",
+   "resource": "sharedassets0.resource",
+   "offset": 2207296,
+   "size": 39232,
+   "freq": 44100,
+   "ch": 2,
+   "length": 0.7049432992935181,
+   "fmt": 1
+  },
+  "sharedassets0.assets|49": {
+   "name": "GameStart",
+   "resource": "sharedassets0.resource",
+   "offset": 2246528,
+   "size": 154816,
+   "freq": 44100,
+   "ch": 2,
+   "length": 2.714966058731079,
+   "fmt": 1
+  },
+  "sharedassets0.assets|50": {
+   "name": "Selection",
+   "resource": "sharedassets0.resource",
+   "offset": 2401344,
+   "size": 18464,
+   "freq": 44100,
+   "ch": 2,
+   "length": 0.33095237612724304,
+   "fmt": 1
+  },
+  "sharedassets0.assets|51": {
+   "name": "PowerUp",
+   "resource": "sharedassets0.resource",
+   "offset": 2419808,
+   "size": 55840,
+   "freq": 44100,
+   "ch": 2,
+   "length": 1.0814512968063354,
+   "fmt": 1
+  },
+  "sharedassets0.assets|52": {
+   "name": "main_theme_intro",
+   "resource": "sharedassets0.resource",
+   "offset": 2475648,
+   "size": 239808,
+   "freq": 44100,
+   "ch": 2,
+   "length": 16.117551803588867,
+   "fmt": 1
+  },
+  "sharedassets0.assets|53": {
+   "name": "LaserBeamCharge",
+   "resource": "sharedassets0.resource",
+   "offset": 2715456,
+   "size": 145568,
+   "freq": 44100,
+   "ch": 2,
+   "length": 2.275033950805664,
+   "fmt": 1
+  },
+  "sharedassets0.assets|54": {
+   "name": "Brake",
+   "resource": "sharedassets0.resource",
+   "offset": 2861024,
+   "size": 109728,
+   "freq": 44100,
+   "ch": 2,
+   "length": 2.194920539855957,
+   "fmt": 1
+  },
+  "sharedassets0.assets|55": {
+   "name": "Bonus",
+   "resource": "sharedassets0.resource",
+   "offset": 2970752,
+   "size": 110592,
+   "freq": 44100,
+   "ch": 2,
+   "length": 1.6902494430541992,
+   "fmt": 1
+  },
+  "sharedassets0.assets|56": {
+   "name": "ButtonPress",
+   "resource": "sharedassets0.resource",
+   "offset": 3081344,
+   "size": 21728,
+   "freq": 44100,
+   "ch": 2,
+   "length": 0.41832199692726135,
+   "fmt": 1
+  },
+  "sharedassets0.assets|57": {
+   "name": "BarrelRoll",
+   "resource": "sharedassets0.resource",
+   "offset": 3103072,
+   "size": 71264,
+   "freq": 44100,
+   "ch": 2,
+   "length": 1.1375056505203247,
+   "fmt": 1
+  },
+  "sharedassets1.assets|26": {
+   "name": "Fall",
+   "resource": "sharedassets1.resource",
+   "offset": 0,
+   "size": 52832,
+   "freq": 44100,
+   "ch": 2,
+   "length": 1.5151020288467407,
+   "fmt": 1
+  },
+  "sharedassets1.assets|27": {
+   "name": "RedAlert",
+   "resource": "sharedassets1.resource",
+   "offset": 52832,
+   "size": 119168,
+   "freq": 44100,
+   "ch": 2,
+   "length": 1.9786394834518433,
+   "fmt": 1
+  },
+  "sharedassets1.assets|28": {
+   "name": "ShootEnemy2",
+   "resource": "sharedassets1.resource",
+   "offset": 172000,
+   "size": 2528,
+   "freq": 44100,
+   "ch": 1,
+   "length": 0.18442176282405853,
+   "fmt": 1
+  },
+  "sharedassets1.assets|29": {
+   "name": "ShootPlayer",
+   "resource": "sharedassets1.resource",
+   "offset": 174528,
+   "size": 2752,
+   "freq": 44100,
+   "ch": 1,
+   "length": 0.18979591131210327,
+   "fmt": 1
+  },
+  "sharedassets1.assets|30": {
+   "name": "EnergyBullet",
+   "resource": "sharedassets1.resource",
+   "offset": 177280,
+   "size": 54048,
+   "freq": 44100,
+   "ch": 2,
+   "length": 5.018571376800537,
+   "fmt": 1
+  },
+  "sharedassets1.assets|31": {
+   "name": "ShootEnemy",
+   "resource": "sharedassets1.resource",
+   "offset": 231328,
+   "size": 2208,
+   "freq": 44100,
+   "ch": 1,
+   "length": 0.1880045384168625,
+   "fmt": 1
+  },
+  "sharedassets1.assets|32": {
+   "name": "level_01_intro",
+   "resource": "sharedassets1.resource",
+   "offset": 233536,
+   "size": 29056,
+   "freq": 44100,
+   "ch": 2,
+   "length": 1.6718367338180542,
+   "fmt": 1
+  },
+  "sharedassets1.assets|33": {
+   "name": "LaserBeamShoot",
+   "resource": "sharedassets1.resource",
+   "offset": 262592,
+   "size": 82080,
+   "freq": 44100,
+   "ch": 2,
+   "length": 5.25,
+   "fmt": 1
+  },
+  "sharedassets1.assets|34": {
+   "name": "level_01_loop",
+   "resource": "sharedassets1.resource",
+   "offset": 344672,
+   "size": 1494784,
+   "freq": 44100,
+   "ch": 2,
+   "length": 76.85224151611328,
+   "fmt": 1
+  },
+  "sharedassets1.assets|35": {
+   "name": "Explosion",
+   "resource": "sharedassets1.resource",
+   "offset": 1839456,
+   "size": 8160,
+   "freq": 44100,
+   "ch": 1,
+   "length": 0.584058940410614,
+   "fmt": 1
+  },
+  "sharedassets1.assets|36": {
+   "name": "level_01",
+   "resource": "sharedassets1.resource",
+   "offset": 1847616,
+   "size": 1518816,
+   "freq": 44100,
+   "ch": 2,
+   "length": 78.47183990478516,
+   "fmt": 1
+  },
+  "sharedassets2.assets|3": {
+   "name": "BossHit",
+   "resource": "sharedassets2.resource",
+   "offset": 0,
+   "size": 42400,
+   "freq": 44100,
+   "ch": 2,
+   "length": 0.7049432992935181,
+   "fmt": 1
+  },
+  "sharedassets3.assets|3": {
+   "name": "main_theme",
+   "resource": "sharedassets3.resource",
+   "offset": 0,
+   "size": 1347104,
+   "freq": 44100,
+   "ch": 2,
+   "length": 86.12571716308594,
+   "fmt": 1
+  }
+ },
+ "levels": {
+  "level0": {
+   "externals": [
+    "globalgamemanagers.assets",
+    "sharedassets0.assets",
+    "library/unity default resources"
+   ],
+   "sources": [
+    {
+     "src": 213,
+     "go": 14,
+     "clipFile": 2,
+     "clipPath": 42,
+     "volume": 1.0,
+     "pitch": 1.0,
+     "loop": false,
+     "mute": false,
+     "playOnAwake": true
+    },
+    {
+     "src": 214,
+     "go": 25,
+     "clipFile": 2,
+     "clipPath": 52,
+     "volume": 0.800000011920929,
+     "pitch": 1.0,
+     "loop": false,
+     "mute": false,
+     "playOnAwake": true
+    }
+   ]
+  },
+  "level1": {
+   "externals": [
+    "globalgamemanagers.assets",
+    "sharedassets0.assets",
+    "sharedassets1.assets",
+    "resources.assets",
+    "library/unity default resources"
+   ],
+   "sources": [
+    {
+     "src": 10957,
+     "go": 1487,
+     "clipFile": 3,
+     "clipPath": 26,
+     "volume": 1.0,
+     "pitch": 1.0,
+     "loop": false,
+     "mute": false,
+     "playOnAwake": true
+    },
+    {
+     "src": 10958,
+     "go": 1834,
+     "clipFile": 2,
+     "clipPath": 42,
+     "volume": 1.0,
+     "pitch": 1.0,
+     "loop": false,
+     "mute": false,
+     "playOnAwake": true
+    },
+    {
+     "src": 10959,
+     "go": 2085,
+     "clipFile": 3,
+     "clipPath": 27,
+     "volume": 0.5,
+     "pitch": 1.0,
+     "loop": true,
+     "mute": false,
+     "playOnAwake": true
+    },
+    {
+     "src": 10960,
+     "go": 3291,
+     "clipFile": 3,
+     "clipPath": 26,
+     "volume": 1.0,
+     "pitch": 1.0,
+     "loop": false,
+     "mute": false,
+     "playOnAwake": true
+    },
+    {
+     "src": 10961,
+     "go": 3529,
+     "clipFile": 3,
+     "clipPath": 26,
+     "volume": 1.0,
+     "pitch": 1.0,
+     "loop": false,
+     "mute": false,
+     "playOnAwake": true
+    },
+    {
+     "src": 10962,
+     "go": 3748,
+     "clipFile": 3,
+     "clipPath": 26,
+     "volume": 1.0,
+     "pitch": 1.0,
+     "loop": false,
+     "mute": false,
+     "playOnAwake": true
+    },
+    {
+     "src": 10963,
+     "go": 3784,
+     "clipFile": 3,
+     "clipPath": 26,
+     "volume": 1.0,
+     "pitch": 1.0,
+     "loop": false,
+     "mute": false,
+     "playOnAwake": true
+    }
+   ]
+  },
+  "level2": {
+   "externals": [
+    "globalgamemanagers.assets",
+    "sharedassets0.assets",
+    "sharedassets1.assets",
+    "sharedassets2.assets",
+    "resources.assets",
+    "library/unity default resources"
+   ],
+   "sources": [
+    {
+     "src": 415,
+     "go": 210,
+     "clipFile": 2,
+     "clipPath": 42,
+     "volume": 1.0,
+     "pitch": 1.0,
+     "loop": false,
+     "mute": false,
+     "playOnAwake": true
+    },
+    {
+     "src": 416,
+     "go": 240,
+     "clipFile": 2,
+     "clipPath": 43,
+     "volume": 1.0,
+     "pitch": 1.0,
+     "loop": false,
+     "mute": false,
+     "playOnAwake": true
+    }
+   ]
+  },
+  "level3": {
+   "externals": [
+    "globalgamemanagers.assets",
+    "sharedassets0.assets",
+    "resources.assets",
+    "sharedassets3.assets",
+    "library/unity default resources"
+   ],
+   "sources": [
+    {
+     "src": 98,
+     "go": 17,
+     "clipFile": 4,
+     "clipPath": 3,
+     "volume": 0.800000011920929,
+     "pitch": 1.0,
+     "loop": false,
+     "mute": false,
+     "playOnAwake": true
+    }
+   ]
+  }
+ }
+}

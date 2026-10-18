@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <AssemblyName>TextMeshPro-2017.3-Runtime</AssemblyName>
+    <RootNamespace>TMPro</RootNamespace>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CoreModule\UnityEngine.CoreModule.csproj" />
+    <ProjectReference Include="..\UI\UnityEngine.UI.csproj" />
+  </ItemGroup>
+
+</Project>

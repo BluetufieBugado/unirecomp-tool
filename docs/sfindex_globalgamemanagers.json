@@ -1,0 +1,317 @@
+{
+ "file": "globalgamemanagers",
+ "header": {
+  "metadata_size": 1296,
+  "file_size": 41280,
+  "version": 17,
+  "data_offset": 4096,
+  "endian_flag": 0,
+  "reserved": [
+   0,
+   0,
+   0
+  ]
+ },
+ "unity_version": "2018.1.5f1",
+ "target_platform": 5,
+ "types": [
+  {
+   "class_id": 129,
+   "stripped": 0,
+   "script_idx": -1,
+   "script_id": null,
+   "old_hash": "3e0c291e7c1a49d9d0b77cf8755c9452"
+  },
+  {
+   "class_id": 13,
+   "stripped": 0,
+   "script_idx": -1,
+   "script_id": null,
+   "old_hash": "1581501778a8f844e53040e6d04b2631"
+  },
+  {
+   "class_id": 78,
+   "stripped": 0,
+   "script_idx": -1,
+   "script_id": null,
+   "old_hash": "3d9597d15b2b843fec66802784dd0dea"
+  },
+  {
+   "class_id": 11,
+   "stripped": 0,
+   "script_idx": -1,
+   "script_id": null,
+   "old_hash": "a749536fe1f1baa018afb235562d6d4e"
+  },
+  {
+   "class_id": 94,
+   "stripped": 0,
+   "script_idx": -1,
+   "script_id": null,
+   "old_hash": "d624d87c75f079cf5797d57ac192e10d"
+  },
+  {
+   "class_id": 116,
+   "stripped": 0,
+   "script_idx": -1,
+   "script_id": null,
+   "old_hash": "012825cfd0e7bac22da876c0eac35cc7"
+  },
+  {
+   "class_id": 30,
+   "stripped": 0,
+   "script_idx": -1,
+   "script_id": null,
+   "old_hash": "9ca22190b973098aab17573e0886f7be"
+  },
+  {
+   "class_id": 5,
+   "stripped": 0,
+   "script_idx": -1,
+   "script_id": null,
+   "old_hash": "a3d323656f155a35f07982cd3812c191"
+  },
+  {
+   "class_id": 98,
+   "stripped": 0,
+   "script_idx": -1,
+   "script_id": null,
+   "old_hash": "643e11867d6e720ee84a107eb84644bd"
+  },
+  {
+   "class_id": 55,
+   "stripped": 0,
+   "script_idx": -1,
+   "script_id": null,
+   "old_hash": "3c6439b0ffdc4de5eec13faf6c3ded73"
+  },
+  {
+   "class_id": 141,
+   "stripped": 0,
+   "script_idx": -1,
+   "script_id": null,
+   "old_hash": "8aded11f21b97c5c9d9b77900a6ef9aa"
+  },
+  {
+   "class_id": 47,
+   "stripped": 0,
+   "script_idx": -1,
+   "script_id": null,
+   "old_hash": "581bd504af272e053722c99937b4c64c"
+  },
+  {
+   "class_id": 147,
+   "stripped": 0,
+   "script_idx": -1,
+   "script_id": null,
+   "old_hash": "0d9d880e077f33c76fc2c99bd629a50a"
+  },
+  {
+   "class_id": 149,
+   "stripped": 0,
+   "script_idx": -1,
+   "script_id": null,
+   "old_hash": "68dffa1eee93c91703996387b600aa7e"
+  },
+  {
+   "class_id": 155,
+   "stripped": 0,
+   "script_idx": -1,
+   "script_id": null,
+   "old_hash": "643e11867d6e720ee84a107eb84644bd"
+  },
+  {
+   "class_id": 126,
+   "stripped": 0,
+   "script_idx": -1,
+   "script_id": null,
+   "old_hash": "30691fc454ffff9e5a457866e6f32111"
+  },
+  {
+   "class_id": 19,
+   "stripped": 0,
+   "script_idx": -1,
+   "script_id": null,
+   "old_hash": "f0f902a78a9331a3a436e4fb37ccb498"
+  },
+  {
+   "class_id": 300,
+   "stripped": 0,
+   "script_idx": -1,
+   "script_id": null,
+   "old_hash": "6e732f4fc934547b84ec747e6cc22c19"
+  },
+  {
+   "class_id": 301,
+   "stripped": 0,
+   "script_idx": -1,
+   "script_id": null,
+   "old_hash": "66e56c6f103e8a727c7ae530a8f7455d"
+  },
+  {
+   "class_id": 303,
+   "stripped": 0,
+   "script_idx": -1,
+   "script_id": null,
+   "old_hash": "a2594668e445ab890e6317851c475439"
+  },
+  {
+   "class_id": 310,
+   "stripped": 0,
+   "script_idx": -1,
+   "script_id": null,
+   "old_hash": "3b992130b59b82ea43a8e5dbd65b719f"
+  },
+  {
+   "class_id": 305,
+   "stripped": 0,
+   "script_idx": -1,
+   "script_id": null,
+   "old_hash": "089f168c75e410ab90e176bc94dc9ba2"
+  }
+ ],
+ "script_refs": [],
+ "externals": [
+  "library/unity default resources",
+  "globalgamemanagers.assets",
+  "resources/unity_builtin_extra",
+  "sharedassets0.assets",
+  "sharedassets1.assets",
+  "resources.assets",
+  "sharedassets2.assets"
+ ],
+ "objects": [
+  {
+   "path_id": 1,
+   "start": 0,
+   "size": 683,
+   "type_id": 0
+  },
+  {
+   "path_id": 2,
+   "start": 688,
+   "size": 1872,
+   "type_id": 1
+  },
+  {
+   "path_id": 3,
+   "start": 2560,
+   "size": 444,
+   "type_id": 2
+  },
+  {
+   "path_id": 4,
+   "start": 3008,
+   "size": 44,
+   "type_id": 3
+  },
+  {
+   "path_id": 5,
+   "start": 3056,
+   "size": 8889,
+   "type_id": 4
+  },
+  {
+   "path_id": 6,
+   "start": 11952,
+   "size": 6492,
+   "type_id": 5
+  },
+  {
+   "path_id": 7,
+   "start": 18448,
+   "size": 574,
+   "type_id": 6
+  },
+  {
+   "path_id": 8,
+   "start": 19024,
+   "size": 16,
+   "type_id": 7
+  },
+  {
+   "path_id": 9,
+   "start": 19040,
+   "size": 0,
+   "type_id": 8
+  },
+  {
+   "path_id": 10,
+   "start": 19040,
+   "size": 232,
+   "type_id": 9
+  },
+  {
+   "path_id": 11,
+   "start": 19272,
+   "size": 11320,
+   "type_id": 10
+  },
+  {
+   "path_id": 12,
+   "start": 30592,
+   "size": 664,
+   "type_id": 11
+  },
+  {
+   "path_id": 13,
+   "start": 31256,
+   "size": 4704,
+   "type_id": 12
+  },
+  {
+   "path_id": 14,
+   "start": 35960,
+   "size": 236,
+   "type_id": 13
+  },
+  {
+   "path_id": 15,
+   "start": 36200,
+   "size": 0,
+   "type_id": 14
+  },
+  {
+   "path_id": 16,
+   "start": 36200,
+   "size": 364,
+   "type_id": 15
+  },
+  {
+   "path_id": 17,
+   "start": 36568,
+   "size": 276,
+   "type_id": 16
+  },
+  {
+   "path_id": 19,
+   "start": 36848,
+   "size": 164,
+   "type_id": 17
+  },
+  {
+   "path_id": 20,
+   "start": 37016,
+   "size": 0,
+   "type_id": 18
+  },
+  {
+   "path_id": 21,
+   "start": 37016,
+   "size": 0,
+   "type_id": 19
+  },
+  {
+   "path_id": 22,
+   "start": 37016,
+   "size": 164,
+   "type_id": 20
+  },
+  {
+   "path_id": 24,
+   "start": 37184,
+   "size": 0,
+   "type_id": 21
+  }
+ ]
+}

@@ -1,0 +1,404 @@
+{
+ "file": "sharedassets2.assets",
+ "header": {
+  "metadata_size": 1634,
+  "file_size": 38708,
+  "version": 17,
+  "data_offset": 4096,
+  "endian_flag": 0,
+  "reserved": [
+   0,
+   0,
+   0
+  ]
+ },
+ "unity_version": "2018.1.5f1",
+ "target_platform": 5,
+ "types": [
+  {
+   "class_id": 150,
+   "stripped": 0,
+   "script_idx": -1,
+   "script_id": null,
+   "old_hash": "f123b055a61dfa7dc679d78cdaecd383"
+  },
+  {
+   "class_id": 21,
+   "stripped": 0,
+   "script_idx": -1,
+   "script_id": null,
+   "old_hash": "d871346d990bbc294d02f4c366bf1b6d"
+  },
+  {
+   "class_id": 83,
+   "stripped": 0,
+   "script_idx": -1,
+   "script_id": null,
+   "old_hash": "b23449465e3763dd19335a88ea09ae99"
+  },
+  {
+   "class_id": 1,
+   "stripped": 0,
+   "script_idx": -1,
+   "script_id": null,
+   "old_hash": "a372646834bcaf26eab1d21b29e39553"
+  },
+  {
+   "class_id": 4,
+   "stripped": 0,
+   "script_idx": -1,
+   "script_id": null,
+   "old_hash": "761ca81f78491542badc37f810ab3455"
+  },
+  {
+   "class_id": 23,
+   "stripped": 0,
+   "script_idx": -1,
+   "script_id": null,
+   "old_hash": "c92361750edbfbcada6f2537e8db21ad"
+  },
+  {
+   "class_id": 33,
+   "stripped": 0,
+   "script_idx": -1,
+   "script_id": null,
+   "old_hash": "9d1630b1d7e3bc24abe46e5860a2a179"
+  },
+  {
+   "class_id": 82,
+   "stripped": 0,
+   "script_idx": -1,
+   "script_id": null,
+   "old_hash": "615d22f1dbb7206b1870a49854e33c55"
+  },
+  {
+   "class_id": 122,
+   "stripped": 0,
+   "script_idx": -1,
+   "script_id": null,
+   "old_hash": "23ecf50bdc20a3f10f6740523b7ff29b"
+  },
+  {
+   "class_id": 135,
+   "stripped": 0,
+   "script_idx": -1,
+   "script_id": null,
+   "old_hash": "8c86f4ac6b7f47c045560d4383aadc8d"
+  },
+  {
+   "class_id": 136,
+   "stripped": 0,
+   "script_idx": -1,
+   "script_id": null,
+   "old_hash": "fbf6b031c32e461ee61be429e5fee7eb"
+  },
+  {
+   "class_id": 198,
+   "stripped": 0,
+   "script_idx": -1,
+   "script_id": null,
+   "old_hash": "6abaddaeeb935046c1367b787db8c7df"
+  },
+  {
+   "class_id": 199,
+   "stripped": 0,
+   "script_idx": -1,
+   "script_id": null,
+   "old_hash": "55ed83c54b06c41e877a351d04579906"
+  },
+  {
+   "class_id": 114,
+   "stripped": 0,
+   "script_idx": 2,
+   "script_id": "ff18ef84e0fc95b2e33ae4ed08f896e7",
+   "old_hash": "ce09cb02e2f857c8aa562f2552261f90"
+  },
+  {
+   "class_id": 114,
+   "stripped": 0,
+   "script_idx": 1,
+   "script_id": "106f6f05473d96e04b95f3ec87bd1b67",
+   "old_hash": "d960c68cdd71589cd4c2ea8d43aaa829"
+  },
+  {
+   "class_id": 114,
+   "stripped": 0,
+   "script_idx": 0,
+   "script_id": "f9bc8747fcda7aef5979820a8f1d1453",
+   "old_hash": "d05d1726290c11f0086c3ed9a61ae76d"
+  },
+  {
+   "class_id": 114,
+   "stripped": 0,
+   "script_idx": 5,
+   "script_id": "2199b16c0b292576e944372d2b252b01",
+   "old_hash": "d2977b0cef3f685c9205a83c3305fd4a"
+  },
+  {
+   "class_id": 114,
+   "stripped": 0,
+   "script_idx": 4,
+   "script_id": "f35051ff8b23709f6ffb2849848eeb5b",
+   "old_hash": "567d2274909ef7db4893c88133cc3db6"
+  },
+  {
+   "class_id": 114,
+   "stripped": 0,
+   "script_idx": 3,
+   "script_id": "5a949e5aa8e9e3eb37cc5f048ad62241",
+   "old_hash": "dd5481137759597d614818793c90a7fe"
+  }
+ ],
+ "script_refs": [
+  [
+   1,
+   38
+  ],
+  [
+   1,
+   134
+  ],
+  [
+   1,
+   140
+  ],
+  [
+   1,
+   164
+  ],
+  [
+   1,
+   183
+  ],
+  [
+   1,
+   214
+  ]
+ ],
+ "externals": [
+  "globalgamemanagers.assets",
+  "resources/unity_builtin_extra",
+  "library/unity default resources",
+  "resources.assets",
+  "sharedassets0.assets",
+  "sharedassets1.assets"
+ ],
+ "objects": [
+  {
+   "path_id": 1,
+   "start": 0,
+   "size": 2124,
+   "type_id": 0
+  },
+  {
+   "path_id": 2,
+   "start": 2128,
+   "size": 948,
+   "type_id": 1
+  },
+  {
+   "path_id": 3,
+   "start": 3080,
+   "size": 92,
+   "type_id": 2
+  },
+  {
+   "path_id": 4,
+   "start": 3176,
+   "size": 87,
+   "type_id": 3
+  },
+  {
+   "path_id": 5,
+   "start": 3264,
+   "size": 79,
+   "type_id": 3
+  },
+  {
+   "path_id": 6,
+   "start": 3344,
+   "size": 67,
+   "type_id": 3
+  },
+  {
+   "path_id": 7,
+   "start": 3416,
+   "size": 115,
+   "type_id": 3
+  },
+  {
+   "path_id": 8,
+   "start": 3536,
+   "size": 103,
+   "type_id": 3
+  },
+  {
+   "path_id": 9,
+   "start": 3640,
+   "size": 47,
+   "type_id": 3
+  },
+  {
+   "path_id": 10,
+   "start": 3688,
+   "size": 80,
+   "type_id": 4
+  },
+  {
+   "path_id": 11,
+   "start": 3768,
+   "size": 68,
+   "type_id": 4
+  },
+  {
+   "path_id": 12,
+   "start": 3840,
+   "size": 68,
+   "type_id": 4
+  },
+  {
+   "path_id": 13,
+   "start": 3912,
+   "size": 80,
+   "type_id": 4
+  },
+  {
+   "path_id": 14,
+   "start": 3992,
+   "size": 68,
+   "type_id": 4
+  },
+  {
+   "path_id": 15,
+   "start": 4064,
+   "size": 80,
+   "type_id": 4
+  },
+  {
+   "path_id": 16,
+   "start": 4144,
+   "size": 136,
+   "type_id": 5
+  },
+  {
+   "path_id": 17,
+   "start": 4280,
+   "size": 136,
+   "type_id": 5
+  },
+  {
+   "path_id": 18,
+   "start": 4416,
+   "size": 136,
+   "type_id": 5
+  },
+  {
+   "path_id": 19,
+   "start": 4552,
+   "size": 24,
+   "type_id": 6
+  },
+  {
+   "path_id": 20,
+   "start": 4576,
+   "size": 24,
+   "type_id": 6
+  },
+  {
+   "path_id": 21,
+   "start": 4600,
+   "size": 24,
+   "type_id": 6
+  },
+  {
+   "path_id": 22,
+   "start": 4624,
+   "size": 288,
+   "type_id": 7
+  },
+  {
+   "path_id": 23,
+   "start": 4912,
+   "size": 288,
+   "type_id": 7
+  },
+  {
+   "path_id": 24,
+   "start": 5200,
+   "size": 24,
+   "type_id": 8
+  },
+  {
+   "path_id": 25,
+   "start": 5224,
+   "size": 44,
+   "type_id": 9
+  },
+  {
+   "path_id": 26,
+   "start": 5272,
+   "size": 52,
+   "type_id": 10
+  },
+  {
+   "path_id": 27,
+   "start": 5328,
+   "size": 7236,
+   "type_id": 11
+  },
+  {
+   "path_id": 28,
+   "start": 12568,
+   "size": 7180,
+   "type_id": 11
+  },
+  {
+   "path_id": 29,
+   "start": 19752,
+   "size": 248,
+   "type_id": 12
+  },
+  {
+   "path_id": 30,
+   "start": 20000,
+   "size": 248,
+   "type_id": 12
+  },
+  {
+   "path_id": 31,
+   "start": 20248,
+   "size": 36,
+   "type_id": 13
+  },
+  {
+   "path_id": 32,
+   "start": 20288,
+   "size": 48,
+   "type_id": 14
+  },
+  {
+   "path_id": 33,
+   "start": 20336,
+   "size": 36,
+   "type_id": 15
+  },
+  {
+   "path_id": 34,
+   "start": 20376,
+   "size": 14132,
+   "type_id": 16
+  },
+  {
+   "path_id": 35,
+   "start": 34512,
+   "size": 64,
+   "type_id": 17
+  },
+  {
+   "path_id": 36,
+   "start": 34576,
+   "size": 36,
+   "type_id": 18
+  }
+ ]
+}

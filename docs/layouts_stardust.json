@@ -1,0 +1,2393 @@
+{
+ "scripts": {
+  "BossController": {
+   "file": "Stardust Raiders/Assets/Scripts/Enemy/BossController.cs",
+   "line": 8,
+   "base": "EnemyController",
+   "fields": [
+    {
+     "name": "turretBase",
+     "type": "Transform",
+     "line": 10,
+     "kind": "pptr",
+     "target": "Transform"
+    },
+    {
+     "name": "frontMissileSpawner",
+     "type": "GameObject",
+     "line": 11,
+     "kind": "pptr",
+     "target": "GameObject"
+    },
+    {
+     "name": "thrusters",
+     "type": "GameObject[]",
+     "line": 12,
+     "kind": "array",
+     "of": {
+      "kind": "pptr",
+      "target": "GameObject"
+     }
+    },
+    {
+     "name": "spawnAmmoDelay",
+     "type": "float",
+     "line": 16,
+     "kind": "float"
+    },
+    {
+     "name": "lasers",
+     "type": "Transform[]",
+     "line": 19,
+     "kind": "array",
+     "of": {
+      "kind": "pptr",
+      "target": "Transform"
+     }
+    },
+    {
+     "name": "spawnLaser",
+     "type": "GameObject",
+     "line": 20,
+     "kind": "pptr",
+     "target": "GameObject"
+    },
+    {
+     "name": "laserShotDelay",
+     "type": "float",
+     "line": 21,
+     "kind": "float"
+    },
+    {
+     "name": "laserChargerTime",
+     "type": "float",
+     "line": 22,
+     "kind": "float"
+    },
+    {
+     "name": "laserSpeed",
+     "type": "float",
+     "line": 23,
+     "kind": "float"
+    },
+    {
+     "name": "laserDuration",
+     "type": "float",
+     "line": 24,
+     "kind": "float"
+    },
+    {
+     "name": "targetDistance",
+     "type": "float",
+     "line": 25,
+     "kind": "float"
+    }
+   ],
+   "unsupported": []
+  },
+  "BossModuleHealthManager": {
+   "file": "Stardust Raiders/Assets/Scripts/Enemy/BossModuleHealthManager.cs",
+   "line": 8,
+   "base": "ShieldManager",
+   "fields": [
+    {
+     "name": "boss",
+     "type": "GameObject",
+     "line": 10,
+     "kind": "pptr",
+     "target": "GameObject"
+    },
+    {
+     "name": "destroyScore",
+     "type": "int",
+     "line": 11,
+     "kind": "int"
+    }
+   ],
+   "unsupported": []
+  },
+  "BossShieldManager": {
+   "file": "Stardust Raiders/Assets/Scripts/Enemy/BossShieldManager.cs",
+   "line": 8,
+   "base": "ShieldManager",
+   "fields": [
+    {
+     "name": "destroyScore",
+     "type": "int",
+     "line": 10,
+     "kind": "int"
+    },
+    {
+     "name": "winScreen",
+     "type": "GameObject",
+     "line": 11,
+     "kind": "pptr",
+     "target": "GameObject"
+    }
+   ],
+   "unsupported": []
+  },
+  "EnemyController": {
+   "file": "Stardust Raiders/Assets/Scripts/Enemy/EnemyController.cs",
+   "line": 8,
+   "base": "MonoBehaviour",
+   "fields": [
+    {
+     "name": "cannonParent",
+     "type": "Transform",
+     "line": 10,
+     "kind": "pptr",
+     "target": "Transform"
+    },
+    {
+     "name": "cannonRotationSpeed",
+     "type": "float",
+     "line": 11,
+     "kind": "float"
+    },
+    {
+     "name": "heightOffset",
+     "type": "float",
+     "line": 12,
+     "kind": "float"
+    },
+    {
+     "name": "bulletSpawnPoints",
+     "type": "Transform[]",
+     "line": 15,
+     "kind": "array",
+     "of": {
+      "kind": "pptr",
+      "target": "Transform"
+     }
+    },
+    {
+     "name": "spawnBullet",
+     "type": "GameObject",
+     "line": 16,
+     "kind": "pptr",
+     "target": "GameObject"
+    },
+    {
+     "name": "bulletDestroyTime",
+     "type": "float",
+     "line": 17,
+     "kind": "float"
+    },
+    {
+     "name": "movementTime",
+     "type": "float",
+     "line": 22,
+     "kind": "float"
+    },
+    {
+     "name": "movementRadius",
+     "type": "float",
+     "line": 23,
+     "kind": "float"
+    },
+    {
+     "name": "movementDelay",
+     "type": "float",
+     "line": 24,
+     "kind": "float"
+    },
+    {
+     "name": "moveAxis",
+     "type": "Vector3",
+     "line": 25,
+     "kind": "vector3"
+    },
+    {
+     "name": "localMovement",
+     "type": "bool",
+     "line": 26,
+     "kind": "bool"
+    },
+    {
+     "name": "loopMovement",
+     "type": "bool",
+     "line": 27,
+     "kind": "bool"
+    }
+   ],
+   "unsupported": []
+  },
+  "EnemyShieldManager": {
+   "file": "Stardust Raiders/Assets/Scripts/Enemy/EnemyShieldManager.cs",
+   "line": 8,
+   "base": "ShieldManager",
+   "fields": [
+    {
+     "name": "destroyScore",
+     "type": "int",
+     "line": 10,
+     "kind": "int"
+    }
+   ],
+   "unsupported": []
+  },
+  "EnemyShipController": {
+   "file": "Stardust Raiders/Assets/Scripts/Enemy/EnemyShipController.cs",
+   "line": 9,
+   "base": "EnemyController",
+   "fields": [
+    {
+     "name": "targetDistance",
+     "type": "float",
+     "line": 11,
+     "kind": "float"
+    },
+    {
+     "name": "forwardSpeed",
+     "type": "float",
+     "line": 12,
+     "kind": "float"
+    },
+    {
+     "name": "leaveTime",
+     "type": "float",
+     "line": 13,
+     "kind": "float"
+    },
+    {
+     "name": "shootDelay",
+     "type": "float",
+     "line": 16,
+     "kind": "float"
+    },
+    {
+     "name": "shootDistance",
+     "type": "float",
+     "line": 17,
+     "kind": "float"
+    },
+    {
+     "name": "bulletSpeed",
+     "type": "float",
+     "line": 18,
+     "kind": "float"
+    },
+    {
+     "name": "doubleShoot",
+     "type": "bool",
+     "line": 19,
+     "kind": "bool"
+    }
+   ],
+   "unsupported": []
+  },
+  "MineController": {
+   "file": "Stardust Raiders/Assets/Scripts/Enemy/MineController.cs",
+   "line": 8,
+   "base": "MonoBehaviour",
+   "fields": [
+    {
+     "name": "damage",
+     "type": "int",
+     "line": 10,
+     "kind": "int"
+    },
+    {
+     "name": "targetDistance",
+     "type": "float",
+     "line": 11,
+     "kind": "float"
+    },
+    {
+     "name": "speed",
+     "type": "float",
+     "line": 12,
+     "kind": "float"
+    },
+    {
+     "name": "explosionEffect",
+     "type": "GameObject",
+     "line": 13,
+     "kind": "pptr",
+     "target": "GameObject"
+    }
+   ],
+   "unsupported": []
+  },
+  "TankController": {
+   "file": "Stardust Raiders/Assets/Scripts/Enemy/TankController.cs",
+   "line": 9,
+   "base": "EnemyController",
+   "fields": [
+    {
+     "name": "shootDelay",
+     "type": "float",
+     "line": 11,
+     "kind": "float"
+    },
+    {
+     "name": "targetDistance",
+     "type": "float",
+     "line": 12,
+     "kind": "float"
+    }
+   ],
+   "unsupported": []
+  },
+  "TurretController": {
+   "file": "Stardust Raiders/Assets/Scripts/Enemy/TurretController.cs",
+   "line": 9,
+   "base": "EnemyController",
+   "fields": [
+    {
+     "name": "shootDelay",
+     "type": "float",
+     "line": 12,
+     "kind": "float"
+    },
+    {
+     "name": "targetDistance",
+     "type": "float",
+     "line": 13,
+     "kind": "float"
+    },
+    {
+     "name": "turret",
+     "type": "Transform",
+     "line": 14,
+     "kind": "pptr",
+     "target": "Transform"
+    }
+   ],
+   "unsupported": []
+  },
+  "AudioManager": {
+   "file": "Stardust Raiders/Assets/Scripts/GameManagement/AudioManager.cs",
+   "line": 10,
+   "base": "MonoBehaviour",
+   "fields": [
+    {
+     "name": "audioMixer",
+     "type": "AudioMixer",
+     "line": 50,
+     "kind": "pptr",
+     "target": "AudioMixer"
+    },
+    {
+     "name": "musicGroup",
+     "type": "AudioMixerGroup",
+     "line": 51,
+     "kind": "pptr",
+     "target": "AudioMixerGroup"
+    },
+    {
+     "name": "soundEffectsGroup",
+     "type": "AudioMixerGroup",
+     "line": 52,
+     "kind": "pptr",
+     "target": "AudioMixerGroup"
+    },
+    {
+     "name": "sounds",
+     "type": "Sound[]",
+     "line": 53,
+     "kind": "array",
+     "of": {
+      "kind": "nested",
+      "type": "Sound"
+     }
+    }
+   ],
+   "unsupported": []
+  },
+  "GameManager": {
+   "file": "Stardust Raiders/Assets/Scripts/GameManagement/GameManager.cs",
+   "line": 12,
+   "base": "MonoBehaviour",
+   "fields": [
+    {
+     "name": "player",
+     "type": "GameObject",
+     "line": 53,
+     "kind": "pptr",
+     "target": "GameObject"
+    },
+    {
+     "name": "gameState",
+     "type": "StateType",
+     "line": 54,
+     "kind": "enum"
+    },
+    {
+     "name": "loadingScreen",
+     "type": "GameObject",
+     "line": 55,
+     "kind": "pptr",
+     "target": "GameObject"
+    },
+    {
+     "name": "loadSlider",
+     "type": "Slider",
+     "line": 56,
+     "kind": "pptr",
+     "target": "Slider"
+    },
+    {
+     "name": "progressText",
+     "type": "Text",
+     "line": 57,
+     "kind": "pptr",
+     "target": "Text"
+    },
+    {
+     "name": "playerInfo",
+     "type": "PlayerInfo",
+     "line": 58,
+     "kind": "nested"
+    }
+   ],
+   "unsupported": []
+  },
+  "LevelManager": {
+   "file": "Stardust Raiders/Assets/Scripts/GameManagement/LevelManager.cs",
+   "line": 7,
+   "base": "MonoBehaviour",
+   "fields": [
+    {
+     "name": "gameplayPlane",
+     "type": "GameObject",
+     "line": 28,
+     "kind": "pptr",
+     "target": "GameObject"
+    },
+    {
+     "name": "sectors",
+     "type": "Sector[]",
+     "line": 29,
+     "kind": "array",
+     "of": {
+      "kind": "pptr",
+      "target": "Sector"
+     }
+    },
+    {
+     "name": "limitPlane",
+     "type": "GameObject",
+     "line": 33,
+     "kind": "pptr",
+     "target": "GameObject"
+    },
+    {
+     "name": "flickFrequency",
+     "type": "float",
+     "line": 34,
+     "kind": "float"
+    }
+   ],
+   "unsupported": []
+  },
+  "Sector": {
+   "file": "Stardust Raiders/Assets/Scripts/GameManagement/Sector.cs",
+   "line": 18,
+   "base": "MonoBehaviour",
+   "fields": [
+    {
+     "name": "cameraChange",
+     "type": "bool",
+     "line": 21,
+     "kind": "bool"
+    },
+    {
+     "name": "pathSelection",
+     "type": "bool",
+     "line": 22,
+     "kind": "bool"
+    },
+    {
+     "name": "changeScene",
+     "type": "bool",
+     "line": 23,
+     "kind": "bool"
+    },
+    {
+     "name": "changeMusic",
+     "type": "bool",
+     "line": 24,
+     "kind": "bool"
+    },
+    {
+     "name": "startNode",
+     "type": "GameObject",
+     "line": 27,
+     "kind": "pptr",
+     "target": "GameObject"
+    },
+    {
+     "name": "speed",
+     "type": "float",
+     "line": 28,
+     "kind": "float"
+    },
+    {
+     "name": "newCamera",
+     "type": "Camera",
+     "line": 29,
+     "kind": "pptr",
+     "target": "Camera"
+    },
+    {
+     "name": "playerMovement",
+     "type": "bool",
+     "line": 30,
+     "kind": "bool"
+    },
+    {
+     "name": "alternativeRail",
+     "type": "Rail",
+     "line": 31,
+     "kind": "pptr",
+     "target": "Rail"
+    },
+    {
+     "name": "divideType",
+     "type": "DivideType",
+     "line": 32,
+     "kind": "enum"
+    },
+    {
+     "name": "railOrientation",
+     "type": "OrientationMode",
+     "line": 33,
+     "kind": "enum"
+    },
+    {
+     "name": "railMode",
+     "type": "PlayMode",
+     "line": 34,
+     "kind": "enum"
+    },
+    {
+     "name": "sceneToLoad",
+     "type": "string",
+     "line": 35,
+     "kind": "string"
+    },
+    {
+     "name": "loopSector",
+     "type": "bool",
+     "line": 36,
+     "kind": "bool"
+    },
+    {
+     "name": "showEnemyShieldbar",
+     "type": "bool",
+     "line": 37,
+     "kind": "bool"
+    },
+    {
+     "name": "musicClipName",
+     "type": "string",
+     "line": 38,
+     "kind": "string"
+    }
+   ],
+   "unsupported": []
+  },
+  "AddToScoreOnTriggerEnter": {
+   "file": "Stardust Raiders/Assets/Scripts/Gameplay/AddToScoreOnTriggerEnter.cs",
+   "line": 8,
+   "base": "MonoBehaviour",
+   "fields": [
+    {
+     "name": "points",
+     "type": "int",
+     "line": 10,
+     "kind": "int"
+    }
+   ],
+   "unsupported": []
+  },
+  "DestroyOnCollisionExit": {
+   "file": "Stardust Raiders/Assets/Scripts/Gameplay/DestroyOnCollisionExit.cs",
+   "line": 8,
+   "base": "MonoBehaviour",
+   "fields": [],
+   "unsupported": []
+  },
+  "Rail": {
+   "file": "Stardust Raiders/Assets/Scripts/Gameplay/Rail.cs",
+   "line": 28,
+   "base": "MonoBehaviour",
+   "fields": [
+    {
+     "name": "nodes",
+     "type": "Transform[]",
+     "line": 30,
+     "kind": "array",
+     "of": {
+      "kind": "pptr",
+      "target": "Transform"
+     }
+    }
+   ],
+   "unsupported": []
+  },
+  "RailMover": {
+   "file": "Stardust Raiders/Assets/Scripts/Gameplay/RailMover.cs",
+   "line": 14,
+   "base": "MonoBehaviour",
+   "fields": [
+    {
+     "name": "rail",
+     "type": "Rail",
+     "line": 16,
+     "kind": "pptr",
+     "target": "Rail"
+    },
+    {
+     "name": "playMode",
+     "type": "PlayMode",
+     "line": 17,
+     "kind": "enum"
+    },
+    {
+     "name": "speedMode",
+     "type": "SpeedMode",
+     "line": 18,
+     "kind": "enum"
+    },
+    {
+     "name": "orientationMode",
+     "type": "OrientationMode",
+     "line": 19,
+     "kind": "enum"
+    },
+    {
+     "name": "speed",
+     "type": "float",
+     "line": 20,
+     "kind": "float"
+    },
+    {
+     "name": "timeBetweenSegments",
+     "type": "float",
+     "line": 21,
+     "kind": "float"
+    },
+    {
+     "name": "isReversed",
+     "type": "bool",
+     "line": 22,
+     "kind": "bool"
+    },
+    {
+     "name": "isLooping",
+     "type": "bool",
+     "line": 23,
+     "kind": "bool"
+    },
+    {
+     "name": "pingPong",
+     "type": "bool",
+     "line": 24,
+     "kind": "bool"
+    },
+    {
+     "name": "loopNode",
+     "type": "bool",
+     "line": 25,
+     "kind": "bool"
+    }
+   ],
+   "unsupported": []
+  },
+  "RecoverShieldOnTriggerEnter": {
+   "file": "Stardust Raiders/Assets/Scripts/Gameplay/RecoverShieldOnTriggerEnter.cs",
+   "line": 8,
+   "base": "MonoBehaviour",
+   "fields": [
+    {
+     "name": "shieldToRecover",
+     "type": "int",
+     "line": 10,
+     "kind": "int"
+    }
+   ],
+   "unsupported": []
+  },
+  "ShieldManager": {
+   "file": "Stardust Raiders/Assets/Scripts/Gameplay/ShieldManager.cs",
+   "line": 9,
+   "base": "MonoBehaviour",
+   "fields": [
+    {
+     "name": "currentShield",
+     "type": "int",
+     "line": 13,
+     "kind": "int"
+    },
+    {
+     "name": "godMode",
+     "type": "bool",
+     "line": 14,
+     "kind": "bool"
+    },
+    {
+     "name": "recoverTime",
+     "type": "float",
+     "line": 17,
+     "kind": "float"
+    },
+    {
+     "name": "hitColor",
+     "type": "Color",
+     "line": 18,
+     "kind": "color"
+    },
+    {
+     "name": "flickCount",
+     "type": "int",
+     "line": 19,
+     "kind": "int"
+    },
+    {
+     "name": "flickRate",
+     "type": "float",
+     "line": 20,
+     "kind": "float"
+    },
+    {
+     "name": "deathEffect",
+     "type": "GameObject",
+     "line": 21,
+     "kind": "pptr",
+     "target": "GameObject"
+    },
+    {
+     "name": "invulnerable",
+     "type": "bool",
+     "line": 27,
+     "kind": "bool"
+    }
+   ],
+   "unsupported": []
+  },
+  "BonusObjController": {
+   "file": "Stardust Raiders/Assets/Scripts/Objects/BonusItems/BonusObjController.cs",
+   "line": 8,
+   "base": "MonoBehaviour",
+   "fields": [
+    {
+     "name": "rotationType",
+     "type": "RotationType",
+     "line": 19,
+     "kind": "enum"
+    },
+    {
+     "name": "rotationSpeed",
+     "type": "float",
+     "line": 20,
+     "kind": "float"
+    },
+    {
+     "name": "flickers",
+     "type": "GameObject[]",
+     "line": 23,
+     "kind": "array",
+     "of": {
+      "kind": "pptr",
+      "target": "GameObject"
+     }
+    },
+    {
+     "name": "materials",
+     "type": "Material[]",
+     "line": 24,
+     "kind": "array",
+     "of": {
+      "kind": "pptr",
+      "target": "Material"
+     }
+    },
+    {
+     "name": "flickFrequency",
+     "type": "float",
+     "line": 25,
+     "kind": "float"
+    },
+    {
+     "name": "points",
+     "type": "int",
+     "line": 28,
+     "kind": "int"
+    }
+   ],
+   "unsupported": []
+  },
+  "ExtraLifeObjController": {
+   "file": "Stardust Raiders/Assets/Scripts/Objects/BonusItems/ExtraLifeObjController.cs",
+   "line": 8,
+   "base": "BonusObjController",
+   "fields": [
+    {
+     "name": "extraLives",
+     "type": "int",
+     "line": 10,
+     "kind": "int"
+    },
+    {
+     "name": "icon",
+     "type": "GameObject",
+     "line": 11,
+     "kind": "pptr",
+     "target": "GameObject"
+    }
+   ],
+   "unsupported": []
+  },
+  "PowerUpController": {
+   "file": "Stardust Raiders/Assets/Scripts/Objects/BonusItems/PowerUpController.cs",
+   "line": 8,
+   "base": "BonusObjController",
+   "fields": [
+    {
+     "name": "icon",
+     "type": "GameObject",
+     "line": 10,
+     "kind": "pptr",
+     "target": "GameObject"
+    }
+   ],
+   "unsupported": []
+  },
+  "ShieldRecoverObjController": {
+   "file": "Stardust Raiders/Assets/Scripts/Objects/BonusItems/ShieldRecoverObjController.cs",
+   "line": 8,
+   "base": "BonusObjController",
+   "fields": [
+    {
+     "name": "shieldToRecover",
+     "type": "int",
+     "line": 10,
+     "kind": "int"
+    }
+   ],
+   "unsupported": []
+  },
+  "BulletController": {
+   "file": "Stardust Raiders/Assets/Scripts/Objects/BulletController.cs",
+   "line": 8,
+   "base": "MonoBehaviour",
+   "fields": [
+    {
+     "name": "damageToPlayer",
+     "type": "int",
+     "line": 10,
+     "kind": "int"
+    },
+    {
+     "name": "damageToEnemy",
+     "type": "int",
+     "line": 11,
+     "kind": "int"
+    },
+    {
+     "name": "damageToObstacle",
+     "type": "int",
+     "line": 12,
+     "kind": "int"
+    },
+    {
+     "name": "damageToBoss",
+     "type": "int",
+     "line": 13,
+     "kind": "int"
+    }
+   ],
+   "unsupported": []
+  },
+  "FlickColorController": {
+   "file": "Stardust Raiders/Assets/Scripts/Objects/FlickColorController.cs",
+   "line": 8,
+   "base": "MonoBehaviour",
+   "fields": [
+    {
+     "name": "materialA",
+     "type": "Material",
+     "line": 10,
+     "kind": "pptr",
+     "target": "Material"
+    },
+    {
+     "name": "materialB",
+     "type": "Material",
+     "line": 11,
+     "kind": "pptr",
+     "target": "Material"
+    },
+    {
+     "name": "frequency",
+     "type": "float",
+     "line": 12,
+     "kind": "float"
+    }
+   ],
+   "unsupported": []
+  },
+  "ForwardToTarget": {
+   "file": "Stardust Raiders/Assets/Scripts/Objects/ForwardToTarget.cs",
+   "line": 8,
+   "base": "MonoBehaviour",
+   "fields": [
+    {
+     "name": "target",
+     "type": "Transform",
+     "line": 9,
+     "kind": "pptr",
+     "target": "Transform"
+    },
+    {
+     "name": "startTime",
+     "type": "float",
+     "line": 10,
+     "kind": "float"
+    },
+    {
+     "name": "forwardTime",
+     "type": "float",
+     "line": 11,
+     "kind": "float"
+    }
+   ],
+   "unsupported": []
+  },
+  "ColumnTrapController": {
+   "file": "Stardust Raiders/Assets/Scripts/Objects/Obstacles/ColumnTrapController.cs",
+   "line": 8,
+   "base": "ObstacleController",
+   "fields": [
+    {
+     "name": "columns",
+     "type": "GameObject[]",
+     "line": 10,
+     "kind": "array",
+     "of": {
+      "kind": "pptr",
+      "target": "GameObject"
+     }
+    },
+    {
+     "name": "targetDistance",
+     "type": "float",
+     "line": 11,
+     "kind": "float"
+    }
+   ],
+   "unsupported": []
+  },
+  "ObstacleController": {
+   "file": "Stardust Raiders/Assets/Scripts/Objects/Obstacles/ObstacleController.cs",
+   "line": 8,
+   "base": "MonoBehaviour",
+   "fields": [
+    {
+     "name": "damage",
+     "type": "int",
+     "line": 10,
+     "kind": "int"
+    }
+   ],
+   "unsupported": []
+  },
+  "ObstacleShieldManager": {
+   "file": "Stardust Raiders/Assets/Scripts/Objects/Obstacles/ObstacleShieldManager.cs",
+   "line": 8,
+   "base": "ShieldManager",
+   "fields": [
+    {
+     "name": "explosionSpawnPoint",
+     "type": "Transform",
+     "line": 11,
+     "kind": "pptr",
+     "target": "Transform"
+    },
+    {
+     "name": "goalScale",
+     "type": "Vector3",
+     "line": 12,
+     "kind": "vector3"
+    },
+    {
+     "name": "destroyTime",
+     "type": "float",
+     "line": 13,
+     "kind": "float"
+    },
+    {
+     "name": "destroyScore",
+     "type": "int",
+     "line": 14,
+     "kind": "int"
+    }
+   ],
+   "unsupported": []
+  },
+  "WheelController": {
+   "file": "Stardust Raiders/Assets/Scripts/Objects/Obstacles/WheelController.cs",
+   "line": 8,
+   "base": "KeepRotating",
+   "fields": [],
+   "unsupported": []
+  },
+  "SeekingBullet": {
+   "file": "Stardust Raiders/Assets/Scripts/Objects/SeekingBullet.cs",
+   "line": 8,
+   "base": "BulletController",
+   "fields": [
+    {
+     "name": "speed",
+     "type": "float",
+     "line": 11,
+     "kind": "float"
+    },
+    {
+     "name": "turnSpeed",
+     "type": "float",
+     "line": 12,
+     "kind": "float"
+    },
+    {
+     "name": "startSeeking",
+     "type": "float",
+     "line": 13,
+     "kind": "float"
+    },
+    {
+     "name": "stopSeeking",
+     "type": "float",
+     "line": 14,
+     "kind": "float"
+    }
+   ],
+   "unsupported": []
+  },
+  "CameraDetachment": {
+   "file": "Stardust Raiders/Assets/Scripts/Other/CameraDetachment.cs",
+   "line": 8,
+   "base": "MonoBehaviour",
+   "fields": [],
+   "unsupported": []
+  },
+  "FreezeRotation": {
+   "file": "Stardust Raiders/Assets/Scripts/Other/FreezeRotation.cs",
+   "line": 8,
+   "base": "MonoBehaviour",
+   "fields": [
+    {
+     "name": "x",
+     "type": "bool",
+     "line": 10,
+     "kind": "bool"
+    },
+    {
+     "name": "y",
+     "type": "bool",
+     "line": 10,
+     "kind": "bool"
+    },
+    {
+     "name": "z",
+     "type": "bool",
+     "line": 10,
+     "kind": "bool"
+    }
+   ],
+   "unsupported": []
+  },
+  "KeepRotating": {
+   "file": "Stardust Raiders/Assets/Scripts/Other/KeepRotating.cs",
+   "line": 8,
+   "base": "MonoBehaviour",
+   "fields": [
+    {
+     "name": "rotationSpeed",
+     "type": "float",
+     "line": 10,
+     "kind": "float"
+    },
+    {
+     "name": "axis",
+     "type": "Vector3",
+     "line": 11,
+     "kind": "vector3"
+    }
+   ],
+   "unsupported": []
+  },
+  "LookAtPlayer": {
+   "file": "Stardust Raiders/Assets/Scripts/Other/LookAtPlayer.cs",
+   "line": 9,
+   "base": "MonoBehaviour",
+   "fields": [],
+   "unsupported": []
+  },
+  "MoveForward": {
+   "file": "Stardust Raiders/Assets/Scripts/Other/MoveForward.cs",
+   "line": 8,
+   "base": "MonoBehaviour",
+   "fields": [
+    {
+     "name": "speed",
+     "type": "float",
+     "line": 10,
+     "kind": "float"
+    }
+   ],
+   "unsupported": []
+  },
+  "ScaleOverTime": {
+   "file": "Stardust Raiders/Assets/Scripts/Other/ScaleOverTime.cs",
+   "line": 8,
+   "base": "MonoBehaviour",
+   "fields": [
+    {
+     "name": "goalScale",
+     "type": "Vector3",
+     "line": 10,
+     "kind": "vector3"
+    },
+    {
+     "name": "time",
+     "type": "float",
+     "line": 11,
+     "kind": "float"
+    },
+    {
+     "name": "loop",
+     "type": "bool",
+     "line": 12,
+     "kind": "bool"
+    }
+   ],
+   "unsupported": []
+  },
+  "ShowBuildVersion": {
+   "file": "Stardust Raiders/Assets/Scripts/Other/ShowBuildVersion.cs",
+   "line": 9,
+   "base": "MonoBehaviour",
+   "fields": [],
+   "unsupported": []
+  },
+  "SpawnOnTrigger": {
+   "file": "Stardust Raiders/Assets/Scripts/Other/SpawnOnTrigger.cs",
+   "line": 8,
+   "base": "MonoBehaviour",
+   "fields": [
+    {
+     "name": "spawnObject",
+     "type": "GameObject",
+     "line": 10,
+     "kind": "pptr",
+     "target": "GameObject"
+    },
+    {
+     "name": "destroyTime",
+     "type": "float",
+     "line": 11,
+     "kind": "float"
+    }
+   ],
+   "unsupported": []
+  },
+  "BarrelRollController": {
+   "file": "Stardust Raiders/Assets/Scripts/Player/BarrelRollController.cs",
+   "line": 9,
+   "base": "MonoBehaviour",
+   "fields": [
+    {
+     "name": "multipleTapDelay",
+     "type": "float",
+     "line": 11,
+     "kind": "float"
+    },
+    {
+     "name": "barrelRollDuration",
+     "type": "float",
+     "line": 12,
+     "kind": "float"
+    },
+    {
+     "name": "maxBankAngle",
+     "type": "float",
+     "line": 13,
+     "kind": "float"
+    },
+    {
+     "name": "playerMainBody",
+     "type": "GameObject",
+     "line": 14,
+     "kind": "pptr",
+     "target": "GameObject"
+    },
+    {
+     "name": "barrelRollShield",
+     "type": "GameObject",
+     "line": 15,
+     "kind": "pptr",
+     "target": "GameObject"
+    },
+    {
+     "name": "inBarrelRoll",
+     "type": "bool",
+     "line": 22,
+     "kind": "bool"
+    }
+   ],
+   "unsupported": []
+  },
+  "CameraController": {
+   "file": "Stardust Raiders/Assets/Scripts/Player/CameraController.cs",
+   "line": 8,
+   "base": "MonoBehaviour",
+   "fields": [
+    {
+     "name": "objectToFollow",
+     "type": "Transform",
+     "line": 10,
+     "kind": "pptr",
+     "target": "Transform"
+    },
+    {
+     "name": "stopDistance",
+     "type": "Vector2",
+     "line": 11,
+     "kind": "vector2"
+    },
+    {
+     "name": "limitPlane",
+     "type": "Transform",
+     "line": 12,
+     "kind": "pptr",
+     "target": "Transform"
+    },
+    {
+     "name": "rotateCamera",
+     "type": "bool",
+     "line": 13,
+     "kind": "bool"
+    },
+    {
+     "name": "positionOffSet",
+     "type": "Vector3",
+     "line": 14,
+     "kind": "vector3"
+    }
+   ],
+   "unsupported": []
+  },
+  "PlayerGunController": {
+   "file": "Stardust Raiders/Assets/Scripts/Player/PlayerGunController.cs",
+   "line": 18,
+   "base": "MonoBehaviour",
+   "fields": [
+    {
+     "name": "mainGun",
+     "type": "GameObject",
+     "line": 20,
+     "kind": "pptr",
+     "target": "GameObject"
+    },
+    {
+     "name": "secondaryGun1",
+     "type": "GameObject",
+     "line": 21,
+     "kind": "pptr",
+     "target": "GameObject"
+    },
+    {
+     "name": "secondaryGun2",
+     "type": "GameObject",
+     "line": 22,
+     "kind": "pptr",
+     "target": "GameObject"
+    },
+    {
+     "name": "bullet",
+     "type": "Rigidbody",
+     "line": 23,
+     "kind": "pptr",
+     "target": "Rigidbody"
+    },
+    {
+     "name": "velocity",
+     "type": "float",
+     "line": 24,
+     "kind": "float"
+    },
+    {
+     "name": "yOffset",
+     "type": "float",
+     "line": 25,
+     "kind": "float"
+    },
+    {
+     "name": "destroyTime",
+     "type": "float",
+     "line": 26,
+     "kind": "float"
+    }
+   ],
+   "unsupported": []
+  },
+  "PlayerLimitManager": {
+   "file": "Stardust Raiders/Assets/Scripts/Player/PlayerLimitManager.cs",
+   "line": 8,
+   "base": "MonoBehaviour",
+   "fields": [
+    {
+     "name": "player",
+     "type": "GameObject",
+     "line": 10,
+     "kind": "pptr",
+     "target": "GameObject"
+    },
+    {
+     "name": "showDistance",
+     "type": "float",
+     "line": 11,
+     "kind": "float"
+    },
+    {
+     "name": "flickFrequency",
+     "type": "float",
+     "line": 12,
+     "kind": "float"
+    }
+   ],
+   "unsupported": []
+  },
+  "PlayerShieldManager": {
+   "file": "Stardust Raiders/Assets/Scripts/Player/PlayerShieldManager.cs",
+   "line": 9,
+   "base": "ShieldManager",
+   "fields": [
+    {
+     "name": "recoverColor",
+     "type": "Color",
+     "line": 11,
+     "kind": "color"
+    },
+    {
+     "name": "inBarrelRoll",
+     "type": "bool",
+     "line": 13,
+     "kind": "bool"
+    }
+   ],
+   "unsupported": []
+  },
+  "ShipController": {
+   "file": "Stardust Raiders/Assets/Scripts/Player/ShipController.cs",
+   "line": 8,
+   "base": "MonoBehaviour",
+   "fields": [
+    {
+     "name": "gameplayPlane",
+     "type": "GameObject",
+     "line": 10,
+     "kind": "pptr",
+     "target": "GameObject"
+    },
+    {
+     "name": "limitPlane",
+     "type": "GameObject",
+     "line": 11,
+     "kind": "pptr",
+     "target": "GameObject"
+    },
+    {
+     "name": "movementSpeed",
+     "type": "Vector2",
+     "line": 14,
+     "kind": "vector2"
+    },
+    {
+     "name": "pointingDepth",
+     "type": "float",
+     "line": 15,
+     "kind": "float"
+    },
+    {
+     "name": "maxRotDegrees",
+     "type": "float",
+     "line": 16,
+     "kind": "float"
+    },
+    {
+     "name": "bankAmountOnTurn",
+     "type": "float",
+     "line": 17,
+     "kind": "float"
+    },
+    {
+     "name": "rotationSpeed",
+     "type": "float",
+     "line": 18,
+     "kind": "float"
+    },
+    {
+     "name": "boostDuration",
+     "type": "float",
+     "line": 21,
+     "kind": "float"
+    },
+    {
+     "name": "recoilTime",
+     "type": "float",
+     "line": 22,
+     "kind": "float"
+    },
+    {
+     "name": "speedMod",
+     "type": "int",
+     "line": 23,
+     "kind": "int"
+    }
+   ],
+   "unsupported": []
+  },
+  "CreditsScreen": {
+   "file": "Stardust Raiders/Assets/Scripts/UI/CreditsScreen.cs",
+   "line": 8,
+   "base": "MonoBehaviour",
+   "fields": [],
+   "unsupported": []
+  },
+  "MainMenu": {
+   "file": "Stardust Raiders/Assets/Scripts/UI/MainMenu.cs",
+   "line": 11,
+   "base": "MonoBehaviour",
+   "fields": [
+    {
+     "name": "titleScreenUI",
+     "type": "GameObject",
+     "line": 13,
+     "kind": "pptr",
+     "target": "GameObject"
+    },
+    {
+     "name": "mainMenuUI",
+     "type": "GameObject",
+     "line": 14,
+     "kind": "pptr",
+     "target": "GameObject"
+    },
+    {
+     "name": "loopClip",
+     "type": "AudioClip",
+     "line": 15,
+     "kind": "pptr",
+     "target": "AudioClip"
+    }
+   ],
+   "unsupported": []
+  },
+  "OptionsMenu": {
+   "file": "Stardust Raiders/Assets/Scripts/UI/OptionsMenu.cs",
+   "line": 13,
+   "base": "MonoBehaviour",
+   "fields": [
+    {
+     "name": "audioMixer",
+     "type": "AudioMixer",
+     "line": 15,
+     "kind": "pptr",
+     "target": "AudioMixer"
+    },
+    {
+     "name": "graphicQualityDropdown",
+     "type": "TMP_Dropdown",
+     "line": 16,
+     "kind": "pptr",
+     "target": "TMP_Dropdown"
+    },
+    {
+     "name": "resolutionDropdown",
+     "type": "Dropdown",
+     "line": 17,
+     "kind": "pptr",
+     "target": "Dropdown"
+    },
+    {
+     "name": "fullscreen",
+     "type": "Toggle",
+     "line": 18,
+     "kind": "pptr",
+     "target": "Toggle"
+    },
+    {
+     "name": "invertXAxis",
+     "type": "Toggle",
+     "line": 19,
+     "kind": "pptr",
+     "target": "Toggle"
+    },
+    {
+     "name": "invertYAxis",
+     "type": "Toggle",
+     "line": 20,
+     "kind": "pptr",
+     "target": "Toggle"
+    }
+   ],
+   "unsupported": []
+  },
+  "PauseMenu": {
+   "file": "Stardust Raiders/Assets/Scripts/UI/PauseMenu.cs",
+   "line": 11,
+   "base": "MonoBehaviour",
+   "fields": [
+    {
+     "name": "pauseMenuUI",
+     "type": "GameObject",
+     "line": 13,
+     "kind": "pptr",
+     "target": "GameObject"
+    },
+    {
+     "name": "mainMenuChooser",
+     "type": "GameObject",
+     "line": 14,
+     "kind": "pptr",
+     "target": "GameObject"
+    },
+    {
+     "name": "paused",
+     "type": "AudioMixerSnapshot",
+     "line": 15,
+     "kind": "pptr",
+     "target": "AudioMixerSnapshot"
+    },
+    {
+     "name": "unpaused",
+     "type": "AudioMixerSnapshot",
+     "line": 16,
+     "kind": "pptr",
+     "target": "AudioMixerSnapshot"
+    }
+   ],
+   "unsupported": []
+  },
+  "PlayerHUDManager": {
+   "file": "Stardust Raiders/Assets/Scripts/UI/PlayerHUDManager.cs",
+   "line": 10,
+   "base": "MonoBehaviour",
+   "fields": [
+    {
+     "name": "livesCount",
+     "type": "Text",
+     "line": 38,
+     "kind": "pptr",
+     "target": "Text"
+    },
+    {
+     "name": "playerShieldBarForeground",
+     "type": "RectTransform",
+     "line": 41,
+     "kind": "pptr",
+     "target": "RectTransform"
+    },
+    {
+     "name": "boostBarForeground",
+     "type": "RectTransform",
+     "line": 44,
+     "kind": "pptr",
+     "target": "RectTransform"
+    },
+    {
+     "name": "limitArrows",
+     "type": "GameObject[]",
+     "line": 47,
+     "kind": "array",
+     "of": {
+      "kind": "pptr",
+      "target": "GameObject"
+     }
+    },
+    {
+     "name": "selectionArrows",
+     "type": "GameObject[]",
+     "line": 50,
+     "kind": "array",
+     "of": {
+      "kind": "pptr",
+      "target": "GameObject"
+     }
+    },
+    {
+     "name": "PathSelectionText",
+     "type": "GameObject",
+     "line": 51,
+     "kind": "pptr",
+     "target": "GameObject"
+    },
+    {
+     "name": "enemyShieldBar",
+     "type": "GameObject",
+     "line": 54,
+     "kind": "pptr",
+     "target": "GameObject"
+    },
+    {
+     "name": "enemyShieldBarForeground",
+     "type": "RectTransform",
+     "line": 55,
+     "kind": "pptr",
+     "target": "RectTransform"
+    },
+    {
+     "name": "gameOverPanel",
+     "type": "Image",
+     "line": 58,
+     "kind": "pptr",
+     "target": "Image"
+    },
+    {
+     "name": "score",
+     "type": "Text",
+     "line": 59,
+     "kind": "pptr",
+     "target": "Text"
+    },
+    {
+     "name": "gameOver",
+     "type": "AudioMixerSnapshot",
+     "line": 60,
+     "kind": "pptr",
+     "target": "AudioMixerSnapshot"
+    },
+    {
+     "name": "gamePlay",
+     "type": "AudioMixerSnapshot",
+     "line": 61,
+     "kind": "pptr",
+     "target": "AudioMixerSnapshot"
+    },
+    {
+     "name": "hitScreen",
+     "type": "Image",
+     "line": 63,
+     "kind": "pptr",
+     "target": "Image"
+    }
+   ],
+   "unsupported": []
+  },
+  "ScrollRectEnsureVisible": {
+   "file": "Stardust Raiders/Assets/Scripts/UI/ScrollRectEnsureVisible.cs",
+   "line": 11,
+   "base": "MonoBehaviour",
+   "fields": [],
+   "unsupported": []
+  },
+  "SelectOnInput": {
+   "file": "Stardust Raiders/Assets/Scripts/UI/SelectOnInput.cs",
+   "line": 9,
+   "base": "MonoBehaviour",
+   "fields": [
+    {
+     "name": "firstSelection",
+     "type": "GameObject",
+     "line": 11,
+     "kind": "pptr",
+     "target": "GameObject"
+    }
+   ],
+   "unsupported": []
+  },
+  "WinScreen": {
+   "file": "Stardust Raiders/Assets/Scripts/UI/WinScreen.cs",
+   "line": 10,
+   "base": "MonoBehaviour",
+   "fields": [
+    {
+     "name": "screenFader",
+     "type": "Image",
+     "line": 12,
+     "kind": "pptr",
+     "target": "Image"
+    },
+    {
+     "name": "winText",
+     "type": "Text",
+     "line": 13,
+     "kind": "pptr",
+     "target": "Text"
+    },
+    {
+     "name": "score",
+     "type": "Text",
+     "line": 14,
+     "kind": "pptr",
+     "target": "Text"
+    }
+   ],
+   "unsupported": []
+  }
+ },
+ "nested": {
+  "Sound": {
+   "file": "Stardust Raiders/Assets/Scripts/GameManagement/AudioManager.cs",
+   "line": 36,
+   "base": "",
+   "fields": [
+    {
+     "name": "name",
+     "type": "string",
+     "line": 38,
+     "kind": "string"
+    },
+    {
+     "name": "clip",
+     "type": "AudioClip",
+     "line": 39,
+     "kind": "pptr",
+     "target": "AudioClip"
+    },
+    {
+     "name": "soundType",
+     "type": "SoundType",
+     "line": 40,
+     "kind": "enum"
+    },
+    {
+     "name": "volume",
+     "type": "float",
+     "line": 42,
+     "kind": "float"
+    },
+    {
+     "name": "pitch",
+     "type": "float",
+     "line": 44,
+     "kind": "float"
+    },
+    {
+     "name": "loop",
+     "type": "bool",
+     "line": 45,
+     "kind": "bool"
+    },
+    {
+     "name": "source",
+     "type": "AudioSource",
+     "line": 47,
+     "kind": "pptr",
+     "target": "AudioSource"
+    }
+   ],
+   "unsupported": []
+  },
+  "PlayerInfo": {
+   "file": "Stardust Raiders/Assets/Scripts/GameManagement/GameManager.cs",
+   "line": 31,
+   "base": "",
+   "fields": [
+    {
+     "name": "lives",
+     "type": "int",
+     "line": 34,
+     "kind": "int"
+    },
+    {
+     "name": "isDead",
+     "type": "bool",
+     "line": 35,
+     "kind": "bool"
+    },
+    {
+     "name": "gunType",
+     "type": "GunType",
+     "line": 36,
+     "kind": "enum"
+    },
+    {
+     "name": "invertXAxis",
+     "type": "bool",
+     "line": 37,
+     "kind": "bool"
+    },
+    {
+     "name": "invertYAxis",
+     "type": "bool",
+     "line": 38,
+     "kind": "bool"
+    }
+   ],
+   "unsupported": []
+  }
+ },
+ "enums": [
+  "DivideType",
+  "GunType",
+  "OrientationMode",
+  "PlayMode",
+  "RotationType",
+  "SoundType",
+  "SpeedMode",
+  "StateType"
+ ],
+ "skipped": [
+  {
+   "script": "BossController",
+   "field": "gameplayPlane",
+   "reason": "private",
+   "line": 27,
+   "public": false
+  },
+  {
+   "script": "BossController",
+   "field": "called",
+   "reason": "private",
+   "line": 28,
+   "public": false
+  },
+  {
+   "script": "BossController",
+   "field": "cannonDestroyed",
+   "reason": "private",
+   "line": 29,
+   "public": false
+  },
+  {
+   "script": "EnemyController",
+   "field": "bulletIndex",
+   "reason": "private",
+   "line": 18,
+   "public": false
+  },
+  {
+   "script": "EnemyController",
+   "field": "bullet",
+   "reason": "private",
+   "line": 19,
+   "public": false
+  },
+  {
+   "script": "EnemyController",
+   "field": "goalPosition",
+   "reason": "private",
+   "line": 28,
+   "public": false
+  },
+  {
+   "script": "EnemyController",
+   "field": "currentPosition",
+   "reason": "private",
+   "line": 29,
+   "public": false
+  },
+  {
+   "script": "EnemyController",
+   "field": "player",
+   "reason": "private",
+   "line": 31,
+   "public": false
+  },
+  {
+   "script": "EnemyShipController",
+   "field": "called",
+   "reason": "private",
+   "line": 21,
+   "public": false
+  },
+  {
+   "script": "EnemyShipController",
+   "field": "gameplayPlane",
+   "reason": "private",
+   "line": 22,
+   "public": false
+  },
+  {
+   "script": "EnemyShipController",
+   "field": "ground",
+   "reason": "private",
+   "line": 23,
+   "public": false
+  },
+  {
+   "script": "MineController",
+   "field": "player",
+   "reason": "private",
+   "line": 15,
+   "public": false
+  },
+  {
+   "script": "AudioManager",
+   "field": "_instance",
+   "reason": "static/const/readonly",
+   "line": 14,
+   "public": false
+  },
+  {
+   "script": "AudioManager",
+   "field": "currentMusicClip",
+   "reason": "private",
+   "line": 54,
+   "public": false
+  },
+  {
+   "script": "GameManager",
+   "field": "_instance",
+   "reason": "static/const/readonly",
+   "line": 16,
+   "public": false
+  },
+  {
+   "script": "PlayerInfo",
+   "field": "startingLives",
+   "reason": "static/const/readonly",
+   "line": 33,
+   "public": true
+  },
+  {
+   "script": "GameManager",
+   "field": "loading",
+   "reason": "private",
+   "line": 61,
+   "public": false
+  },
+  {
+   "script": "LevelManager",
+   "field": "instance",
+   "reason": "static/const/readonly",
+   "line": 11,
+   "public": false
+  },
+  {
+   "script": "LevelManager",
+   "field": "pathSelection",
+   "reason": "private",
+   "line": 35,
+   "public": false
+  },
+  {
+   "script": "LevelManager",
+   "field": "arrowAnimFree",
+   "reason": "private",
+   "line": 36,
+   "public": false
+  },
+  {
+   "script": "LevelManager",
+   "field": "player",
+   "reason": "private",
+   "line": 38,
+   "public": false
+  },
+  {
+   "script": "LevelManager",
+   "field": "currentSector",
+   "reason": "private",
+   "line": 39,
+   "public": false
+  },
+  {
+   "script": "LevelManager",
+   "field": "nextSector",
+   "reason": "private",
+   "line": 40,
+   "public": false
+  },
+  {
+   "script": "LevelManager",
+   "field": "currentSectorNumber",
+   "reason": "private",
+   "line": 41,
+   "public": false
+  },
+  {
+   "script": "LevelManager",
+   "field": "canChangeSector",
+   "reason": "private",
+   "line": 42,
+   "public": false
+  },
+  {
+   "script": "LevelManager",
+   "field": "currentCamera",
+   "reason": "private",
+   "line": 43,
+   "public": false
+  },
+  {
+   "script": "RailMover",
+   "field": "currentSeg",
+   "reason": "private",
+   "line": 27,
+   "public": false
+  },
+  {
+   "script": "RailMover",
+   "field": "transition",
+   "reason": "private",
+   "line": 28,
+   "public": false
+  },
+  {
+   "script": "RailMover",
+   "field": "isCompleted",
+   "reason": "private",
+   "line": 29,
+   "public": false
+  },
+  {
+   "script": "ShieldManager",
+   "field": "maxShield",
+   "reason": "static/const/readonly",
+   "line": 12,
+   "public": true
+  },
+  {
+   "script": "ShieldManager",
+   "field": "mesh",
+   "reason": "private",
+   "line": 23,
+   "public": false
+  },
+  {
+   "script": "ShieldManager",
+   "field": "normalColor",
+   "reason": "private",
+   "line": 24,
+   "public": false
+  },
+  {
+   "script": "ShieldManager",
+   "field": "flickeringColor",
+   "reason": "private",
+   "line": 28,
+   "public": false
+  },
+  {
+   "script": "BonusObjController",
+   "field": "timer",
+   "reason": "private",
+   "line": 29,
+   "public": false
+  },
+  {
+   "script": "FlickColorController",
+   "field": "timer",
+   "reason": "private",
+   "line": 13,
+   "public": false
+  },
+  {
+   "script": "FlickColorController",
+   "field": "count",
+   "reason": "private",
+   "line": 14,
+   "public": false
+  },
+  {
+   "script": "ForwardToTarget",
+   "field": "finished",
+   "reason": "private",
+   "line": 12,
+   "public": false
+  },
+  {
+   "script": "ColumnTrapController",
+   "field": "gameplayPlane",
+   "reason": "private",
+   "line": 13,
+   "public": false
+  },
+  {
+   "script": "ColumnTrapController",
+   "field": "animationPlayed",
+   "reason": "private",
+   "line": 14,
+   "public": false
+  },
+  {
+   "script": "ColumnTrapController",
+   "field": "offSet",
+   "reason": "private",
+   "line": 15,
+   "public": false
+  },
+  {
+   "script": "ObstacleShieldManager",
+   "field": "initialScale",
+   "reason": "private",
+   "line": 15,
+   "public": false
+  },
+  {
+   "script": "WheelController",
+   "field": "isReversed",
+   "reason": "private",
+   "line": 10,
+   "public": false
+  },
+  {
+   "script": "SeekingBullet",
+   "field": "player",
+   "reason": "private",
+   "line": 16,
+   "public": false
+  },
+  {
+   "script": "SeekingBullet",
+   "field": "newRotation",
+   "reason": "private",
+   "line": 17,
+   "public": false
+  },
+  {
+   "script": "SeekingBullet",
+   "field": "t",
+   "reason": "private",
+   "line": 18,
+   "public": false
+  },
+  {
+   "script": "FreezeRotation",
+   "field": "initialRotation",
+   "reason": "private",
+   "line": 12,
+   "public": false
+  },
+  {
+   "script": "FreezeRotation",
+   "field": "newRotation",
+   "reason": "private",
+   "line": 13,
+   "public": false
+  },
+  {
+   "script": "LookAtPlayer",
+   "field": "player",
+   "reason": "private",
+   "line": 11,
+   "public": false
+  },
+  {
+   "script": "ScaleOverTime",
+   "field": "initialScale",
+   "reason": "private",
+   "line": 13,
+   "public": false
+  },
+  {
+   "script": "BarrelRollController",
+   "field": "buttonDown",
+   "reason": "private",
+   "line": 17,
+   "public": false
+  },
+  {
+   "script": "BarrelRollController",
+   "field": "leftTimer",
+   "reason": "private",
+   "line": 18,
+   "public": false
+  },
+  {
+   "script": "BarrelRollController",
+   "field": "rightTimer",
+   "reason": "private",
+   "line": 19,
+   "public": false
+  },
+  {
+   "script": "CameraController",
+   "field": "newPos",
+   "reason": "private",
+   "line": 16,
+   "public": false
+  },
+  {
+   "script": "CameraController",
+   "field": "limit",
+   "reason": "private",
+   "line": 17,
+   "public": false
+  },
+  {
+   "script": "CameraController",
+   "field": "initialOffSet",
+   "reason": "private",
+   "line": 18,
+   "public": false
+  },
+  {
+   "script": "PlayerLimitManager",
+   "field": "vArrowAnimFree",
+   "reason": "private",
+   "line": 14,
+   "public": false
+  },
+  {
+   "script": "PlayerLimitManager",
+   "field": "hArrowAnimFree",
+   "reason": "private",
+   "line": 15,
+   "public": false
+  },
+  {
+   "script": "PlayerLimitManager",
+   "field": "limitBounds",
+   "reason": "private",
+   "line": 16,
+   "public": false
+  },
+  {
+   "script": "PlayerShieldManager",
+   "field": "player",
+   "reason": "private",
+   "line": 15,
+   "public": false
+  },
+  {
+   "script": "ShipController",
+   "field": "maxBoost",
+   "reason": "static/const/readonly",
+   "line": 24,
+   "public": true
+  },
+  {
+   "script": "ShipController",
+   "field": "boostReady",
+   "reason": "private",
+   "line": 26,
+   "public": false
+  },
+  {
+   "script": "ShipController",
+   "field": "boostBlocked",
+   "reason": "private",
+   "line": 27,
+   "public": false
+  },
+  {
+   "script": "CreditsScreen",
+   "field": "creditsAnim",
+   "reason": "private",
+   "line": 10,
+   "public": false
+  },
+  {
+   "script": "MainMenu",
+   "field": "myEventSystem",
+   "reason": "private",
+   "line": 17,
+   "public": false
+  },
+  {
+   "script": "MainMenu",
+   "field": "lastSelected",
+   "reason": "private",
+   "line": 18,
+   "public": false
+  },
+  {
+   "script": "MainMenu",
+   "field": "audioSource",
+   "reason": "private",
+   "line": 19,
+   "public": false
+  },
+  {
+   "script": "OptionsMenu",
+   "field": "resolutions",
+   "reason": "private",
+   "line": 22,
+   "public": false
+  },
+  {
+   "script": "OptionsMenu",
+   "field": "previousState",
+   "reason": "private",
+   "line": 23,
+   "public": false
+  },
+  {
+   "script": "OptionsMenu",
+   "field": "currentResolutionIndex",
+   "reason": "private",
+   "line": 24,
+   "public": false
+  },
+  {
+   "script": "OptionsMenu",
+   "field": "myEventSystem",
+   "reason": "private",
+   "line": 25,
+   "public": false
+  },
+  {
+   "script": "OptionsMenu",
+   "field": "lastSelected",
+   "reason": "private",
+   "line": 26,
+   "public": false
+  },
+  {
+   "script": "PauseMenu",
+   "field": "myEventSystem",
+   "reason": "private",
+   "line": 18,
+   "public": false
+  },
+  {
+   "script": "PauseMenu",
+   "field": "lastSelected",
+   "reason": "private",
+   "line": 19,
+   "public": false
+  },
+  {
+   "script": "PlayerHUDManager",
+   "field": "_instance",
+   "reason": "static/const/readonly",
+   "line": 13,
+   "public": false
+  },
+  {
+   "script": "SelectOnInput",
+   "field": "myEventSystem",
+   "reason": "private",
+   "line": 13,
+   "public": false
+  },
+  {
+   "script": "SelectOnInput",
+   "field": "lastSelected",
+   "reason": "private",
+   "line": 14,
+   "public": false
+  },
+  {
+   "script": "WinScreen",
+   "field": "win",
+   "reason": "private",
+   "line": 16,
+   "public": false
+  },
+  {
+   "script": "WinScreen",
+   "field": "timer",
+   "reason": "private",
+   "line": 17,
+   "public": false
+  }
+ ],
+ "report": {
+  "scripts_total": 53,
+  "scripts_full": 53,
+  "scripts_partial": [],
+  "nested": 2,
+  "enums": 8,
+  "public_skipped_suspicious": [],
+  "unknown_types": []
+ }
+}

@@ -1,0 +1,1892 @@
+{
+  "4": {
+    "name": "AudioTrack",
+    "class": "AudioTrack",
+    "assembly": "UnityEngine.Timeline.dll",
+    "namespace": "UnityEngine.Timeline"
+  },
+  "5": {
+    "name": "AudioTrack",
+    "class": "AudioTrack",
+    "assembly": "UnityEngine.Timeline.dll",
+    "namespace": "UnityEngine.Timeline"
+  },
+  "6": {
+    "name": "GridLayoutGroup",
+    "class": "GridLayoutGroup",
+    "assembly": "UnityEngine.UI.dll",
+    "namespace": "UnityEngine.UI"
+  },
+  "7": {
+    "name": "GridLayoutGroup",
+    "class": "GridLayoutGroup",
+    "assembly": "UnityEngine.UI.dll",
+    "namespace": "UnityEngine.UI"
+  },
+  "8": {
+    "name": "Scrollbar",
+    "class": "Scrollbar",
+    "assembly": "UnityEngine.UI.dll",
+    "namespace": "UnityEngine.UI"
+  },
+  "9": {
+    "name": "Scrollbar",
+    "class": "Scrollbar",
+    "assembly": "UnityEngine.UI.dll",
+    "namespace": "UnityEngine.UI"
+  },
+  "10": {
+    "name": "TMP_ContextMenus",
+    "class": "TMP_ContextMenus",
+    "assembly": "TextMeshPro-2017.3-Editor.dll",
+    "namespace": "TMPro.EditorUtilities"
+  },
+  "11": {
+    "name": "AudioPlayableAsset",
+    "class": "AudioPlayableAsset",
+    "assembly": "UnityEngine.Timeline.dll",
+    "namespace": "UnityEngine.Timeline"
+  },
+  "12": {
+    "name": "AudioPlayableAsset",
+    "class": "AudioPlayableAsset",
+    "assembly": "UnityEngine.Timeline.dll",
+    "namespace": "UnityEngine.Timeline"
+  },
+  "13": {
+    "name": "TMP_StyleSheet",
+    "class": "TMP_StyleSheet",
+    "assembly": "TextMeshPro-2017.3-Runtime.dll",
+    "namespace": "TMPro"
+  },
+  "14": {
+    "name": "TMP_StyleSheet",
+    "class": "TMP_StyleSheet",
+    "assembly": "TextMeshPro-2017.3-Runtime.dll",
+    "namespace": "TMPro"
+  },
+  "15": {
+    "name": "TMP_SpriteAssetImporter",
+    "class": "TMP_SpriteAssetImporter",
+    "assembly": "TextMeshPro-2017.3-Editor.dll",
+    "namespace": "TMPro"
+  },
+  "16": {
+    "name": "EventTrigger",
+    "class": "EventTrigger",
+    "assembly": "UnityEngine.UI.dll",
+    "namespace": "UnityEngine.EventSystems"
+  },
+  "17": {
+    "name": "EventTrigger",
+    "class": "EventTrigger",
+    "assembly": "UnityEngine.UI.dll",
+    "namespace": "UnityEngine.EventSystems"
+  },
+  "18": {
+    "name": "BaseInputModule",
+    "class": "BaseInputModule",
+    "assembly": "UnityEngine.UI.dll",
+    "namespace": "UnityEngine.EventSystems"
+  },
+  "19": {
+    "name": "BaseInputModule",
+    "class": "BaseInputModule",
+    "assembly": "UnityEngine.UI.dll",
+    "namespace": "UnityEngine.EventSystems"
+  },
+  "20": {
+    "name": "NetworkTransform",
+    "class": "NetworkTransform",
+    "assembly": "UnityEngine.Networking.dll",
+    "namespace": "UnityEngine.Networking"
+  },
+  "21": {
+    "name": "NetworkTransform",
+    "class": "NetworkTransform",
+    "assembly": "UnityEngine.Networking.dll",
+    "namespace": "UnityEngine.Networking"
+  },
+  "22": {
+    "name": "PlaymodeTestsController",
+    "class": "PlaymodeTestsController",
+    "assembly": "UnityEngine.TestRunner.dll",
+    "namespace": "UnityEngine.TestTools.TestRunner"
+  },
+  "23": {
+    "name": "SpatialMappingBase",
+    "class": "SpatialMappingBase",
+    "assembly": "UnityEngine.HoloLens.dll",
+    "namespace": "UnityEngine.XR.WSA"
+  },
+  "24": {
+    "name": "SpatialMappingBase",
+    "class": "SpatialMappingBase",
+    "assembly": "UnityEngine.HoloLens.dll",
+    "namespace": "UnityEngine.XR.WSA"
+  },
+  "25": {
+    "name": "Physics2DRaycaster",
+    "class": "Physics2DRaycaster",
+    "assembly": "UnityEngine.UI.dll",
+    "namespace": "UnityEngine.EventSystems"
+  },
+  "26": {
+    "name": "Physics2DRaycaster",
+    "class": "Physics2DRaycaster",
+    "assembly": "UnityEngine.UI.dll",
+    "namespace": "UnityEngine.EventSystems"
+  },
+  "27": {
+    "name": "ControlPlayableAsset",
+    "class": "ControlPlayableAsset",
+    "assembly": "UnityEngine.Timeline.dll",
+    "namespace": "UnityEngine.Timeline"
+  },
+  "28": {
+    "name": "ControlPlayableAsset",
+    "class": "ControlPlayableAsset",
+    "assembly": "UnityEngine.Timeline.dll",
+    "namespace": "UnityEngine.Timeline"
+  },
+  "29": {
+    "name": "TMP_InputField",
+    "class": "TMP_InputField",
+    "assembly": "TextMeshPro-2017.3-Runtime.dll",
+    "namespace": "TMPro"
+  },
+  "30": {
+    "name": "TMP_InputField",
+    "class": "TMP_InputField",
+    "assembly": "TextMeshPro-2017.3-Runtime.dll",
+    "namespace": "TMPro"
+  },
+  "31": {
+    "name": "NetworkDiscovery",
+    "class": "NetworkDiscovery",
+    "assembly": "UnityEngine.Networking.dll",
+    "namespace": "UnityEngine.Networking"
+  },
+  "32": {
+    "name": "NetworkDiscovery",
+    "class": "NetworkDiscovery",
+    "assembly": "UnityEngine.Networking.dll",
+    "namespace": "UnityEngine.Networking"
+  },
+  "33": {
+    "name": "GroupTrack",
+    "class": "GroupTrack",
+    "assembly": "UnityEngine.Timeline.dll",
+    "namespace": "UnityEngine.Timeline"
+  },
+  "34": {
+    "name": "GroupTrack",
+    "class": "GroupTrack",
+    "assembly": "UnityEngine.Timeline.dll",
+    "namespace": "UnityEngine.Timeline"
+  },
+  "35": {
+    "name": "DropdownEditor",
+    "class": "DropdownEditor",
+    "assembly": "TextMeshPro-2017.3-Editor.dll",
+    "namespace": "TMPro.EditorUtilities"
+  },
+  "36": {
+    "name": "MaskableGraphic",
+    "class": "MaskableGraphic",
+    "assembly": "UnityEngine.UI.dll",
+    "namespace": "UnityEngine.UI"
+  },
+  "37": {
+    "name": "MaskableGraphic",
+    "class": "MaskableGraphic",
+    "assembly": "UnityEngine.UI.dll",
+    "namespace": "UnityEngine.UI"
+  },
+  "38": {
+    "name": "pb_Entity",
+    "class": "pb_Entity",
+    "assembly": "ProBuilderCore.dll",
+    "namespace": "ProBuilder.Core"
+  },
+  "39": {
+    "name": "GvrAudioSoundfieldExtension",
+    "class": "GvrAudioSoundfieldExtension",
+    "assembly": "UnityEngine.GoogleAudioSpatializer.dll",
+    "namespace": "UnityEngine.Experimental.Audio.Google"
+  },
+  "40": {
+    "name": "GvrAudioSoundfieldExtension",
+    "class": "GvrAudioSoundfieldExtension",
+    "assembly": "UnityEngine.GoogleAudioSpatializer.dll",
+    "namespace": "UnityEngine.Experimental.Audio.Google"
+  },
+  "41": {
+    "name": "TMP_ScrollbarEventHandler",
+    "class": "TMP_ScrollbarEventHandler",
+    "assembly": "TextMeshPro-2017.3-Runtime.dll",
+    "namespace": "TMPro"
+  },
+  "42": {
+    "name": "TMP_ScrollbarEventHandler",
+    "class": "TMP_ScrollbarEventHandler",
+    "assembly": "TextMeshPro-2017.3-Runtime.dll",
+    "namespace": "TMPro"
+  },
+  "43": {
+    "name": "BaseRaycaster",
+    "class": "BaseRaycaster",
+    "assembly": "UnityEngine.UI.dll",
+    "namespace": "UnityEngine.EventSystems"
+  },
+  "44": {
+    "name": "BaseRaycaster",
+    "class": "BaseRaycaster",
+    "assembly": "UnityEngine.UI.dll",
+    "namespace": "UnityEngine.EventSystems"
+  },
+  "45": {
+    "name": "TMP_Text",
+    "class": "TMP_Text",
+    "assembly": "TextMeshPro-2017.3-Runtime.dll",
+    "namespace": "TMPro"
+  },
+  "46": {
+    "name": "TMP_Text",
+    "class": "TMP_Text",
+    "assembly": "TextMeshPro-2017.3-Runtime.dll",
+    "namespace": "TMPro"
+  },
+  "47": {
+    "name": "NetworkBehaviour",
+    "class": "NetworkBehaviour",
+    "assembly": "UnityEngine.Networking.dll",
+    "namespace": "UnityEngine.Networking"
+  },
+  "48": {
+    "name": "NetworkBehaviour",
+    "class": "NetworkBehaviour",
+    "assembly": "UnityEngine.Networking.dll",
+    "namespace": "UnityEngine.Networking"
+  },
+  "49": {
+    "name": "NetworkTransformChild",
+    "class": "NetworkTransformChild",
+    "assembly": "UnityEngine.Networking.dll",
+    "namespace": "UnityEngine.Networking"
+  },
+  "50": {
+    "name": "NetworkTransformChild",
+    "class": "NetworkTransformChild",
+    "assembly": "UnityEngine.Networking.dll",
+    "namespace": "UnityEngine.Networking"
+  },
+  "51": {
+    "name": "TrackAsset",
+    "class": "TrackAsset",
+    "assembly": "UnityEngine.Timeline.dll",
+    "namespace": "UnityEngine.Timeline"
+  },
+  "52": {
+    "name": "TrackAsset",
+    "class": "TrackAsset",
+    "assembly": "UnityEngine.Timeline.dll",
+    "namespace": "UnityEngine.Timeline"
+  },
+  "53": {
+    "name": "AspectRatioFitter",
+    "class": "AspectRatioFitter",
+    "assembly": "UnityEngine.UI.dll",
+    "namespace": "UnityEngine.UI"
+  },
+  "54": {
+    "name": "AspectRatioFitter",
+    "class": "AspectRatioFitter",
+    "assembly": "UnityEngine.UI.dll",
+    "namespace": "UnityEngine.UI"
+  },
+  "55": {
+    "name": "PointerInputModule",
+    "class": "PointerInputModule",
+    "assembly": "UnityEngine.UI.dll",
+    "namespace": "UnityEngine.EventSystems"
+  },
+  "56": {
+    "name": "PointerInputModule",
+    "class": "PointerInputModule",
+    "assembly": "UnityEngine.UI.dll",
+    "namespace": "UnityEngine.EventSystems"
+  },
+  "57": {
+    "name": "Mask",
+    "class": "Mask",
+    "assembly": "UnityEngine.UI.dll",
+    "namespace": "UnityEngine.UI"
+  },
+  "58": {
+    "name": "Mask",
+    "class": "Mask",
+    "assembly": "UnityEngine.UI.dll",
+    "namespace": "UnityEngine.UI"
+  },
+  "59": {
+    "name": "ToggleGroup",
+    "class": "ToggleGroup",
+    "assembly": "UnityEngine.UI.dll",
+    "namespace": "UnityEngine.UI"
+  },
+  "60": {
+    "name": "ToggleGroup",
+    "class": "ToggleGroup",
+    "assembly": "UnityEngine.UI.dll",
+    "namespace": "UnityEngine.UI"
+  },
+  "61": {
+    "name": "TMP_EditorPanel",
+    "class": "TMP_EditorPanel",
+    "assembly": "TextMeshPro-2017.3-Editor.dll",
+    "namespace": "TMPro.EditorUtilities"
+  },
+  "62": {
+    "name": "ControlTrack",
+    "class": "ControlTrack",
+    "assembly": "UnityEngine.Timeline.dll",
+    "namespace": "UnityEngine.Timeline"
+  },
+  "63": {
+    "name": "ControlTrack",
+    "class": "ControlTrack",
+    "assembly": "UnityEngine.Timeline.dll",
+    "namespace": "UnityEngine.Timeline"
+  },
+  "64": {
+    "name": "TMP_ColorGradientEditor",
+    "class": "TMP_ColorGradientEditor",
+    "assembly": "TextMeshPro-2017.3-Editor.dll",
+    "namespace": "TMPro.EditorUtilities"
+  },
+  "65": {
+    "name": "NetworkStartPosition",
+    "class": "NetworkStartPosition",
+    "assembly": "UnityEngine.Networking.dll",
+    "namespace": "UnityEngine.Networking"
+  },
+  "66": {
+    "name": "NetworkStartPosition",
+    "class": "NetworkStartPosition",
+    "assembly": "UnityEngine.Networking.dll",
+    "namespace": "UnityEngine.Networking"
+  },
+  "67": {
+    "name": "RemoteTestResultSender",
+    "class": "RemoteTestResultSender",
+    "assembly": "UnityEngine.TestRunner.dll",
+    "namespace": "UnityEngine.TestTools.TestRunner.Callbacks"
+  },
+  "68": {
+    "name": "TMP_StyleEditor",
+    "class": "TMP_StyleEditor",
+    "assembly": "TextMeshPro-2017.3-Editor.dll",
+    "namespace": "TMPro.EditorUtilities"
+  },
+  "69": {
+    "name": "TMP_SpriteAnimator",
+    "class": "TMP_SpriteAnimator",
+    "assembly": "TextMeshPro-2017.3-Runtime.dll",
+    "namespace": "TMPro"
+  },
+  "70": {
+    "name": "TMP_SpriteAnimator",
+    "class": "TMP_SpriteAnimator",
+    "assembly": "TextMeshPro-2017.3-Runtime.dll",
+    "namespace": "TMPro"
+  },
+  "71": {
+    "name": "TMPro_SDFMaterialEditor",
+    "class": "TMPro_SDFMaterialEditor",
+    "assembly": "TextMeshPro-2017.3-Editor.dll",
+    "namespace": ""
+  },
+  "72": {
+    "name": "Outline",
+    "class": "Outline",
+    "assembly": "UnityEngine.UI.dll",
+    "namespace": "UnityEngine.UI"
+  },
+  "73": {
+    "name": "Outline",
+    "class": "Outline",
+    "assembly": "UnityEngine.UI.dll",
+    "namespace": "UnityEngine.UI"
+  },
+  "74": {
+    "name": "GvrAudioSourceExtension",
+    "class": "GvrAudioSourceExtension",
+    "assembly": "UnityEngine.GoogleAudioSpatializer.dll",
+    "namespace": "UnityEngine.Experimental.Audio.Google"
+  },
+  "75": {
+    "name": "GvrAudioSourceExtension",
+    "class": "GvrAudioSourceExtension",
+    "assembly": "UnityEngine.GoogleAudioSpatializer.dll",
+    "namespace": "UnityEngine.Experimental.Audio.Google"
+  },
+  "76": {
+    "name": "NetworkLobbyManager",
+    "class": "NetworkLobbyManager",
+    "assembly": "UnityEngine.Networking.dll",
+    "namespace": "UnityEngine.Networking"
+  },
+  "77": {
+    "name": "NetworkLobbyManager",
+    "class": "NetworkLobbyManager",
+    "assembly": "UnityEngine.Networking.dll",
+    "namespace": "UnityEngine.Networking"
+  },
+  "78": {
+    "name": "pb_BezierShape",
+    "class": "pb_BezierShape",
+    "assembly": "ProBuilderCore.dll",
+    "namespace": "ProBuilder.Core"
+  },
+  "79": {
+    "name": "GvrAudioRoom",
+    "class": "GvrAudioRoom",
+    "assembly": "UnityEngine.GoogleAudioSpatializer.dll",
+    "namespace": "UnityEngine.Experimental.Audio.Google"
+  },
+  "80": {
+    "name": "GvrAudioRoom",
+    "class": "GvrAudioRoom",
+    "assembly": "UnityEngine.GoogleAudioSpatializer.dll",
+    "namespace": "UnityEngine.Experimental.Audio.Google"
+  },
+  "81": {
+    "name": "NetworkTransformVisualizer",
+    "class": "NetworkTransformVisualizer",
+    "assembly": "UnityEngine.Networking.dll",
+    "namespace": "UnityEngine.Networking"
+  },
+  "82": {
+    "name": "NetworkTransformVisualizer",
+    "class": "NetworkTransformVisualizer",
+    "assembly": "UnityEngine.Networking.dll",
+    "namespace": "UnityEngine.Networking"
+  },
+  "83": {
+    "name": "NetworkManager",
+    "class": "NetworkManager",
+    "assembly": "UnityEngine.Networking.dll",
+    "namespace": "UnityEngine.Networking"
+  },
+  "84": {
+    "name": "NetworkManager",
+    "class": "NetworkManager",
+    "assembly": "UnityEngine.Networking.dll",
+    "namespace": "UnityEngine.Networking"
+  },
+  "85": {
+    "name": "TextMeshPro",
+    "class": "TextMeshPro",
+    "assembly": "TextMeshPro-2017.3-Runtime.dll",
+    "namespace": "TMPro"
+  },
+  "86": {
+    "name": "TextMeshPro",
+    "class": "TextMeshPro",
+    "assembly": "TextMeshPro-2017.3-Runtime.dll",
+    "namespace": "TMPro"
+  },
+  "87": {
+    "name": "PhysicsRaycaster",
+    "class": "PhysicsRaycaster",
+    "assembly": "UnityEngine.UI.dll",
+    "namespace": "UnityEngine.EventSystems"
+  },
+  "88": {
+    "name": "PhysicsRaycaster",
+    "class": "PhysicsRaycaster",
+    "assembly": "UnityEngine.UI.dll",
+    "namespace": "UnityEngine.EventSystems"
+  },
+  "89": {
+    "name": "Image",
+    "class": "Image",
+    "assembly": "UnityEngine.UI.dll",
+    "namespace": "UnityEngine.UI"
+  },
+  "90": {
+    "name": "Image",
+    "class": "Image",
+    "assembly": "UnityEngine.UI.dll",
+    "namespace": "UnityEngine.UI"
+  },
+  "91": {
+    "name": "AnalyticsEventTracker",
+    "class": "AnalyticsEventTracker",
+    "assembly": "UnityEngine.Analytics.dll",
+    "namespace": "UnityEngine.Analytics"
+  },
+  "92": {
+    "name": "TMP_FontAsset",
+    "class": "TMP_FontAsset",
+    "assembly": "TextMeshPro-2017.3-Runtime.dll",
+    "namespace": "TMPro"
+  },
+  "93": {
+    "name": "TMP_FontAsset",
+    "class": "TMP_FontAsset",
+    "assembly": "TextMeshPro-2017.3-Runtime.dll",
+    "namespace": "TMPro"
+  },
+  "94": {
+    "name": "TMP_Asset",
+    "class": "TMP_Asset",
+    "assembly": "TextMeshPro-2017.3-Runtime.dll",
+    "namespace": "TMPro"
+  },
+  "95": {
+    "name": "TMP_Asset",
+    "class": "TMP_Asset",
+    "assembly": "TextMeshPro-2017.3-Runtime.dll",
+    "namespace": "TMPro"
+  },
+  "96": {
+    "name": "BasicPlayableBehaviour",
+    "class": "BasicPlayableBehaviour",
+    "assembly": "UnityEngine.Timeline.dll",
+    "namespace": "UnityEngine.Timeline"
+  },
+  "97": {
+    "name": "BasicPlayableBehaviour",
+    "class": "BasicPlayableBehaviour",
+    "assembly": "UnityEngine.Timeline.dll",
+    "namespace": "UnityEngine.Timeline"
+  },
+  "98": {
+    "name": "EventSystem",
+    "class": "EventSystem",
+    "assembly": "UnityEngine.UI.dll",
+    "namespace": "UnityEngine.EventSystems"
+  },
+  "99": {
+    "name": "EventSystem",
+    "class": "EventSystem",
+    "assembly": "UnityEngine.UI.dll",
+    "namespace": "UnityEngine.EventSystems"
+  },
+  "100": {
+    "name": "SpatialMappingRenderer",
+    "class": "SpatialMappingRenderer",
+    "assembly": "UnityEngine.HoloLens.dll",
+    "namespace": "UnityEngine.XR.WSA"
+  },
+  "101": {
+    "name": "SpatialMappingRenderer",
+    "class": "SpatialMappingRenderer",
+    "assembly": "UnityEngine.HoloLens.dll",
+    "namespace": "UnityEngine.XR.WSA"
+  },
+  "102": {
+    "name": "TMP_SubMeshUI_Editor",
+    "class": "TMP_SubMeshUI_Editor",
+    "assembly": "TextMeshPro-2017.3-Editor.dll",
+    "namespace": "TMPro.EditorUtilities"
+  },
+  "103": {
+    "name": "LayoutGroup",
+    "class": "LayoutGroup",
+    "assembly": "UnityEngine.UI.dll",
+    "namespace": "UnityEngine.UI"
+  },
+  "104": {
+    "name": "LayoutGroup",
+    "class": "LayoutGroup",
+    "assembly": "UnityEngine.UI.dll",
+    "namespace": "UnityEngine.UI"
+  },
+  "105": {
+    "name": "HorizontalLayoutGroup",
+    "class": "HorizontalLayoutGroup",
+    "assembly": "UnityEngine.UI.dll",
+    "namespace": "UnityEngine.UI"
+  },
+  "106": {
+    "name": "HorizontalLayoutGroup",
+    "class": "HorizontalLayoutGroup",
+    "assembly": "UnityEngine.UI.dll",
+    "namespace": "UnityEngine.UI"
+  },
+  "107": {
+    "name": "pb_ColorPalette",
+    "class": "pb_ColorPalette",
+    "assembly": "ProBuilderCore.dll",
+    "namespace": "ProBuilder.Core"
+  },
+  "108": {
+    "name": "TMP_Settings",
+    "class": "TMP_Settings",
+    "assembly": "TextMeshPro-2017.3-Runtime.dll",
+    "namespace": "TMPro"
+  },
+  "109": {
+    "name": "TMP_Settings",
+    "class": "TMP_Settings",
+    "assembly": "TextMeshPro-2017.3-Runtime.dll",
+    "namespace": "TMPro"
+  },
+  "110": {
+    "name": "TMP_SettingsEditor",
+    "class": "TMP_SettingsEditor",
+    "assembly": "TextMeshPro-2017.3-Editor.dll",
+    "namespace": "TMPro.EditorUtilities"
+  },
+  "111": {
+    "name": "TMP_UiEditorPanel",
+    "class": "TMP_UiEditorPanel",
+    "assembly": "TextMeshPro-2017.3-Editor.dll",
+    "namespace": "TMPro.EditorUtilities"
+  },
+  "112": {
+    "name": "Selectable",
+    "class": "Selectable",
+    "assembly": "UnityEngine.UI.dll",
+    "namespace": "UnityEngine.UI"
+  },
+  "113": {
+    "name": "Selectable",
+    "class": "Selectable",
+    "assembly": "UnityEngine.UI.dll",
+    "namespace": "UnityEngine.UI"
+  },
+  "114": {
+    "name": "RectMask2D",
+    "class": "RectMask2D",
+    "assembly": "UnityEngine.UI.dll",
+    "namespace": "UnityEngine.UI"
+  },
+  "115": {
+    "name": "RectMask2D",
+    "class": "RectMask2D",
+    "assembly": "UnityEngine.UI.dll",
+    "namespace": "UnityEngine.UI"
+  },
+  "116": {
+    "name": "pb_ColliderBehaviour",
+    "class": "pb_ColliderBehaviour",
+    "assembly": "ProBuilderCore.dll",
+    "namespace": "ProBuilder.Core"
+  },
+  "117": {
+    "name": "Slider",
+    "class": "Slider",
+    "assembly": "UnityEngine.UI.dll",
+    "namespace": "UnityEngine.UI"
+  },
+  "118": {
+    "name": "Slider",
+    "class": "Slider",
+    "assembly": "UnityEngine.UI.dll",
+    "namespace": "UnityEngine.UI"
+  },
+  "119": {
+    "name": "RawImage",
+    "class": "RawImage",
+    "assembly": "UnityEngine.UI.dll",
+    "namespace": "UnityEngine.UI"
+  },
+  "120": {
+    "name": "RawImage",
+    "class": "RawImage",
+    "assembly": "UnityEngine.UI.dll",
+    "namespace": "UnityEngine.UI"
+  },
+  "121": {
+    "name": "pb_MonoBehaviourSingleton`1",
+    "class": "pb_MonoBehaviourSingleton`1",
+    "assembly": "ProBuilderCore.dll",
+    "namespace": "ProBuilder.Core"
+  },
+  "122": {
+    "name": "pb_Renderable",
+    "class": "pb_Renderable",
+    "assembly": "ProBuilderCore.dll",
+    "namespace": "ProBuilder.Core"
+  },
+  "123": {
+    "name": "LevelManager",
+    "class": "LevelManager",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": ""
+  },
+  "124": {
+    "name": "EnemyShieldManager",
+    "class": "EnemyShieldManager",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": ""
+  },
+  "125": {
+    "name": "BulletController",
+    "class": "BulletController",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": ""
+  },
+  "126": {
+    "name": "CameraDetachment",
+    "class": "CameraDetachment",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": ""
+  },
+  "127": {
+    "name": "ColumnTrapController",
+    "class": "ColumnTrapController",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": ""
+  },
+  "128": {
+    "name": "PlayerHUDManager",
+    "class": "PlayerHUDManager",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": ""
+  },
+  "129": {
+    "name": "ForwardToTarget",
+    "class": "ForwardToTarget",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": ""
+  },
+  "130": {
+    "name": "TMP_DigitValidator",
+    "class": "TMP_DigitValidator",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": "TMPro"
+  },
+  "131": {
+    "name": "AudioManager",
+    "class": "AudioManager",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": ""
+  },
+  "132": {
+    "name": "EnemyShipController",
+    "class": "EnemyShipController",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": ""
+  },
+  "133": {
+    "name": "RailMover",
+    "class": "RailMover",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": ""
+  },
+  "134": {
+    "name": "SpawnOnTrigger",
+    "class": "SpawnOnTrigger",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": ""
+  },
+  "135": {
+    "name": "SelectOnInput",
+    "class": "SelectOnInput",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": ""
+  },
+  "136": {
+    "name": "VertexShakeB",
+    "class": "VertexShakeB",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": "TMPro.Examples"
+  },
+  "137": {
+    "name": "Benchmark02",
+    "class": "Benchmark02",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": "TMPro.Examples"
+  },
+  "138": {
+    "name": "TMP_ExampleScript_01",
+    "class": "TMP_ExampleScript_01",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": "TMPro.Examples"
+  },
+  "139": {
+    "name": "PlayerShieldManager",
+    "class": "PlayerShieldManager",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": ""
+  },
+  "140": {
+    "name": "ObstacleController",
+    "class": "ObstacleController",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": ""
+  },
+  "141": {
+    "name": "TextMeshSpawner",
+    "class": "TextMeshSpawner",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": "TMPro.Examples"
+  },
+  "142": {
+    "name": "FreezeRotation",
+    "class": "FreezeRotation",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": ""
+  },
+  "143": {
+    "name": "TankController",
+    "class": "TankController",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": ""
+  },
+  "144": {
+    "name": "LookAtPlayer",
+    "class": "LookAtPlayer",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": ""
+  },
+  "145": {
+    "name": "TextConsoleSimulator",
+    "class": "TextConsoleSimulator",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": "TMPro.Examples"
+  },
+  "146": {
+    "name": "Benchmark04",
+    "class": "Benchmark04",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": "TMPro.Examples"
+  },
+  "147": {
+    "name": "TMP_TextEventHandler",
+    "class": "TMP_TextEventHandler",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": "TMPro"
+  },
+  "148": {
+    "name": "SkewTextExample",
+    "class": "SkewTextExample",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": "TMPro.Examples"
+  },
+  "149": {
+    "name": "MainMenu",
+    "class": "MainMenu",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": ""
+  },
+  "150": {
+    "name": "WinScreen",
+    "class": "WinScreen",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": ""
+  },
+  "151": {
+    "name": "PlayerLimitManager",
+    "class": "PlayerLimitManager",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": ""
+  },
+  "152": {
+    "name": "VertexZoom",
+    "class": "VertexZoom",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": "TMPro.Examples"
+  },
+  "153": {
+    "name": "TMPro_InstructionOverlay",
+    "class": "TMPro_InstructionOverlay",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": "TMPro.Examples"
+  },
+  "154": {
+    "name": "Rail",
+    "class": "Rail",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": ""
+  },
+  "155": {
+    "name": "DestroyOnCollisionExit",
+    "class": "DestroyOnCollisionExit",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": ""
+  },
+  "156": {
+    "name": "FlickColorController",
+    "class": "FlickColorController",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": ""
+  },
+  "157": {
+    "name": "Benchmark01_UGUI",
+    "class": "Benchmark01_UGUI",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": "TMPro.Examples"
+  },
+  "158": {
+    "name": "ObjectSpin",
+    "class": "ObjectSpin",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": "TMPro.Examples"
+  },
+  "159": {
+    "name": "TMP_TextInfoDebugTool",
+    "class": "TMP_TextInfoDebugTool",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": "TMPro.Examples"
+  },
+  "160": {
+    "name": "PauseMenu",
+    "class": "PauseMenu",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": ""
+  },
+  "161": {
+    "name": "TMP_TextSelector_A",
+    "class": "TMP_TextSelector_A",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": "TMPro.Examples"
+  },
+  "162": {
+    "name": "ShowBuildVersion",
+    "class": "ShowBuildVersion",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": ""
+  },
+  "163": {
+    "name": "ScaleOverTime",
+    "class": "ScaleOverTime",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": ""
+  },
+  "164": {
+    "name": "MoveForward",
+    "class": "MoveForward",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": ""
+  },
+  "165": {
+    "name": "CameraController",
+    "class": "CameraController",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": ""
+  },
+  "166": {
+    "name": "BossModuleHealthManager",
+    "class": "BossModuleHealthManager",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": ""
+  },
+  "167": {
+    "name": "EnvMapAnimator",
+    "class": "EnvMapAnimator",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": ""
+  },
+  "168": {
+    "name": "RecoverShieldOnTriggerEnter",
+    "class": "RecoverShieldOnTriggerEnter",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": ""
+  },
+  "169": {
+    "name": "TMP_PhoneNumberValidator",
+    "class": "TMP_PhoneNumberValidator",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": "TMPro"
+  },
+  "170": {
+    "name": "PlayerGunController",
+    "class": "PlayerGunController",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": ""
+  },
+  "171": {
+    "name": "GameManager",
+    "class": "GameManager",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": ""
+  },
+  "172": {
+    "name": "ShipController",
+    "class": "ShipController",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": ""
+  },
+  "173": {
+    "name": "CreditsScreen",
+    "class": "CreditsScreen",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": ""
+  },
+  "174": {
+    "name": "ObstacleShieldManager",
+    "class": "ObstacleShieldManager",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": ""
+  },
+  "175": {
+    "name": "ShieldRecoverObjController",
+    "class": "ShieldRecoverObjController",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": ""
+  },
+  "176": {
+    "name": "TeleType",
+    "class": "TeleType",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": "TMPro.Examples"
+  },
+  "177": {
+    "name": "PowerUpController",
+    "class": "PowerUpController",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": ""
+  },
+  "178": {
+    "name": "KeepRotating",
+    "class": "KeepRotating",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": ""
+  },
+  "179": {
+    "name": "CameraController",
+    "class": "CameraController",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": "TMPro.Examples"
+  },
+  "180": {
+    "name": "ScrollRectEnsureVisible",
+    "class": "ScrollRectEnsureVisible",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": ""
+  },
+  "181": {
+    "name": "Sector",
+    "class": "Sector",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": ""
+  },
+  "182": {
+    "name": "ShieldManager",
+    "class": "ShieldManager",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": ""
+  },
+  "183": {
+    "name": "SeekingBullet",
+    "class": "SeekingBullet",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": ""
+  },
+  "184": {
+    "name": "BarrelRollController",
+    "class": "BarrelRollController",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": ""
+  },
+  "185": {
+    "name": "BonusObjController",
+    "class": "BonusObjController",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": ""
+  },
+  "186": {
+    "name": "TMP_TextEventCheck",
+    "class": "TMP_TextEventCheck",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": "TMPro.Examples"
+  },
+  "187": {
+    "name": "TMP_FrameRateCounter",
+    "class": "TMP_FrameRateCounter",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": "TMPro.Examples"
+  },
+  "188": {
+    "name": "ShaderPropAnimator",
+    "class": "ShaderPropAnimator",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": "TMPro.Examples"
+  },
+  "189": {
+    "name": "Benchmark01",
+    "class": "Benchmark01",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": "TMPro.Examples"
+  },
+  "190": {
+    "name": "SimpleScript",
+    "class": "SimpleScript",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": "TMPro.Examples"
+  },
+  "191": {
+    "name": "VertexColorCycler",
+    "class": "VertexColorCycler",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": "TMPro.Examples"
+  },
+  "192": {
+    "name": "BossController",
+    "class": "BossController",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": ""
+  },
+  "193": {
+    "name": "TurretController",
+    "class": "TurretController",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": ""
+  },
+  "194": {
+    "name": "TMP_UiFrameRateCounter",
+    "class": "TMP_UiFrameRateCounter",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": "TMPro.Examples"
+  },
+  "195": {
+    "name": "TextMeshProFloatingText",
+    "class": "TextMeshProFloatingText",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": "TMPro.Examples"
+  },
+  "196": {
+    "name": "BossShieldManager",
+    "class": "BossShieldManager",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": ""
+  },
+  "197": {
+    "name": "OptionsMenu",
+    "class": "OptionsMenu",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": ""
+  },
+  "198": {
+    "name": "VertexJitter",
+    "class": "VertexJitter",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": "TMPro.Examples"
+  },
+  "199": {
+    "name": "WheelController",
+    "class": "WheelController",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": ""
+  },
+  "200": {
+    "name": "Benchmark03",
+    "class": "Benchmark03",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": "TMPro.Examples"
+  },
+  "201": {
+    "name": "VertexShakeA",
+    "class": "VertexShakeA",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": "TMPro.Examples"
+  },
+  "202": {
+    "name": "ChatController",
+    "class": "ChatController",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": ""
+  },
+  "203": {
+    "name": "MineController",
+    "class": "MineController",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": ""
+  },
+  "204": {
+    "name": "WarpTextExample",
+    "class": "WarpTextExample",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": "TMPro.Examples"
+  },
+  "205": {
+    "name": "TMP_TextSelector_B",
+    "class": "TMP_TextSelector_B",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": "TMPro.Examples"
+  },
+  "206": {
+    "name": "ExtraLifeObjController",
+    "class": "ExtraLifeObjController",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": ""
+  },
+  "207": {
+    "name": "AddToScoreOnTriggerEnter",
+    "class": "AddToScoreOnTriggerEnter",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": ""
+  },
+  "208": {
+    "name": "EnemyController",
+    "class": "EnemyController",
+    "assembly": "Assembly-CSharp.dll",
+    "namespace": ""
+  },
+  "209": {
+    "name": "ActivationTrack",
+    "class": "ActivationTrack",
+    "assembly": "UnityEngine.Timeline.dll",
+    "namespace": "UnityEngine.Timeline"
+  },
+  "210": {
+    "name": "ActivationTrack",
+    "class": "ActivationTrack",
+    "assembly": "UnityEngine.Timeline.dll",
+    "namespace": "UnityEngine.Timeline"
+  },
+  "211": {
+    "name": "AnalyticsTracker",
+    "class": "AnalyticsTracker",
+    "assembly": "UnityEngine.Analytics.dll",
+    "namespace": "UnityEngine.Analytics"
+  },
+  "212": {
+    "name": "NetworkManagerHUD",
+    "class": "NetworkManagerHUD",
+    "assembly": "UnityEngine.Networking.dll",
+    "namespace": "UnityEngine.Networking"
+  },
+  "213": {
+    "name": "NetworkManagerHUD",
+    "class": "NetworkManagerHUD",
+    "assembly": "UnityEngine.Networking.dll",
+    "namespace": "UnityEngine.Networking"
+  },
+  "214": {
+    "name": "pb_Object",
+    "class": "pb_Object",
+    "assembly": "ProBuilderCore.dll",
+    "namespace": "ProBuilder.Core"
+  },
+  "215": {
+    "name": "NetworkLobbyPlayer",
+    "class": "NetworkLobbyPlayer",
+    "assembly": "UnityEngine.Networking.dll",
+    "namespace": "UnityEngine.Networking"
+  },
+  "216": {
+    "name": "NetworkLobbyPlayer",
+    "class": "NetworkLobbyPlayer",
+    "assembly": "UnityEngine.Networking.dll",
+    "namespace": "UnityEngine.Networking"
+  },
+  "217": {
+    "name": "SpatialMappingCollider",
+    "class": "SpatialMappingCollider",
+    "assembly": "UnityEngine.HoloLens.dll",
+    "namespace": "UnityEngine.XR.WSA"
+  },
+  "218": {
+    "name": "SpatialMappingCollider",
+    "class": "SpatialMappingCollider",
+    "assembly": "UnityEngine.HoloLens.dll",
+    "namespace": "UnityEngine.XR.WSA"
+  },
+  "219": {
+    "name": "TextContainer",
+    "class": "TextContainer",
+    "assembly": "TextMeshPro-2017.3-Runtime.dll",
+    "namespace": "TMPro"
+  },
+  "220": {
+    "name": "TextContainer",
+    "class": "TextContainer",
+    "assembly": "TextMeshPro-2017.3-Runtime.dll",
+    "namespace": "TMPro"
+  },
+  "221": {
+    "name": "TimelineAsset",
+    "class": "TimelineAsset",
+    "assembly": "UnityEngine.Timeline.dll",
+    "namespace": "UnityEngine.Timeline"
+  },
+  "222": {
+    "name": "TimelineAsset",
+    "class": "TimelineAsset",
+    "assembly": "UnityEngine.Timeline.dll",
+    "namespace": "UnityEngine.Timeline"
+  },
+  "223": {
+    "name": "NetworkIdentity",
+    "class": "NetworkIdentity",
+    "assembly": "UnityEngine.Networking.dll",
+    "namespace": "UnityEngine.Networking"
+  },
+  "224": {
+    "name": "NetworkIdentity",
+    "class": "NetworkIdentity",
+    "assembly": "UnityEngine.Networking.dll",
+    "namespace": "UnityEngine.Networking"
+  },
+  "225": {
+    "name": "Graphic",
+    "class": "Graphic",
+    "assembly": "UnityEngine.UI.dll",
+    "namespace": "UnityEngine.UI"
+  },
+  "226": {
+    "name": "Graphic",
+    "class": "Graphic",
+    "assembly": "UnityEngine.UI.dll",
+    "namespace": "UnityEngine.UI"
+  },
+  "227": {
+    "name": "ActivationPlayableAsset",
+    "class": "ActivationPlayableAsset",
+    "assembly": "UnityEngine.Timeline.dll",
+    "namespace": "UnityEngine.Timeline"
+  },
+  "228": {
+    "name": "ActivationPlayableAsset",
+    "class": "ActivationPlayableAsset",
+    "assembly": "UnityEngine.Timeline.dll",
+    "namespace": "UnityEngine.Timeline"
+  },
+  "229": {
+    "name": "UIBehaviour",
+    "class": "UIBehaviour",
+    "assembly": "UnityEngine.UI.dll",
+    "namespace": "UnityEngine.EventSystems"
+  },
+  "230": {
+    "name": "UIBehaviour",
+    "class": "UIBehaviour",
+    "assembly": "UnityEngine.UI.dll",
+    "namespace": "UnityEngine.EventSystems"
+  },
+  "231": {
+    "name": "TMP_SubMesh_Editor",
+    "class": "TMP_SubMesh_Editor",
+    "assembly": "TextMeshPro-2017.3-Editor.dll",
+    "namespace": "TMPro.EditorUtilities"
+  },
+  "232": {
+    "name": "InputField",
+    "class": "InputField",
+    "assembly": "UnityEngine.UI.dll",
+    "namespace": "UnityEngine.UI"
+  },
+  "233": {
+    "name": "InputField",
+    "class": "InputField",
+    "assembly": "UnityEngine.UI.dll",
+    "namespace": "UnityEngine.UI"
+  },
+  "234": {
+    "name": "pb_PreferenceDictionary",
+    "class": "pb_PreferenceDictionary",
+    "assembly": "ProBuilderCore.dll",
+    "namespace": "ProBuilder.Core"
+  },
+  "235": {
+    "name": "Text",
+    "class": "Text",
+    "assembly": "UnityEngine.UI.dll",
+    "namespace": "UnityEngine.UI"
+  },
+  "236": {
+    "name": "Text",
+    "class": "Text",
+    "assembly": "UnityEngine.UI.dll",
+    "namespace": "UnityEngine.UI"
+  },
+  "237": {
+    "name": "HorizontalOrVerticalLayoutGroup",
+    "class": "HorizontalOrVerticalLayoutGroup",
+    "assembly": "UnityEngine.UI.dll",
+    "namespace": "UnityEngine.UI"
+  },
+  "238": {
+    "name": "HorizontalOrVerticalLayoutGroup",
+    "class": "HorizontalOrVerticalLayoutGroup",
+    "assembly": "UnityEngine.UI.dll",
+    "namespace": "UnityEngine.UI"
+  },
+  "239": {
+    "name": "pb_PolyShape",
+    "class": "pb_PolyShape",
+    "assembly": "ProBuilderCore.dll",
+    "namespace": "ProBuilder.Core"
+  },
+  "240": {
+    "name": "Dropdown",
+    "class": "Dropdown",
+    "assembly": "UnityEngine.UI.dll",
+    "namespace": "UnityEngine.UI"
+  },
+  "241": {
+    "name": "Dropdown",
+    "class": "Dropdown",
+    "assembly": "UnityEngine.UI.dll",
+    "namespace": "UnityEngine.UI"
+  },
+  "242": {
+    "name": "HoloLensInputModule",
+    "class": "HoloLensInputModule",
+    "assembly": "UnityEngine.HoloLens.dll",
+    "namespace": "UnityEngine.EventSystems"
+  },
+  "243": {
+    "name": "HoloLensInputModule",
+    "class": "HoloLensInputModule",
+    "assembly": "UnityEngine.HoloLens.dll",
+    "namespace": "UnityEngine.EventSystems"
+  },
+  "244": {
+    "name": "TMPro_FontAssetCreatorWindow",
+    "class": "TMPro_FontAssetCreatorWindow",
+    "assembly": "TextMeshPro-2017.3-Editor.dll",
+    "namespace": "TMPro.EditorUtilities"
+  },
+  "245": {
+    "name": "AudioSpatializerMicrosoft",
+    "class": "AudioSpatializerMicrosoft",
+    "assembly": "UnityEngine.HoloLens.dll",
+    "namespace": "UnityEngine.Audio"
+  },
+  "246": {
+    "name": "AudioSpatializerMicrosoft",
+    "class": "AudioSpatializerMicrosoft",
+    "assembly": "UnityEngine.HoloLens.dll",
+    "namespace": "UnityEngine.Audio"
+  },
+  "247": {
+    "name": "pb_EntityBehaviour",
+    "class": "pb_EntityBehaviour",
+    "assembly": "ProBuilderCore.dll",
+    "namespace": "ProBuilder.Core"
+  },
+  "248": {
+    "name": "StandaloneInputModule",
+    "class": "StandaloneInputModule",
+    "assembly": "UnityEngine.UI.dll",
+    "namespace": "UnityEngine.EventSystems"
+  },
+  "249": {
+    "name": "StandaloneInputModule",
+    "class": "StandaloneInputModule",
+    "assembly": "UnityEngine.UI.dll",
+    "namespace": "UnityEngine.EventSystems"
+  },
+  "250": {
+    "name": "TMP_Dropdown",
+    "class": "TMP_Dropdown",
+    "assembly": "TextMeshPro-2017.3-Runtime.dll",
+    "namespace": "TMPro"
+  },
+  "251": {
+    "name": "TMP_Dropdown",
+    "class": "TMP_Dropdown",
+    "assembly": "TextMeshPro-2017.3-Runtime.dll",
+    "namespace": "TMPro"
+  },
+  "252": {
+    "name": "NetworkMigrationManager",
+    "class": "NetworkMigrationManager",
+    "assembly": "UnityEngine.Networking.dll",
+    "namespace": "UnityEngine.Networking"
+  },
+  "253": {
+    "name": "NetworkMigrationManager",
+    "class": "NetworkMigrationManager",
+    "assembly": "UnityEngine.Networking.dll",
+    "namespace": "UnityEngine.Networking"
+  },
+  "254": {
+    "name": "TMP_FontAssetEditor",
+    "class": "TMP_FontAssetEditor",
+    "assembly": "TextMeshPro-2017.3-Editor.dll",
+    "namespace": "TMPro.EditorUtilities"
+  },
+  "255": {
+    "name": "NetworkProximityChecker",
+    "class": "NetworkProximityChecker",
+    "assembly": "UnityEngine.Networking.dll",
+    "namespace": "UnityEngine.Networking"
+  },
+  "256": {
+    "name": "NetworkProximityChecker",
+    "class": "NetworkProximityChecker",
+    "assembly": "UnityEngine.Networking.dll",
+    "namespace": "UnityEngine.Networking"
+  },
+  "257": {
+    "name": "TMP_SpriteAssetEditor",
+    "class": "TMP_SpriteAssetEditor",
+    "assembly": "TextMeshPro-2017.3-Editor.dll",
+    "namespace": "TMPro.EditorUtilities"
+  },
+  "258": {
+    "name": "VerticalLayoutGroup",
+    "class": "VerticalLayoutGroup",
+    "assembly": "UnityEngine.UI.dll",
+    "namespace": "UnityEngine.UI"
+  },
+  "259": {
+    "name": "VerticalLayoutGroup",
+    "class": "VerticalLayoutGroup",
+    "assembly": "UnityEngine.UI.dll",
+    "namespace": "UnityEngine.UI"
+  },
+  "260": {
+    "name": "GraphicRaycaster",
+    "class": "GraphicRaycaster",
+    "assembly": "UnityEngine.UI.dll",
+    "namespace": "UnityEngine.UI"
+  },
+  "261": {
+    "name": "GraphicRaycaster",
+    "class": "GraphicRaycaster",
+    "assembly": "UnityEngine.UI.dll",
+    "namespace": "UnityEngine.UI"
+  },
+  "262": {
+    "name": "BaseInput",
+    "class": "BaseInput",
+    "assembly": "UnityEngine.UI.dll",
+    "namespace": "UnityEngine.EventSystems"
+  },
+  "263": {
+    "name": "BaseInput",
+    "class": "BaseInput",
+    "assembly": "UnityEngine.UI.dll",
+    "namespace": "UnityEngine.EventSystems"
+  },
+  "264": {
+    "name": "TMP_SubMesh",
+    "class": "TMP_SubMesh",
+    "assembly": "TextMeshPro-2017.3-Runtime.dll",
+    "namespace": "TMPro"
+  },
+  "265": {
+    "name": "TMP_SubMesh",
+    "class": "TMP_SubMesh",
+    "assembly": "TextMeshPro-2017.3-Runtime.dll",
+    "namespace": "TMPro"
+  },
+  "266": {
+    "name": "ScrollRect",
+    "class": "ScrollRect",
+    "assembly": "UnityEngine.UI.dll",
+    "namespace": "UnityEngine.UI"
+  },
+  "267": {
+    "name": "ScrollRect",
+    "class": "ScrollRect",
+    "assembly": "UnityEngine.UI.dll",
+    "namespace": "UnityEngine.UI"
+  },
+  "268": {
+    "name": "Button",
+    "class": "Button",
+    "assembly": "UnityEngine.UI.dll",
+    "namespace": "UnityEngine.UI"
+  },
+  "269": {
+    "name": "Button",
+    "class": "Button",
+    "assembly": "UnityEngine.UI.dll",
+    "namespace": "UnityEngine.UI"
+  },
+  "270": {
+    "name": "TMP_SelectionCaret",
+    "class": "TMP_SelectionCaret",
+    "assembly": "TextMeshPro-2017.3-Runtime.dll",
+    "namespace": "TMPro"
+  },
+  "271": {
+    "name": "TMP_SelectionCaret",
+    "class": "TMP_SelectionCaret",
+    "assembly": "TextMeshPro-2017.3-Runtime.dll",
+    "namespace": "TMPro"
+  },
+  "272": {
+    "name": "CallbackExecutor",
+    "class": "CallbackExecutor",
+    "assembly": "UnityEngine.Advertisements.dll",
+    "namespace": "UnityEngine.Advertisements"
+  },
+  "273": {
+    "name": "pb_LineRenderer",
+    "class": "pb_LineRenderer",
+    "assembly": "ProBuilderCore.dll",
+    "namespace": "ProBuilder.Core"
+  },
+  "274": {
+    "name": "TextMeshProUGUI",
+    "class": "TextMeshProUGUI",
+    "assembly": "TextMeshPro-2017.3-Runtime.dll",
+    "namespace": "TMPro"
+  },
+  "275": {
+    "name": "TextMeshProUGUI",
+    "class": "TextMeshProUGUI",
+    "assembly": "TextMeshPro-2017.3-Runtime.dll",
+    "namespace": "TMPro"
+  },
+  "276": {
+    "name": "AnimationTrack",
+    "class": "AnimationTrack",
+    "assembly": "UnityEngine.Timeline.dll",
+    "namespace": "UnityEngine.Timeline"
+  },
+  "277": {
+    "name": "AnimationTrack",
+    "class": "AnimationTrack",
+    "assembly": "UnityEngine.Timeline.dll",
+    "namespace": "UnityEngine.Timeline"
+  },
+  "278": {
+    "name": "Shadow",
+    "class": "Shadow",
+    "assembly": "UnityEngine.UI.dll",
+    "namespace": "UnityEngine.UI"
+  },
+  "279": {
+    "name": "Shadow",
+    "class": "Shadow",
+    "assembly": "UnityEngine.UI.dll",
+    "namespace": "UnityEngine.UI"
+  },
+  "280": {
+    "name": "NetworkAnimator",
+    "class": "NetworkAnimator",
+    "assembly": "UnityEngine.Networking.dll",
+    "namespace": "UnityEngine.Networking"
+  },
+  "281": {
+    "name": "NetworkAnimator",
+    "class": "NetworkAnimator",
+    "assembly": "UnityEngine.Networking.dll",
+    "namespace": "UnityEngine.Networking"
+  },
+  "282": {
+    "name": "PlayModeRunnerCallback",
+    "class": "PlayModeRunnerCallback",
+    "assembly": "UnityEngine.TestRunner.dll",
+    "namespace": "UnityEngine.TestTools.TestRunner.Callbacks"
+  },
+  "283": {
+    "name": "BaseMeshEffect",
+    "class": "BaseMeshEffect",
+    "assembly": "UnityEngine.UI.dll",
+    "namespace": "UnityEngine.UI"
+  },
+  "284": {
+    "name": "BaseMeshEffect",
+    "class": "BaseMeshEffect",
+    "assembly": "UnityEngine.UI.dll",
+    "namespace": "UnityEngine.UI"
+  },
+  "285": {
+    "name": "LayoutElement",
+    "class": "LayoutElement",
+    "assembly": "UnityEngine.UI.dll",
+    "namespace": "UnityEngine.UI"
+  },
+  "286": {
+    "name": "LayoutElement",
+    "class": "LayoutElement",
+    "assembly": "UnityEngine.UI.dll",
+    "namespace": "UnityEngine.UI"
+  },
+  "287": {
+    "name": "Placeholder",
+    "class": "Placeholder",
+    "assembly": "UnityEngine.Advertisements.dll",
+    "namespace": "UnityEngine.Advertisements.Editor"
+  },
+  "288": {
+    "name": "ContentSizeFitter",
+    "class": "ContentSizeFitter",
+    "assembly": "UnityEngine.UI.dll",
+    "namespace": "UnityEngine.UI"
+  },
+  "289": {
+    "name": "ContentSizeFitter",
+    "class": "ContentSizeFitter",
+    "assembly": "UnityEngine.UI.dll",
+    "namespace": "UnityEngine.UI"
+  },
+  "290": {
+    "name": "TrackedPoseDriver",
+    "class": "TrackedPoseDriver",
+    "assembly": "UnityEngine.SpatialTracking.dll",
+    "namespace": "UnityEngine.SpatialTracking"
+  },
+  "291": {
+    "name": "TrackedPoseDriver",
+    "class": "TrackedPoseDriver",
+    "assembly": "UnityEngine.SpatialTracking.dll",
+    "namespace": "UnityEngine.SpatialTracking"
+  },
+  "292": {
+    "name": "pb_TriggerBehaviour",
+    "class": "pb_TriggerBehaviour",
+    "assembly": "ProBuilderCore.dll",
+    "namespace": "ProBuilder.Core"
+  },
+  "293": {
+    "name": "PlayableTrack",
+    "class": "PlayableTrack",
+    "assembly": "UnityEngine.Timeline.dll",
+    "namespace": "UnityEngine.Timeline"
+  },
+  "294": {
+    "name": "PlayableTrack",
+    "class": "PlayableTrack",
+    "assembly": "UnityEngine.Timeline.dll",
+    "namespace": "UnityEngine.Timeline"
+  },
+  "295": {
+    "name": "GvrAudioListenerExtension",
+    "class": "GvrAudioListenerExtension",
+    "assembly": "UnityEngine.GoogleAudioSpatializer.dll",
+    "namespace": "UnityEngine.Experimental.Audio.Google"
+  },
+  "296": {
+    "name": "GvrAudioListenerExtension",
+    "class": "GvrAudioListenerExtension",
+    "assembly": "UnityEngine.GoogleAudioSpatializer.dll",
+    "namespace": "UnityEngine.Experimental.Audio.Google"
+  },
+  "297": {
+    "name": "PositionAsUV1",
+    "class": "PositionAsUV1",
+    "assembly": "UnityEngine.UI.dll",
+    "namespace": "UnityEngine.UI"
+  },
+  "298": {
+    "name": "PositionAsUV1",
+    "class": "PositionAsUV1",
+    "assembly": "UnityEngine.UI.dll",
+    "namespace": "UnityEngine.UI"
+  },
+  "299": {
+    "name": "HoloLensInput",
+    "class": "HoloLensInput",
+    "assembly": "UnityEngine.HoloLens.dll",
+    "namespace": "UnityEngine.EventSystems"
+  },
+  "300": {
+    "name": "HoloLensInput",
+    "class": "HoloLensInput",
+    "assembly": "UnityEngine.HoloLens.dll",
+    "namespace": "UnityEngine.EventSystems"
+  },
+  "301": {
+    "name": "TMP_SubMeshUI",
+    "class": "TMP_SubMeshUI",
+    "assembly": "TextMeshPro-2017.3-Runtime.dll",
+    "namespace": "TMPro"
+  },
+  "302": {
+    "name": "TMP_SubMeshUI",
+    "class": "TMP_SubMeshUI",
+    "assembly": "TextMeshPro-2017.3-Runtime.dll",
+    "namespace": "TMPro"
+  },
+  "303": {
+    "name": "TMP_InputValidator",
+    "class": "TMP_InputValidator",
+    "assembly": "TextMeshPro-2017.3-Runtime.dll",
+    "namespace": "TMPro"
+  },
+  "304": {
+    "name": "TMP_InputValidator",
+    "class": "TMP_InputValidator",
+    "assembly": "TextMeshPro-2017.3-Runtime.dll",
+    "namespace": "TMPro"
+  },
+  "305": {
+    "name": "TMPro_TextContainerEditor",
+    "class": "TMPro_TextContainerEditor",
+    "assembly": "TextMeshPro-2017.3-Editor.dll",
+    "namespace": "TMPro.EditorUtilities"
+  },
+  "306": {
+    "name": "CanvasScaler",
+    "class": "CanvasScaler",
+    "assembly": "UnityEngine.UI.dll",
+    "namespace": "UnityEngine.UI"
+  },
+  "307": {
+    "name": "CanvasScaler",
+    "class": "CanvasScaler",
+    "assembly": "UnityEngine.UI.dll",
+    "namespace": "UnityEngine.UI"
+  },
+  "308": {
+    "name": "TouchInputModule",
+    "class": "TouchInputModule",
+    "assembly": "UnityEngine.UI.dll",
+    "namespace": "UnityEngine.EventSystems"
+  },
+  "309": {
+    "name": "TouchInputModule",
+    "class": "TouchInputModule",
+    "assembly": "UnityEngine.UI.dll",
+    "namespace": "UnityEngine.EventSystems"
+  },
+  "310": {
+    "name": "TMP_SpriteAsset",
+    "class": "TMP_SpriteAsset",
+    "assembly": "TextMeshPro-2017.3-Runtime.dll",
+    "namespace": "TMPro"
+  },
+  "311": {
+    "name": "TMP_SpriteAsset",
+    "class": "TMP_SpriteAsset",
+    "assembly": "TextMeshPro-2017.3-Runtime.dll",
+    "namespace": "TMPro"
+  },
+  "312": {
+    "name": "AnimationPlayableAsset",
+    "class": "AnimationPlayableAsset",
+    "assembly": "UnityEngine.Timeline.dll",
+    "namespace": "UnityEngine.Timeline"
+  },
+  "313": {
+    "name": "AnimationPlayableAsset",
+    "class": "AnimationPlayableAsset",
+    "assembly": "UnityEngine.Timeline.dll",
+    "namespace": "UnityEngine.Timeline"
+  },
+  "314": {
+    "name": "TMP_ColorGradient",
+    "class": "TMP_ColorGradient",
+    "assembly": "TextMeshPro-2017.3-Runtime.dll",
+    "namespace": "TMPro"
+  },
+  "315": {
+    "name": "TMP_ColorGradient",
+    "class": "TMP_ColorGradient",
+    "assembly": "TextMeshPro-2017.3-Runtime.dll",
+    "namespace": "TMPro"
+  },
+  "316": {
+    "name": "Toggle",
+    "class": "Toggle",
+    "assembly": "UnityEngine.UI.dll",
+    "namespace": "UnityEngine.UI"
+  },
+  "317": {
+    "name": "Toggle",
+    "class": "Toggle",
+    "assembly": "UnityEngine.UI.dll",
+    "namespace": "UnityEngine.UI"
+  },
+  "318": {
+    "name": "TMP_InputFieldEditor",
+    "class": "TMP_InputFieldEditor",
+    "assembly": "TextMeshPro-2017.3-Editor.dll",
+    "namespace": "TMPro.EditorUtilities"
+  }
+}

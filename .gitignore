@@ -1,0 +1,28 @@
+# ============================================================
+#  UniRecomp Tool — .gitignore
+#  Regra de ouro: NUNCA versionar arquivos de jogo.
+#  (copyright + assets/plugins pagos). Cada um usa os seus.
+# ============================================================
+
+# ---- Arquivos de jogo (copyright / middleware pago) ----
+/Managed/
+/Stardust Raiders/
+/Stardust_Raiders_1.0.4_Windows/
+
+# ---- Dump grande derivado do jogo (regeneravel com tools/dump_pass3d.py) ----
+/docs/pass3d_level1.json
+
+# ---- Lixo de build (.NET / Unity / Python) ----
+**/bin/
+**/obj/
+[Ll]ibrary/
+[Tt]emp/
+.vs/
+*.user
+*.pyc
+__pycache__/
+.freebuff/
+
+# ---- Logs e rascunhos de sessao ----
+play_*.txt
+screenshot_*.png

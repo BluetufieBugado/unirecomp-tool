@@ -1,0 +1,81 @@
+{
+ "file": "sharedassets3.assets",
+ "header": {
+  "metadata_size": 436,
+  "file_size": 10036,
+  "version": 17,
+  "data_offset": 4096,
+  "endian_flag": 0,
+  "reserved": [
+   0,
+   0,
+   0
+  ]
+ },
+ "unity_version": "2018.1.5f1",
+ "target_platform": 5,
+ "types": [
+  {
+   "class_id": 150,
+   "stripped": 0,
+   "script_idx": -1,
+   "script_id": null,
+   "old_hash": "f123b055a61dfa7dc679d78cdaecd383"
+  },
+  {
+   "class_id": 74,
+   "stripped": 0,
+   "script_idx": -1,
+   "script_id": null,
+   "old_hash": "f665ce86182d9caf3ead9030330dcdd1"
+  },
+  {
+   "class_id": 83,
+   "stripped": 0,
+   "script_idx": -1,
+   "script_id": null,
+   "old_hash": "b23449465e3763dd19335a88ea09ae99"
+  },
+  {
+   "class_id": 91,
+   "stripped": 0,
+   "script_idx": -1,
+   "script_id": null,
+   "old_hash": "01ccfe05c6fbc7ff03dcf8afa8213ff5"
+  }
+ ],
+ "script_refs": [],
+ "externals": [
+  "resources/unity_builtin_extra",
+  "library/unity default resources",
+  "globalgamemanagers.assets",
+  "resources.assets",
+  "sharedassets0.assets"
+ ],
+ "objects": [
+  {
+   "path_id": 1,
+   "start": 0,
+   "size": 972,
+   "type_id": 0
+  },
+  {
+   "path_id": 2,
+   "start": 976,
+   "size": 2364,
+   "type_id": 1
+  },
+  {
+   "path_id": 3,
+   "start": 3344,
+   "size": 96,
+   "type_id": 2
+  },
+  {
+   "path_id": 4,
+   "start": 3440,
+   "size": 2500,
+   "type_id": 3
+  }
+ ]
+}

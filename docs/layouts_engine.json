@@ -1,0 +1,4632 @@
+{
+  "scripts": {
+    "UIBehaviour": {
+      "file": "UnityEngine.UI.dll",
+      "line": 0,
+      "base": "MonoBehaviour",
+      "fields": [],
+      "unsupported": []
+    },
+    "Graphic": {
+      "file": "UnityEngine.UI.dll",
+      "line": 0,
+      "base": "UIBehaviour",
+      "fields": [
+        {
+          "name": "m_Material",
+          "line": 0,
+          "kind": "pptr",
+          "type": "Material",
+          "target": "Material"
+        },
+        {
+          "name": "m_Color",
+          "line": 0,
+          "kind": "color",
+          "type": "Color"
+        },
+        {
+          "name": "m_RaycastTarget",
+          "line": 0,
+          "kind": "bool",
+          "type": "bool"
+        }
+      ],
+      "unsupported": []
+    },
+    "MaskableGraphic": {
+      "file": "UnityEngine.UI.dll",
+      "line": 0,
+      "base": "Graphic",
+      "fields": [
+        {
+          "name": "m_OnCullStateChanged",
+          "line": 0,
+          "kind": "unityevent",
+          "type": "CullStateChangedEvent"
+        }
+      ],
+      "unsupported": []
+    },
+    "Text": {
+      "file": "UnityEngine.UI.dll",
+      "line": 0,
+      "base": "MaskableGraphic",
+      "fields": [
+        {
+          "name": "m_FontData",
+          "line": 0,
+          "kind": "nested",
+          "type": "FontData"
+        },
+        {
+          "name": "m_Text",
+          "line": 0,
+          "kind": "string",
+          "type": "string"
+        }
+      ],
+      "unsupported": []
+    },
+    "Image": {
+      "file": "UnityEngine.UI.dll",
+      "line": 0,
+      "base": "MaskableGraphic",
+      "fields": [
+        {
+          "name": "m_Sprite",
+          "line": 0,
+          "kind": "pptr",
+          "type": "Sprite",
+          "target": "Sprite"
+        },
+        {
+          "name": "m_Type",
+          "line": 0,
+          "kind": "enum",
+          "type": "Type"
+        },
+        {
+          "name": "m_PreserveAspect",
+          "line": 0,
+          "kind": "bool",
+          "type": "bool"
+        },
+        {
+          "name": "m_FillCenter",
+          "line": 0,
+          "kind": "bool",
+          "type": "bool"
+        },
+        {
+          "name": "m_FillMethod",
+          "line": 0,
+          "kind": "enum",
+          "type": "FillMethod"
+        },
+        {
+          "name": "m_FillAmount",
+          "line": 0,
+          "kind": "float",
+          "type": "float"
+        },
+        {
+          "name": "m_FillClockwise",
+          "line": 0,
+          "kind": "bool",
+          "type": "bool"
+        },
+        {
+          "name": "m_FillOrigin",
+          "line": 0,
+          "kind": "int",
+          "type": "int"
+        }
+      ],
+      "unsupported": []
+    },
+    "RawImage": {
+      "file": "UnityEngine.UI.dll",
+      "line": 0,
+      "base": "MaskableGraphic",
+      "fields": [
+        {
+          "name": "m_Texture",
+          "line": 0,
+          "kind": "pptr",
+          "type": "Texture",
+          "target": "Texture"
+        },
+        {
+          "name": "m_UVRect",
+          "line": 0,
+          "kind": "rect",
+          "type": "Rect"
+        }
+      ],
+      "unsupported": []
+    },
+    "Mask": {
+      "file": "UnityEngine.UI.dll",
+      "line": 0,
+      "base": "UIBehaviour",
+      "fields": [
+        {
+          "name": "m_ShowMaskGraphic",
+          "line": 0,
+          "kind": "bool",
+          "type": "bool"
+        }
+      ],
+      "unsupported": []
+    },
+    "BaseMeshEffect": {
+      "file": "UnityEngine.UI.dll",
+      "line": 0,
+      "base": "UIBehaviour",
+      "fields": [],
+      "unsupported": []
+    },
+    "Shadow": {
+      "file": "UnityEngine.UI.dll",
+      "line": 0,
+      "base": "BaseMeshEffect",
+      "fields": [
+        {
+          "name": "m_EffectColor",
+          "line": 0,
+          "kind": "color",
+          "type": "Color"
+        },
+        {
+          "name": "m_EffectDistance",
+          "line": 0,
+          "kind": "vector2",
+          "type": "Vector2"
+        },
+        {
+          "name": "m_UseGraphicAlpha",
+          "line": 0,
+          "kind": "bool",
+          "type": "bool"
+        }
+      ],
+      "unsupported": []
+    },
+    "Outline": {
+      "file": "UnityEngine.UI.dll",
+      "line": 0,
+      "base": "Shadow",
+      "fields": [],
+      "unsupported": []
+    },
+    "Selectable": {
+      "file": "UnityEngine.UI.dll",
+      "line": 0,
+      "base": "UIBehaviour",
+      "fields": [
+        {
+          "name": "m_Navigation",
+          "line": 0,
+          "kind": "nested",
+          "type": "Navigation"
+        },
+        {
+          "name": "m_Transition",
+          "line": 0,
+          "kind": "enum",
+          "type": "Transition"
+        },
+        {
+          "name": "m_Colors",
+          "line": 0,
+          "kind": "nested",
+          "type": "ColorBlock"
+        },
+        {
+          "name": "m_SpriteState",
+          "line": 0,
+          "kind": "nested",
+          "type": "SpriteState"
+        },
+        {
+          "name": "m_AnimationTriggers",
+          "line": 0,
+          "kind": "nested",
+          "type": "AnimationTriggers"
+        },
+        {
+          "name": "m_Interactable",
+          "line": 0,
+          "kind": "bool",
+          "type": "bool"
+        },
+        {
+          "name": "m_TargetGraphic",
+          "line": 0,
+          "kind": "pptr",
+          "type": "Graphic",
+          "target": "Graphic"
+        }
+      ],
+      "unsupported": []
+    },
+    "Button": {
+      "file": "UnityEngine.UI.dll",
+      "line": 0,
+      "base": "Selectable",
+      "fields": [
+        {
+          "name": "m_OnClick",
+          "line": 0,
+          "kind": "unityevent",
+          "type": "ButtonClickedEvent"
+        }
+      ],
+      "unsupported": []
+    },
+    "Toggle": {
+      "file": "UnityEngine.UI.dll",
+      "line": 0,
+      "base": "Selectable",
+      "fields": [
+        {
+          "name": "toggleTransition",
+          "line": 0,
+          "kind": "enum",
+          "type": "ToggleTransition"
+        },
+        {
+          "name": "graphic",
+          "line": 0,
+          "kind": "pptr",
+          "type": "Graphic",
+          "target": "Graphic"
+        },
+        {
+          "name": "m_Group",
+          "line": 0,
+          "kind": "pptr",
+          "type": "ToggleGroup",
+          "target": "ToggleGroup"
+        },
+        {
+          "name": "onValueChanged",
+          "line": 0,
+          "kind": "unityevent",
+          "type": "ToggleEvent"
+        },
+        {
+          "name": "m_IsOn",
+          "line": 0,
+          "kind": "bool",
+          "type": "bool"
+        }
+      ],
+      "unsupported": []
+    },
+    "ToggleGroup": {
+      "file": "UnityEngine.UI.dll",
+      "line": 0,
+      "base": "UIBehaviour",
+      "fields": [
+        {
+          "name": "m_AllowSwitchOff",
+          "line": 0,
+          "kind": "bool",
+          "type": "bool"
+        }
+      ],
+      "unsupported": []
+    },
+    "Slider": {
+      "file": "UnityEngine.UI.dll",
+      "line": 0,
+      "base": "Selectable",
+      "fields": [
+        {
+          "name": "m_FillRect",
+          "line": 0,
+          "kind": "pptr",
+          "type": "RectTransform",
+          "target": "RectTransform"
+        },
+        {
+          "name": "m_HandleRect",
+          "line": 0,
+          "kind": "pptr",
+          "type": "RectTransform",
+          "target": "RectTransform"
+        },
+        {
+          "name": "m_Direction",
+          "line": 0,
+          "kind": "enum",
+          "type": "Direction"
+        },
+        {
+          "name": "m_MinValue",
+          "line": 0,
+          "kind": "float",
+          "type": "float"
+        },
+        {
+          "name": "m_MaxValue",
+          "line": 0,
+          "kind": "float",
+          "type": "float"
+        },
+        {
+          "name": "m_WholeNumbers",
+          "line": 0,
+          "kind": "bool",
+          "type": "bool"
+        },
+        {
+          "name": "m_Value",
+          "line": 0,
+          "kind": "float",
+          "type": "float"
+        },
+        {
+          "name": "m_OnValueChanged",
+          "line": 0,
+          "kind": "unityevent",
+          "type": "SliderEvent"
+        }
+      ],
+      "unsupported": []
+    },
+    "Scrollbar": {
+      "file": "UnityEngine.UI.dll",
+      "line": 0,
+      "base": "Selectable",
+      "fields": [
+        {
+          "name": "m_HandleRect",
+          "line": 0,
+          "kind": "pptr",
+          "type": "RectTransform",
+          "target": "RectTransform"
+        },
+        {
+          "name": "m_Direction",
+          "line": 0,
+          "kind": "enum",
+          "type": "Direction"
+        },
+        {
+          "name": "m_Value",
+          "line": 0,
+          "kind": "float",
+          "type": "float"
+        },
+        {
+          "name": "m_Size",
+          "line": 0,
+          "kind": "float",
+          "type": "float"
+        },
+        {
+          "name": "m_NumberOfSteps",
+          "line": 0,
+          "kind": "int",
+          "type": "int"
+        },
+        {
+          "name": "m_OnValueChanged",
+          "line": 0,
+          "kind": "unityevent",
+          "type": "ScrollEvent"
+        }
+      ],
+      "unsupported": []
+    },
+    "ScrollRect": {
+      "file": "UnityEngine.UI.dll",
+      "line": 0,
+      "base": "UIBehaviour",
+      "fields": [
+        {
+          "name": "m_Content",
+          "line": 0,
+          "kind": "pptr",
+          "type": "RectTransform",
+          "target": "RectTransform"
+        },
+        {
+          "name": "m_Horizontal",
+          "line": 0,
+          "kind": "bool",
+          "type": "bool"
+        },
+        {
+          "name": "m_Vertical",
+          "line": 0,
+          "kind": "bool",
+          "type": "bool"
+        },
+        {
+          "name": "m_MovementType",
+          "line": 0,
+          "kind": "enum",
+          "type": "MovementType"
+        },
+        {
+          "name": "m_Elasticity",
+          "line": 0,
+          "kind": "float",
+          "type": "float"
+        },
+        {
+          "name": "m_Inertia",
+          "line": 0,
+          "kind": "bool",
+          "type": "bool"
+        },
+        {
+          "name": "m_DecelerationRate",
+          "line": 0,
+          "kind": "float",
+          "type": "float"
+        },
+        {
+          "name": "m_ScrollSensitivity",
+          "line": 0,
+          "kind": "float",
+          "type": "float"
+        },
+        {
+          "name": "m_Viewport",
+          "line": 0,
+          "kind": "pptr",
+          "type": "RectTransform",
+          "target": "RectTransform"
+        },
+        {
+          "name": "m_HorizontalScrollbar",
+          "line": 0,
+          "kind": "pptr",
+          "type": "Scrollbar",
+          "target": "Scrollbar"
+        },
+        {
+          "name": "m_VerticalScrollbar",
+          "line": 0,
+          "kind": "pptr",
+          "type": "Scrollbar",
+          "target": "Scrollbar"
+        },
+        {
+          "name": "m_HorizontalScrollbarVisibility",
+          "line": 0,
+          "kind": "enum",
+          "type": "ScrollbarVisibility"
+        },
+        {
+          "name": "m_VerticalScrollbarVisibility",
+          "line": 0,
+          "kind": "enum",
+          "type": "ScrollbarVisibility"
+        },
+        {
+          "name": "m_HorizontalScrollbarSpacing",
+          "line": 0,
+          "kind": "float",
+          "type": "float"
+        },
+        {
+          "name": "m_VerticalScrollbarSpacing",
+          "line": 0,
+          "kind": "float",
+          "type": "float"
+        },
+        {
+          "name": "m_OnValueChanged",
+          "line": 0,
+          "kind": "unityevent",
+          "type": "ScrollRectEvent"
+        }
+      ],
+      "unsupported": []
+    },
+    "Dropdown": {
+      "file": "UnityEngine.UI.dll",
+      "line": 0,
+      "base": "Selectable",
+      "fields": [
+        {
+          "name": "m_Template",
+          "line": 0,
+          "kind": "pptr",
+          "type": "RectTransform",
+          "target": "RectTransform"
+        },
+        {
+          "name": "m_CaptionText",
+          "line": 0,
+          "kind": "pptr",
+          "type": "Text",
+          "target": "Text"
+        },
+        {
+          "name": "m_CaptionImage",
+          "line": 0,
+          "kind": "pptr",
+          "type": "Image",
+          "target": "Image"
+        },
+        {
+          "name": "m_ItemText",
+          "line": 0,
+          "kind": "pptr",
+          "type": "Text",
+          "target": "Text"
+        },
+        {
+          "name": "m_ItemImage",
+          "line": 0,
+          "kind": "pptr",
+          "type": "Image",
+          "target": "Image"
+        },
+        {
+          "name": "m_Value",
+          "line": 0,
+          "kind": "int",
+          "type": "int"
+        },
+        {
+          "name": "m_Options",
+          "line": 0,
+          "kind": "nested",
+          "type": "OptionDataList"
+        },
+        {
+          "name": "m_OnValueChanged",
+          "line": 0,
+          "kind": "unityevent",
+          "type": "DropdownEvent"
+        }
+      ],
+      "unsupported": []
+    },
+    "InputField": {
+      "file": "UnityEngine.UI.dll",
+      "line": 0,
+      "base": "Selectable",
+      "fields": [
+        {
+          "name": "m_TextComponent",
+          "line": 0,
+          "kind": "pptr",
+          "type": "Text",
+          "target": "Text"
+        },
+        {
+          "name": "m_Placeholder",
+          "line": 0,
+          "kind": "pptr",
+          "type": "Graphic",
+          "target": "Graphic"
+        },
+        {
+          "name": "m_ContentType",
+          "line": 0,
+          "kind": "enum",
+          "type": "ContentType"
+        },
+        {
+          "name": "m_InputType",
+          "line": 0,
+          "kind": "enum",
+          "type": "InputType"
+        },
+        {
+          "name": "m_AsteriskChar",
+          "line": 0,
+          "kind": "char",
+          "type": "char"
+        },
+        {
+          "name": "m_KeyboardType",
+          "line": 0,
+          "kind": "enum",
+          "type": "TouchScreenKeyboardType"
+        },
+        {
+          "name": "m_LineType",
+          "line": 0,
+          "kind": "enum",
+          "type": "LineType"
+        },
+        {
+          "name": "m_HideMobileInput",
+          "line": 0,
+          "kind": "bool",
+          "type": "bool"
+        },
+        {
+          "name": "m_CharacterValidation",
+          "line": 0,
+          "kind": "enum",
+          "type": "CharacterValidation"
+        },
+        {
+          "name": "m_CharacterLimit",
+          "line": 0,
+          "kind": "int",
+          "type": "int"
+        },
+        {
+          "name": "m_OnEndEdit",
+          "line": 0,
+          "kind": "unityevent",
+          "type": "SubmitEvent"
+        },
+        {
+          "name": "m_OnValueChanged",
+          "line": 0,
+          "kind": "unityevent",
+          "type": "OnChangeEvent"
+        },
+        {
+          "name": "m_CaretColor",
+          "line": 0,
+          "kind": "color",
+          "type": "Color"
+        },
+        {
+          "name": "m_CustomCaretColor",
+          "line": 0,
+          "kind": "bool",
+          "type": "bool"
+        },
+        {
+          "name": "m_SelectionColor",
+          "line": 0,
+          "kind": "color",
+          "type": "Color"
+        },
+        {
+          "name": "m_Text",
+          "line": 0,
+          "kind": "string",
+          "type": "string"
+        },
+        {
+          "name": "m_CaretBlinkRate",
+          "line": 0,
+          "kind": "float",
+          "type": "float"
+        },
+        {
+          "name": "m_CaretWidth",
+          "line": 0,
+          "kind": "int",
+          "type": "int"
+        },
+        {
+          "name": "m_ReadOnly",
+          "line": 0,
+          "kind": "bool",
+          "type": "bool"
+        }
+      ],
+      "unsupported": []
+    },
+    "CanvasScaler": {
+      "file": "UnityEngine.UI.dll",
+      "line": 0,
+      "base": "UIBehaviour",
+      "fields": [
+        {
+          "name": "m_UiScaleMode",
+          "line": 0,
+          "kind": "enum",
+          "type": "ScaleMode"
+        },
+        {
+          "name": "m_ReferencePixelsPerUnit",
+          "line": 0,
+          "kind": "float",
+          "type": "float"
+        },
+        {
+          "name": "m_ScaleFactor",
+          "line": 0,
+          "kind": "float",
+          "type": "float"
+        },
+        {
+          "name": "m_ReferenceResolution",
+          "line": 0,
+          "kind": "vector2",
+          "type": "Vector2"
+        },
+        {
+          "name": "m_ScreenMatchMode",
+          "line": 0,
+          "kind": "enum",
+          "type": "ScreenMatchMode"
+        },
+        {
+          "name": "m_MatchWidthOrHeight",
+          "line": 0,
+          "kind": "float",
+          "type": "float"
+        },
+        {
+          "name": "m_PhysicalUnit",
+          "line": 0,
+          "kind": "enum",
+          "type": "Unit"
+        },
+        {
+          "name": "m_FallbackScreenDPI",
+          "line": 0,
+          "kind": "float",
+          "type": "float"
+        },
+        {
+          "name": "m_DefaultSpriteDPI",
+          "line": 0,
+          "kind": "float",
+          "type": "float"
+        },
+        {
+          "name": "m_DynamicPixelsPerUnit",
+          "line": 0,
+          "kind": "float",
+          "type": "float"
+        }
+      ],
+      "unsupported": []
+    },
+    "BaseRaycaster": {
+      "file": "UnityEngine.UI.dll",
+      "line": 0,
+      "base": "UIBehaviour",
+      "fields": [],
+      "unsupported": []
+    },
+    "GraphicRaycaster": {
+      "file": "UnityEngine.UI.dll",
+      "line": 0,
+      "base": "BaseRaycaster",
+      "fields": [
+        {
+          "name": "m_IgnoreReversedGraphics",
+          "line": 0,
+          "kind": "bool",
+          "type": "bool"
+        },
+        {
+          "name": "m_BlockingObjects",
+          "line": 0,
+          "kind": "enum",
+          "type": "BlockingObjects"
+        },
+        {
+          "name": "m_BlockingMask",
+          "line": 0,
+          "kind": "layermask",
+          "type": "LayerMask"
+        }
+      ],
+      "unsupported": []
+    },
+    "AspectRatioFitter": {
+      "file": "UnityEngine.UI.dll",
+      "line": 0,
+      "base": "UIBehaviour",
+      "fields": [
+        {
+          "name": "m_AspectMode",
+          "line": 0,
+          "kind": "enum",
+          "type": "AspectMode"
+        },
+        {
+          "name": "m_AspectRatio",
+          "line": 0,
+          "kind": "float",
+          "type": "float"
+        }
+      ],
+      "unsupported": []
+    },
+    "ContentSizeFitter": {
+      "file": "UnityEngine.UI.dll",
+      "line": 0,
+      "base": "UIBehaviour",
+      "fields": [
+        {
+          "name": "m_HorizontalFit",
+          "line": 0,
+          "kind": "enum",
+          "type": "FitMode"
+        },
+        {
+          "name": "m_VerticalFit",
+          "line": 0,
+          "kind": "enum",
+          "type": "FitMode"
+        }
+      ],
+      "unsupported": []
+    },
+    "LayoutGroup": {
+      "file": "UnityEngine.UI.dll",
+      "line": 0,
+      "base": "UIBehaviour",
+      "fields": [
+        {
+          "name": "m_Padding",
+          "line": 0,
+          "kind": "rectoffset",
+          "type": "RectOffset"
+        },
+        {
+          "name": "m_ChildAlignment",
+          "line": 0,
+          "kind": "enum",
+          "type": "TextAnchor"
+        }
+      ],
+      "unsupported": []
+    },
+    "GridLayoutGroup": {
+      "file": "UnityEngine.UI.dll",
+      "line": 0,
+      "base": "LayoutGroup",
+      "fields": [
+        {
+          "name": "m_StartCorner",
+          "line": 0,
+          "kind": "enum",
+          "type": "Corner"
+        },
+        {
+          "name": "m_StartAxis",
+          "line": 0,
+          "kind": "enum",
+          "type": "Axis"
+        },
+        {
+          "name": "m_CellSize",
+          "line": 0,
+          "kind": "vector2",
+          "type": "Vector2"
+        },
+        {
+          "name": "m_Spacing",
+          "line": 0,
+          "kind": "vector2",
+          "type": "Vector2"
+        },
+        {
+          "name": "m_Constraint",
+          "line": 0,
+          "kind": "enum",
+          "type": "Constraint"
+        },
+        {
+          "name": "m_ConstraintCount",
+          "line": 0,
+          "kind": "int",
+          "type": "int"
+        }
+      ],
+      "unsupported": []
+    },
+    "HorizontalOrVerticalLayoutGroup": {
+      "file": "UnityEngine.UI.dll",
+      "line": 0,
+      "base": "LayoutGroup",
+      "fields": [
+        {
+          "name": "m_Spacing",
+          "line": 0,
+          "kind": "float",
+          "type": "float"
+        },
+        {
+          "name": "m_ChildForceExpandWidth",
+          "line": 0,
+          "kind": "bool",
+          "type": "bool"
+        },
+        {
+          "name": "m_ChildForceExpandHeight",
+          "line": 0,
+          "kind": "bool",
+          "type": "bool"
+        },
+        {
+          "name": "m_ChildControlWidth",
+          "line": 0,
+          "kind": "bool",
+          "type": "bool"
+        },
+        {
+          "name": "m_ChildControlHeight",
+          "line": 0,
+          "kind": "bool",
+          "type": "bool"
+        }
+      ],
+      "unsupported": []
+    },
+    "HorizontalLayoutGroup": {
+      "file": "UnityEngine.UI.dll",
+      "line": 0,
+      "base": "HorizontalOrVerticalLayoutGroup",
+      "fields": [],
+      "unsupported": []
+    },
+    "LayoutElement": {
+      "file": "UnityEngine.UI.dll",
+      "line": 0,
+      "base": "UIBehaviour",
+      "fields": [
+        {
+          "name": "m_IgnoreLayout",
+          "line": 0,
+          "kind": "bool",
+          "type": "bool"
+        },
+        {
+          "name": "m_MinWidth",
+          "line": 0,
+          "kind": "float",
+          "type": "float"
+        },
+        {
+          "name": "m_MinHeight",
+          "line": 0,
+          "kind": "float",
+          "type": "float"
+        },
+        {
+          "name": "m_PreferredWidth",
+          "line": 0,
+          "kind": "float",
+          "type": "float"
+        },
+        {
+          "name": "m_PreferredHeight",
+          "line": 0,
+          "kind": "float",
+          "type": "float"
+        },
+        {
+          "name": "m_FlexibleWidth",
+          "line": 0,
+          "kind": "float",
+          "type": "float"
+        },
+        {
+          "name": "m_FlexibleHeight",
+          "line": 0,
+          "kind": "float",
+          "type": "float"
+        },
+        {
+          "name": "m_LayoutPriority",
+          "line": 0,
+          "kind": "int",
+          "type": "int"
+        }
+      ],
+      "unsupported": []
+    },
+    "VerticalLayoutGroup": {
+      "file": "UnityEngine.UI.dll",
+      "line": 0,
+      "base": "HorizontalOrVerticalLayoutGroup",
+      "fields": [],
+      "unsupported": []
+    },
+    "EventSystem": {
+      "file": "UnityEngine.UI.dll",
+      "line": 0,
+      "base": "UIBehaviour",
+      "fields": [
+        {
+          "name": "m_FirstSelected",
+          "line": 0,
+          "kind": "pptr",
+          "type": "GameObject",
+          "target": "GameObject"
+        },
+        {
+          "name": "m_sendNavigationEvents",
+          "line": 0,
+          "kind": "bool",
+          "type": "bool"
+        },
+        {
+          "name": "m_DragThreshold",
+          "line": 0,
+          "kind": "int",
+          "type": "int"
+        }
+      ],
+      "unsupported": []
+    },
+    "BaseInputModule": {
+      "file": "UnityEngine.UI.dll",
+      "line": 0,
+      "base": "UIBehaviour",
+      "fields": [],
+      "unsupported": []
+    },
+    "PointerInputModule": {
+      "file": "UnityEngine.UI.dll",
+      "line": 0,
+      "base": "BaseInputModule",
+      "fields": [],
+      "unsupported": []
+    },
+    "StandaloneInputModule": {
+      "file": "UnityEngine.UI.dll",
+      "line": 0,
+      "base": "PointerInputModule",
+      "fields": [
+        {
+          "name": "m_HorizontalAxis",
+          "line": 0,
+          "kind": "string",
+          "type": "string"
+        },
+        {
+          "name": "m_VerticalAxis",
+          "line": 0,
+          "kind": "string",
+          "type": "string"
+        },
+        {
+          "name": "m_SubmitButton",
+          "line": 0,
+          "kind": "string",
+          "type": "string"
+        },
+        {
+          "name": "m_CancelButton",
+          "line": 0,
+          "kind": "string",
+          "type": "string"
+        },
+        {
+          "name": "m_InputActionsPerSecond",
+          "line": 0,
+          "kind": "float",
+          "type": "float"
+        },
+        {
+          "name": "m_RepeatDelay",
+          "line": 0,
+          "kind": "float",
+          "type": "float"
+        },
+        {
+          "name": "m_ForceModuleActive",
+          "line": 0,
+          "kind": "bool",
+          "type": "bool"
+        }
+      ],
+      "unsupported": []
+    },
+    "EventTrigger": {
+      "file": "UnityEngine.UI.dll",
+      "line": 0,
+      "base": "MonoBehaviour",
+      "fields": [
+        {
+          "name": "m_Delegates",
+          "line": 0,
+          "kind": "array",
+          "type": "array",
+          "of": {
+            "kind": "nested",
+            "type": "Entry"
+          }
+        },
+        {
+          "name": "delegates",
+          "line": 0,
+          "kind": "array",
+          "type": "array",
+          "of": {
+            "kind": "nested",
+            "type": "Entry"
+          }
+        }
+      ],
+      "unsupported": []
+    },
+    "CanvasGroup": {
+      "file": "UnityEngine.UIModule.dll",
+      "line": 0,
+      "base": "Component",
+      "fields": [],
+      "unsupported": []
+    },
+    "TMP_Text": {
+      "file": "TextMeshPro-2017.3-Runtime.dll",
+      "line": 0,
+      "base": "MaskableGraphic",
+      "fields": [
+        {
+          "name": "m_text",
+          "line": 0,
+          "kind": "string",
+          "type": "string"
+        },
+        {
+          "name": "m_isRightToLeft",
+          "line": 0,
+          "kind": "bool",
+          "type": "bool"
+        },
+        {
+          "name": "m_fontAsset",
+          "line": 0,
+          "kind": "pptr",
+          "type": "TMP_FontAsset",
+          "target": "TMP_FontAsset"
+        },
+        {
+          "name": "m_sharedMaterial",
+          "line": 0,
+          "kind": "pptr",
+          "type": "Material",
+          "target": "Material"
+        },
+        {
+          "name": "m_fontSharedMaterials",
+          "line": 0,
+          "kind": "array",
+          "type": "array",
+          "of": {
+            "kind": "pptr",
+            "type": "Material",
+            "target": "Material"
+          }
+        },
+        {
+          "name": "m_fontMaterial",
+          "line": 0,
+          "kind": "pptr",
+          "type": "Material",
+          "target": "Material"
+        },
+        {
+          "name": "m_fontMaterials",
+          "line": 0,
+          "kind": "array",
+          "type": "array",
+          "of": {
+            "kind": "pptr",
+            "type": "Material",
+            "target": "Material"
+          }
+        },
+        {
+          "name": "m_fontColor32",
+          "line": 0,
+          "kind": "color32",
+          "type": "Color32"
+        },
+        {
+          "name": "m_fontColor",
+          "line": 0,
+          "kind": "color",
+          "type": "Color"
+        },
+        {
+          "name": "m_enableVertexGradient",
+          "line": 0,
+          "kind": "bool",
+          "type": "bool"
+        },
+        {
+          "name": "m_fontColorGradient",
+          "line": 0,
+          "kind": "nested",
+          "type": "VertexGradient"
+        },
+        {
+          "name": "m_fontColorGradientPreset",
+          "line": 0,
+          "kind": "pptr",
+          "type": "TMP_ColorGradient",
+          "target": "TMP_ColorGradient"
+        },
+        {
+          "name": "m_spriteAsset",
+          "line": 0,
+          "kind": "pptr",
+          "type": "TMP_SpriteAsset",
+          "target": "TMP_SpriteAsset"
+        },
+        {
+          "name": "m_tintAllSprites",
+          "line": 0,
+          "kind": "bool",
+          "type": "bool"
+        },
+        {
+          "name": "m_overrideHtmlColors",
+          "line": 0,
+          "kind": "bool",
+          "type": "bool"
+        },
+        {
+          "name": "m_faceColor",
+          "line": 0,
+          "kind": "color32",
+          "type": "Color32"
+        },
+        {
+          "name": "m_outlineColor",
+          "line": 0,
+          "kind": "color32",
+          "type": "Color32"
+        },
+        {
+          "name": "m_fontSize",
+          "line": 0,
+          "kind": "float",
+          "type": "float"
+        },
+        {
+          "name": "m_fontSizeBase",
+          "line": 0,
+          "kind": "float",
+          "type": "float"
+        },
+        {
+          "name": "m_fontWeight",
+          "line": 0,
+          "kind": "int",
+          "type": "int"
+        },
+        {
+          "name": "m_enableAutoSizing",
+          "line": 0,
+          "kind": "bool",
+          "type": "bool"
+        },
+        {
+          "name": "m_fontSizeMin",
+          "line": 0,
+          "kind": "float",
+          "type": "float"
+        },
+        {
+          "name": "m_fontSizeMax",
+          "line": 0,
+          "kind": "float",
+          "type": "float"
+        },
+        {
+          "name": "m_fontStyle",
+          "line": 0,
+          "kind": "enum",
+          "type": "FontStyles"
+        },
+        {
+          "name": "m_textAlignment",
+          "line": 0,
+          "kind": "enum",
+          "type": "TextAlignmentOptions"
+        },
+        {
+          "name": "m_isAlignmentEnumConverted",
+          "line": 0,
+          "kind": "bool",
+          "type": "bool"
+        },
+        {
+          "name": "m_characterSpacing",
+          "line": 0,
+          "kind": "float",
+          "type": "float"
+        },
+        {
+          "name": "m_wordSpacing",
+          "line": 0,
+          "kind": "float",
+          "type": "float"
+        },
+        {
+          "name": "m_lineSpacing",
+          "line": 0,
+          "kind": "float",
+          "type": "float"
+        },
+        {
+          "name": "m_lineSpacingMax",
+          "line": 0,
+          "kind": "float",
+          "type": "float"
+        },
+        {
+          "name": "m_paragraphSpacing",
+          "line": 0,
+          "kind": "float",
+          "type": "float"
+        },
+        {
+          "name": "m_charWidthMaxAdj",
+          "line": 0,
+          "kind": "float",
+          "type": "float"
+        },
+        {
+          "name": "m_enableWordWrapping",
+          "line": 0,
+          "kind": "bool",
+          "type": "bool"
+        },
+        {
+          "name": "m_wordWrappingRatios",
+          "line": 0,
+          "kind": "float",
+          "type": "float"
+        },
+        {
+          "name": "m_overflowMode",
+          "line": 0,
+          "kind": "enum",
+          "type": "TextOverflowModes"
+        },
+        {
+          "name": "m_firstOverflowCharacterIndex",
+          "line": 0,
+          "kind": "int",
+          "type": "int"
+        },
+        {
+          "name": "m_linkedTextComponent",
+          "line": 0,
+          "kind": "pptr",
+          "type": "TMP_Text",
+          "target": "TMP_Text"
+        },
+        {
+          "name": "m_isLinkedTextComponent",
+          "line": 0,
+          "kind": "bool",
+          "type": "bool"
+        },
+        {
+          "name": "m_isTextTruncated",
+          "line": 0,
+          "kind": "bool",
+          "type": "bool"
+        },
+        {
+          "name": "m_enableKerning",
+          "line": 0,
+          "kind": "bool",
+          "type": "bool"
+        },
+        {
+          "name": "m_enableExtraPadding",
+          "line": 0,
+          "kind": "bool",
+          "type": "bool"
+        },
+        {
+          "name": "checkPaddingRequired",
+          "line": 0,
+          "kind": "bool",
+          "type": "bool"
+        },
+        {
+          "name": "m_isRichText",
+          "line": 0,
+          "kind": "bool",
+          "type": "bool"
+        },
+        {
+          "name": "m_parseCtrlCharacters",
+          "line": 0,
+          "kind": "bool",
+          "type": "bool"
+        },
+        {
+          "name": "m_isOrthographic",
+          "line": 0,
+          "kind": "bool",
+          "type": "bool"
+        },
+        {
+          "name": "m_isCullingEnabled",
+          "line": 0,
+          "kind": "bool",
+          "type": "bool"
+        },
+        {
+          "name": "m_ignoreRectMaskCulling",
+          "line": 0,
+          "kind": "bool",
+          "type": "bool"
+        },
+        {
+          "name": "m_ignoreCulling",
+          "line": 0,
+          "kind": "bool",
+          "type": "bool"
+        },
+        {
+          "name": "m_horizontalMapping",
+          "line": 0,
+          "kind": "enum",
+          "type": "TextureMappingOptions"
+        },
+        {
+          "name": "m_verticalMapping",
+          "line": 0,
+          "kind": "enum",
+          "type": "TextureMappingOptions"
+        },
+        {
+          "name": "m_uvLineOffset",
+          "line": 0,
+          "kind": "float",
+          "type": "float"
+        },
+        {
+          "name": "m_geometrySortingOrder",
+          "line": 0,
+          "kind": "enum",
+          "type": "VertexSortingOrder"
+        },
+        {
+          "name": "m_firstVisibleCharacter",
+          "line": 0,
+          "kind": "int",
+          "type": "int"
+        },
+        {
+          "name": "m_useMaxVisibleDescender",
+          "line": 0,
+          "kind": "bool",
+          "type": "bool"
+        },
+        {
+          "name": "m_pageToDisplay",
+          "line": 0,
+          "kind": "int",
+          "type": "int"
+        },
+        {
+          "name": "m_margin",
+          "line": 0,
+          "kind": "vector4",
+          "type": "Vector4"
+        },
+        {
+          "name": "m_textInfo",
+          "line": 0,
+          "kind": "nested",
+          "type": "TMP_TextInfo"
+        },
+        {
+          "name": "m_havePropertiesChanged",
+          "line": 0,
+          "kind": "bool",
+          "type": "bool"
+        },
+        {
+          "name": "m_isUsingLegacyAnimationComponent",
+          "line": 0,
+          "kind": "bool",
+          "type": "bool"
+        },
+        {
+          "name": "m_isVolumetricText",
+          "line": 0,
+          "kind": "bool",
+          "type": "bool"
+        },
+        {
+          "name": "m_spriteAnimator",
+          "line": 0,
+          "kind": "pptr",
+          "type": "TMP_SpriteAnimator",
+          "target": "TMP_SpriteAnimator"
+        },
+        {
+          "name": "m_isInputParsingRequired",
+          "line": 0,
+          "kind": "bool",
+          "type": "bool"
+        },
+        {
+          "name": "m_inputSource",
+          "line": 0,
+          "kind": "enum",
+          "type": "TextInputSources"
+        }
+      ],
+      "unsupported": []
+    },
+    "TextMeshProUGUI": {
+      "file": "TextMeshPro-2017.3-Runtime.dll",
+      "line": 0,
+      "base": "TMP_Text",
+      "fields": [
+        {
+          "name": "m_hasFontAssetChanged",
+          "line": 0,
+          "kind": "bool",
+          "type": "bool"
+        },
+        {
+          "name": "m_subTextObjects",
+          "line": 0,
+          "kind": "array",
+          "type": "array",
+          "of": {
+            "kind": "pptr",
+            "type": "TMP_SubMeshUI",
+            "target": "TMP_SubMeshUI"
+          }
+        },
+        {
+          "name": "m_baseMaterial",
+          "line": 0,
+          "kind": "pptr",
+          "type": "Material",
+          "target": "Material"
+        },
+        {
+          "name": "m_maskOffset",
+          "line": 0,
+          "kind": "vector4",
+          "type": "Vector4"
+        }
+      ],
+      "unsupported": []
+    },
+    "TMP_Dropdown": {
+      "file": "TextMeshPro-2017.3-Runtime.dll",
+      "line": 0,
+      "base": "Selectable",
+      "fields": [
+        {
+          "name": "m_Template",
+          "line": 0,
+          "kind": "pptr",
+          "type": "RectTransform",
+          "target": "RectTransform"
+        },
+        {
+          "name": "m_CaptionText",
+          "line": 0,
+          "kind": "pptr",
+          "type": "TMP_Text",
+          "target": "TMP_Text"
+        },
+        {
+          "name": "m_CaptionImage",
+          "line": 0,
+          "kind": "pptr",
+          "type": "Image",
+          "target": "Image"
+        },
+        {
+          "name": "m_ItemText",
+          "line": 0,
+          "kind": "pptr",
+          "type": "TMP_Text",
+          "target": "TMP_Text"
+        },
+        {
+          "name": "m_ItemImage",
+          "line": 0,
+          "kind": "pptr",
+          "type": "Image",
+          "target": "Image"
+        },
+        {
+          "name": "m_Value",
+          "line": 0,
+          "kind": "int",
+          "type": "int"
+        },
+        {
+          "name": "m_Options",
+          "line": 0,
+          "kind": "nested",
+          "type": "OptionDataList"
+        },
+        {
+          "name": "m_OnValueChanged",
+          "line": 0,
+          "kind": "unityevent",
+          "type": "DropdownEvent"
+        }
+      ],
+      "unsupported": []
+    }
+  },
+  "nested": {
+    "FontData": {
+      "file": "UnityEngine.UI.dll",
+      "line": 0,
+      "base": "Object",
+      "fields": [
+        {
+          "name": "m_Font",
+          "line": 0,
+          "kind": "pptr",
+          "type": "Font",
+          "target": "Font"
+        },
+        {
+          "name": "m_FontSize",
+          "line": 0,
+          "kind": "int",
+          "type": "int"
+        },
+        {
+          "name": "m_FontStyle",
+          "line": 0,
+          "kind": "enum",
+          "type": "FontStyle"
+        },
+        {
+          "name": "m_BestFit",
+          "line": 0,
+          "kind": "bool",
+          "type": "bool"
+        },
+        {
+          "name": "m_MinSize",
+          "line": 0,
+          "kind": "int",
+          "type": "int"
+        },
+        {
+          "name": "m_MaxSize",
+          "line": 0,
+          "kind": "int",
+          "type": "int"
+        },
+        {
+          "name": "m_Alignment",
+          "line": 0,
+          "kind": "enum",
+          "type": "TextAnchor"
+        },
+        {
+          "name": "m_AlignByGeometry",
+          "line": 0,
+          "kind": "bool",
+          "type": "bool"
+        },
+        {
+          "name": "m_RichText",
+          "line": 0,
+          "kind": "bool",
+          "type": "bool"
+        },
+        {
+          "name": "m_HorizontalOverflow",
+          "line": 0,
+          "kind": "enum",
+          "type": "HorizontalWrapMode"
+        },
+        {
+          "name": "m_VerticalOverflow",
+          "line": 0,
+          "kind": "enum",
+          "type": "VerticalWrapMode"
+        },
+        {
+          "name": "m_LineSpacing",
+          "line": 0,
+          "kind": "float",
+          "type": "float"
+        }
+      ],
+      "unsupported": []
+    },
+    "Navigation": {
+      "file": "UnityEngine.UI.dll",
+      "line": 0,
+      "base": "ValueType",
+      "fields": [
+        {
+          "name": "m_Mode",
+          "line": 0,
+          "kind": "enum",
+          "type": "Mode"
+        },
+        {
+          "name": "m_SelectOnUp",
+          "line": 0,
+          "kind": "pptr",
+          "type": "Selectable",
+          "target": "Selectable"
+        },
+        {
+          "name": "m_SelectOnDown",
+          "line": 0,
+          "kind": "pptr",
+          "type": "Selectable",
+          "target": "Selectable"
+        },
+        {
+          "name": "m_SelectOnLeft",
+          "line": 0,
+          "kind": "pptr",
+          "type": "Selectable",
+          "target": "Selectable"
+        },
+        {
+          "name": "m_SelectOnRight",
+          "line": 0,
+          "kind": "pptr",
+          "type": "Selectable",
+          "target": "Selectable"
+        }
+      ],
+      "unsupported": []
+    },
+    "ColorBlock": {
+      "file": "UnityEngine.UI.dll",
+      "line": 0,
+      "base": "ValueType",
+      "fields": [
+        {
+          "name": "m_NormalColor",
+          "line": 0,
+          "kind": "color",
+          "type": "Color"
+        },
+        {
+          "name": "m_HighlightedColor",
+          "line": 0,
+          "kind": "color",
+          "type": "Color"
+        },
+        {
+          "name": "m_PressedColor",
+          "line": 0,
+          "kind": "color",
+          "type": "Color"
+        },
+        {
+          "name": "m_DisabledColor",
+          "line": 0,
+          "kind": "color",
+          "type": "Color"
+        },
+        {
+          "name": "m_ColorMultiplier",
+          "line": 0,
+          "kind": "float",
+          "type": "float"
+        },
+        {
+          "name": "m_FadeDuration",
+          "line": 0,
+          "kind": "float",
+          "type": "float"
+        }
+      ],
+      "unsupported": []
+    },
+    "SpriteState": {
+      "file": "UnityEngine.UI.dll",
+      "line": 0,
+      "base": "ValueType",
+      "fields": [
+        {
+          "name": "m_HighlightedSprite",
+          "line": 0,
+          "kind": "pptr",
+          "type": "Sprite",
+          "target": "Sprite"
+        },
+        {
+          "name": "m_PressedSprite",
+          "line": 0,
+          "kind": "pptr",
+          "type": "Sprite",
+          "target": "Sprite"
+        },
+        {
+          "name": "m_DisabledSprite",
+          "line": 0,
+          "kind": "pptr",
+          "type": "Sprite",
+          "target": "Sprite"
+        }
+      ],
+      "unsupported": []
+    },
+    "AnimationTriggers": {
+      "file": "UnityEngine.UI.dll",
+      "line": 0,
+      "base": "Object",
+      "fields": [
+        {
+          "name": "m_NormalTrigger",
+          "line": 0,
+          "kind": "string",
+          "type": "string"
+        },
+        {
+          "name": "m_HighlightedTrigger",
+          "line": 0,
+          "kind": "string",
+          "type": "string"
+        },
+        {
+          "name": "m_PressedTrigger",
+          "line": 0,
+          "kind": "string",
+          "type": "string"
+        },
+        {
+          "name": "m_DisabledTrigger",
+          "line": 0,
+          "kind": "string",
+          "type": "string"
+        }
+      ],
+      "unsupported": []
+    },
+    "OptionDataList": {
+      "file": "UnityEngine.UI.dll",
+      "line": 0,
+      "base": "Object",
+      "fields": [
+        {
+          "name": "m_Options",
+          "line": 0,
+          "kind": "array",
+          "type": "array",
+          "of": {
+            "kind": "nested",
+            "type": "OptionData"
+          }
+        }
+      ],
+      "unsupported": []
+    },
+    "Entry": {
+      "file": "UnityEngine.UI.dll",
+      "line": 0,
+      "base": "Object",
+      "fields": [
+        {
+          "name": "eventID",
+          "line": 0,
+          "kind": "enum",
+          "type": "EventTriggerType"
+        },
+        {
+          "name": "callback",
+          "line": 0,
+          "kind": "unityevent",
+          "type": "TriggerEvent"
+        }
+      ],
+      "unsupported": []
+    },
+    "VertexGradient": {
+      "file": "TextMeshPro-2017.3-Runtime.dll",
+      "line": 0,
+      "base": "ValueType",
+      "fields": [
+        {
+          "name": "topLeft",
+          "line": 0,
+          "kind": "color",
+          "type": "Color"
+        },
+        {
+          "name": "topRight",
+          "line": 0,
+          "kind": "color",
+          "type": "Color"
+        },
+        {
+          "name": "bottomLeft",
+          "line": 0,
+          "kind": "color",
+          "type": "Color"
+        },
+        {
+          "name": "bottomRight",
+          "line": 0,
+          "kind": "color",
+          "type": "Color"
+        }
+      ],
+      "unsupported": []
+    },
+    "TMP_TextInfo": {
+      "file": "TextMeshPro-2017.3-Runtime.dll",
+      "line": 0,
+      "base": "Object",
+      "fields": [
+        {
+          "name": "textComponent",
+          "line": 0,
+          "kind": "pptr",
+          "type": "TMP_Text",
+          "target": "TMP_Text"
+        },
+        {
+          "name": "characterCount",
+          "line": 0,
+          "kind": "int",
+          "type": "int"
+        },
+        {
+          "name": "spriteCount",
+          "line": 0,
+          "kind": "int",
+          "type": "int"
+        },
+        {
+          "name": "spaceCount",
+          "line": 0,
+          "kind": "int",
+          "type": "int"
+        },
+        {
+          "name": "wordCount",
+          "line": 0,
+          "kind": "int",
+          "type": "int"
+        },
+        {
+          "name": "linkCount",
+          "line": 0,
+          "kind": "int",
+          "type": "int"
+        },
+        {
+          "name": "lineCount",
+          "line": 0,
+          "kind": "int",
+          "type": "int"
+        },
+        {
+          "name": "pageCount",
+          "line": 0,
+          "kind": "int",
+          "type": "int"
+        },
+        {
+          "name": "materialCount",
+          "line": 0,
+          "kind": "int",
+          "type": "int"
+        },
+        {
+          "name": "characterInfo",
+          "line": 0,
+          "kind": "array",
+          "type": "array",
+          "of": {
+            "kind": "nested",
+            "type": "TMP_CharacterInfo"
+          }
+        },
+        {
+          "name": "wordInfo",
+          "line": 0,
+          "kind": "array",
+          "type": "array",
+          "of": {
+            "kind": "nested",
+            "type": "TMP_WordInfo"
+          }
+        },
+        {
+          "name": "linkInfo",
+          "line": 0,
+          "kind": "array",
+          "type": "array",
+          "of": {
+            "kind": "nested",
+            "type": "TMP_LinkInfo"
+          }
+        },
+        {
+          "name": "lineInfo",
+          "line": 0,
+          "kind": "array",
+          "type": "array",
+          "of": {
+            "kind": "nested",
+            "type": "TMP_LineInfo"
+          }
+        },
+        {
+          "name": "pageInfo",
+          "line": 0,
+          "kind": "array",
+          "type": "array",
+          "of": {
+            "kind": "nested",
+            "type": "TMP_PageInfo"
+          }
+        },
+        {
+          "name": "meshInfo",
+          "line": 0,
+          "kind": "array",
+          "type": "array",
+          "of": {
+            "kind": "nested",
+            "type": "TMP_MeshInfo"
+          }
+        }
+      ],
+      "unsupported": []
+    },
+    "OptionData": {
+      "file": "UnityEngine.UI.dll",
+      "line": 0,
+      "base": "Object",
+      "fields": [
+        {
+          "name": "m_Text",
+          "line": 0,
+          "kind": "string",
+          "type": "string"
+        },
+        {
+          "name": "m_Image",
+          "line": 0,
+          "kind": "pptr",
+          "type": "Sprite",
+          "target": "Sprite"
+        }
+      ],
+      "unsupported": []
+    },
+    "TMP_CharacterInfo": {
+      "file": "TextMeshPro-2017.3-Runtime.dll",
+      "line": 0,
+      "base": "ValueType",
+      "fields": [
+        {
+          "name": "character",
+          "line": 0,
+          "kind": "char",
+          "type": "char"
+        },
+        {
+          "name": "index",
+          "line": 0,
+          "kind": "int",
+          "type": "int"
+        },
+        {
+          "name": "elementType",
+          "line": 0,
+          "kind": "enum",
+          "type": "TMP_TextElementType"
+        },
+        {
+          "name": "textElement",
+          "line": 0,
+          "kind": "nested",
+          "type": "TMP_TextElement"
+        },
+        {
+          "name": "fontAsset",
+          "line": 0,
+          "kind": "pptr",
+          "type": "TMP_FontAsset",
+          "target": "TMP_FontAsset"
+        },
+        {
+          "name": "spriteAsset",
+          "line": 0,
+          "kind": "pptr",
+          "type": "TMP_SpriteAsset",
+          "target": "TMP_SpriteAsset"
+        },
+        {
+          "name": "spriteIndex",
+          "line": 0,
+          "kind": "int",
+          "type": "int"
+        },
+        {
+          "name": "material",
+          "line": 0,
+          "kind": "pptr",
+          "type": "Material",
+          "target": "Material"
+        },
+        {
+          "name": "materialReferenceIndex",
+          "line": 0,
+          "kind": "int",
+          "type": "int"
+        },
+        {
+          "name": "isUsingAlternateTypeface",
+          "line": 0,
+          "kind": "bool",
+          "type": "bool"
+        },
+        {
+          "name": "pointSize",
+          "line": 0,
+          "kind": "float",
+          "type": "float"
+        },
+        {
+          "name": "lineNumber",
+          "line": 0,
+          "kind": "int",
+          "type": "int"
+        },
+        {
+          "name": "pageNumber",
+          "line": 0,
+          "kind": "int",
+          "type": "int"
+        },
+        {
+          "name": "vertexIndex",
+          "line": 0,
+          "kind": "int",
+          "type": "int"
+        },
+        {
+          "name": "vertex_TL",
+          "line": 0,
+          "kind": "nested",
+          "type": "TMP_Vertex"
+        },
+        {
+          "name": "vertex_BL",
+          "line": 0,
+          "kind": "nested",
+          "type": "TMP_Vertex"
+        },
+        {
+          "name": "vertex_TR",
+          "line": 0,
+          "kind": "nested",
+          "type": "TMP_Vertex"
+        },
+        {
+          "name": "vertex_BR",
+          "line": 0,
+          "kind": "nested",
+          "type": "TMP_Vertex"
+        },
+        {
+          "name": "topLeft",
+          "line": 0,
+          "kind": "vector3",
+          "type": "Vector3"
+        },
+        {
+          "name": "bottomLeft",
+          "line": 0,
+          "kind": "vector3",
+          "type": "Vector3"
+        },
+        {
+          "name": "topRight",
+          "line": 0,
+          "kind": "vector3",
+          "type": "Vector3"
+        },
+        {
+          "name": "bottomRight",
+          "line": 0,
+          "kind": "vector3",
+          "type": "Vector3"
+        },
+        {
+          "name": "origin",
+          "line": 0,
+          "kind": "float",
+          "type": "float"
+        },
+        {
+          "name": "ascender",
+          "line": 0,
+          "kind": "float",
+          "type": "float"
+        },
+        {
+          "name": "baseLine",
+          "line": 0,
+          "kind": "float",
+          "type": "float"
+        },
+        {
+          "name": "descender",
+          "line": 0,
+          "kind": "float",
+          "type": "float"
+        },
+        {
+          "name": "xAdvance",
+          "line": 0,
+          "kind": "float",
+          "type": "float"
+        },
+        {
+          "name": "aspectRatio",
+          "line": 0,
+          "kind": "float",
+          "type": "float"
+        },
+        {
+          "name": "scale",
+          "line": 0,
+          "kind": "float",
+          "type": "float"
+        },
+        {
+          "name": "color",
+          "line": 0,
+          "kind": "color32",
+          "type": "Color32"
+        },
+        {
+          "name": "underlineColor",
+          "line": 0,
+          "kind": "color32",
+          "type": "Color32"
+        },
+        {
+          "name": "strikethroughColor",
+          "line": 0,
+          "kind": "color32",
+          "type": "Color32"
+        },
+        {
+          "name": "highlightColor",
+          "line": 0,
+          "kind": "color32",
+          "type": "Color32"
+        },
+        {
+          "name": "style",
+          "line": 0,
+          "kind": "enum",
+          "type": "FontStyles"
+        },
+        {
+          "name": "isVisible",
+          "line": 0,
+          "kind": "bool",
+          "type": "bool"
+        }
+      ],
+      "unsupported": []
+    },
+    "TMP_WordInfo": {
+      "file": "TextMeshPro-2017.3-Runtime.dll",
+      "line": 0,
+      "base": "ValueType",
+      "fields": [
+        {
+          "name": "textComponent",
+          "line": 0,
+          "kind": "pptr",
+          "type": "TMP_Text",
+          "target": "TMP_Text"
+        },
+        {
+          "name": "firstCharacterIndex",
+          "line": 0,
+          "kind": "int",
+          "type": "int"
+        },
+        {
+          "name": "lastCharacterIndex",
+          "line": 0,
+          "kind": "int",
+          "type": "int"
+        },
+        {
+          "name": "characterCount",
+          "line": 0,
+          "kind": "int",
+          "type": "int"
+        }
+      ],
+      "unsupported": []
+    },
+    "TMP_LinkInfo": {
+      "file": "TextMeshPro-2017.3-Runtime.dll",
+      "line": 0,
+      "base": "ValueType",
+      "fields": [
+        {
+          "name": "textComponent",
+          "line": 0,
+          "kind": "pptr",
+          "type": "TMP_Text",
+          "target": "TMP_Text"
+        },
+        {
+          "name": "hashCode",
+          "line": 0,
+          "kind": "int",
+          "type": "int"
+        },
+        {
+          "name": "linkIdFirstCharacterIndex",
+          "line": 0,
+          "kind": "int",
+          "type": "int"
+        },
+        {
+          "name": "linkIdLength",
+          "line": 0,
+          "kind": "int",
+          "type": "int"
+        },
+        {
+          "name": "linkTextfirstCharacterIndex",
+          "line": 0,
+          "kind": "int",
+          "type": "int"
+        },
+        {
+          "name": "linkTextLength",
+          "line": 0,
+          "kind": "int",
+          "type": "int"
+        }
+      ],
+      "unsupported": []
+    },
+    "TMP_LineInfo": {
+      "file": "TextMeshPro-2017.3-Runtime.dll",
+      "line": 0,
+      "base": "ValueType",
+      "fields": [
+        {
+          "name": "characterCount",
+          "line": 0,
+          "kind": "int",
+          "type": "int"
+        },
+        {
+          "name": "visibleCharacterCount",
+          "line": 0,
+          "kind": "int",
+          "type": "int"
+        },
+        {
+          "name": "spaceCount",
+          "line": 0,
+          "kind": "int",
+          "type": "int"
+        },
+        {
+          "name": "wordCount",
+          "line": 0,
+          "kind": "int",
+          "type": "int"
+        },
+        {
+          "name": "firstCharacterIndex",
+          "line": 0,
+          "kind": "int",
+          "type": "int"
+        },
+        {
+          "name": "firstVisibleCharacterIndex",
+          "line": 0,
+          "kind": "int",
+          "type": "int"
+        },
+        {
+          "name": "lastCharacterIndex",
+          "line": 0,
+          "kind": "int",
+          "type": "int"
+        },
+        {
+          "name": "lastVisibleCharacterIndex",
+          "line": 0,
+          "kind": "int",
+          "type": "int"
+        },
+        {
+          "name": "length",
+          "line": 0,
+          "kind": "float",
+          "type": "float"
+        },
+        {
+          "name": "lineHeight",
+          "line": 0,
+          "kind": "float",
+          "type": "float"
+        },
+        {
+          "name": "ascender",
+          "line": 0,
+          "kind": "float",
+          "type": "float"
+        },
+        {
+          "name": "baseline",
+          "line": 0,
+          "kind": "float",
+          "type": "float"
+        },
+        {
+          "name": "descender",
+          "line": 0,
+          "kind": "float",
+          "type": "float"
+        },
+        {
+          "name": "maxAdvance",
+          "line": 0,
+          "kind": "float",
+          "type": "float"
+        },
+        {
+          "name": "width",
+          "line": 0,
+          "kind": "float",
+          "type": "float"
+        },
+        {
+          "name": "marginLeft",
+          "line": 0,
+          "kind": "float",
+          "type": "float"
+        },
+        {
+          "name": "marginRight",
+          "line": 0,
+          "kind": "float",
+          "type": "float"
+        },
+        {
+          "name": "alignment",
+          "line": 0,
+          "kind": "enum",
+          "type": "TextAlignmentOptions"
+        },
+        {
+          "name": "lineExtents",
+          "line": 0,
+          "kind": "nested",
+          "type": "Extents"
+        }
+      ],
+      "unsupported": []
+    },
+    "TMP_PageInfo": {
+      "file": "TextMeshPro-2017.3-Runtime.dll",
+      "line": 0,
+      "base": "ValueType",
+      "fields": [
+        {
+          "name": "firstCharacterIndex",
+          "line": 0,
+          "kind": "int",
+          "type": "int"
+        },
+        {
+          "name": "lastCharacterIndex",
+          "line": 0,
+          "kind": "int",
+          "type": "int"
+        },
+        {
+          "name": "ascender",
+          "line": 0,
+          "kind": "float",
+          "type": "float"
+        },
+        {
+          "name": "baseLine",
+          "line": 0,
+          "kind": "float",
+          "type": "float"
+        },
+        {
+          "name": "descender",
+          "line": 0,
+          "kind": "float",
+          "type": "float"
+        }
+      ],
+      "unsupported": []
+    },
+    "TMP_MeshInfo": {
+      "file": "TextMeshPro-2017.3-Runtime.dll",
+      "line": 0,
+      "base": "ValueType",
+      "fields": [
+        {
+          "name": "mesh",
+          "line": 0,
+          "kind": "pptr",
+          "type": "Mesh",
+          "target": "Mesh"
+        },
+        {
+          "name": "vertexCount",
+          "line": 0,
+          "kind": "int",
+          "type": "int"
+        },
+        {
+          "name": "vertices",
+          "line": 0,
+          "kind": "array",
+          "type": "array",
+          "of": {
+            "kind": "vector3",
+            "type": "Vector3"
+          }
+        },
+        {
+          "name": "normals",
+          "line": 0,
+          "kind": "array",
+          "type": "array",
+          "of": {
+            "kind": "vector3",
+            "type": "Vector3"
+          }
+        },
+        {
+          "name": "tangents",
+          "line": 0,
+          "kind": "array",
+          "type": "array",
+          "of": {
+            "kind": "vector4",
+            "type": "Vector4"
+          }
+        },
+        {
+          "name": "uvs0",
+          "line": 0,
+          "kind": "array",
+          "type": "array",
+          "of": {
+            "kind": "vector2",
+            "type": "Vector2"
+          }
+        },
+        {
+          "name": "uvs2",
+          "line": 0,
+          "kind": "array",
+          "type": "array",
+          "of": {
+            "kind": "vector2",
+            "type": "Vector2"
+          }
+        },
+        {
+          "name": "colors32",
+          "line": 0,
+          "kind": "array",
+          "type": "array",
+          "of": {
+            "kind": "color32",
+            "type": "Color32"
+          }
+        },
+        {
+          "name": "triangles",
+          "line": 0,
+          "kind": "array",
+          "type": "array",
+          "of": {
+            "kind": "int",
+            "type": "int"
+          }
+        }
+      ],
+      "unsupported": []
+    },
+    "TMP_TextElement": {
+      "file": "TextMeshPro-2017.3-Runtime.dll",
+      "line": 0,
+      "base": "Object",
+      "fields": [
+        {
+          "name": "id",
+          "line": 0,
+          "kind": "int",
+          "type": "int"
+        },
+        {
+          "name": "x",
+          "line": 0,
+          "kind": "float",
+          "type": "float"
+        },
+        {
+          "name": "y",
+          "line": 0,
+          "kind": "float",
+          "type": "float"
+        },
+        {
+          "name": "width",
+          "line": 0,
+          "kind": "float",
+          "type": "float"
+        },
+        {
+          "name": "height",
+          "line": 0,
+          "kind": "float",
+          "type": "float"
+        },
+        {
+          "name": "xOffset",
+          "line": 0,
+          "kind": "float",
+          "type": "float"
+        },
+        {
+          "name": "yOffset",
+          "line": 0,
+          "kind": "float",
+          "type": "float"
+        },
+        {
+          "name": "xAdvance",
+          "line": 0,
+          "kind": "float",
+          "type": "float"
+        },
+        {
+          "name": "scale",
+          "line": 0,
+          "kind": "float",
+          "type": "float"
+        }
+      ],
+      "unsupported": []
+    },
+    "TMP_Vertex": {
+      "file": "TextMeshPro-2017.3-Runtime.dll",
+      "line": 0,
+      "base": "ValueType",
+      "fields": [
+        {
+          "name": "position",
+          "line": 0,
+          "kind": "vector3",
+          "type": "Vector3"
+        },
+        {
+          "name": "uv",
+          "line": 0,
+          "kind": "vector2",
+          "type": "Vector2"
+        },
+        {
+          "name": "uv2",
+          "line": 0,
+          "kind": "vector2",
+          "type": "Vector2"
+        },
+        {
+          "name": "uv4",
+          "line": 0,
+          "kind": "vector2",
+          "type": "Vector2"
+        },
+        {
+          "name": "color",
+          "line": 0,
+          "kind": "color32",
+          "type": "Color32"
+        }
+      ],
+      "unsupported": []
+    },
+    "Extents": {
+      "file": "TextMeshPro-2017.3-Runtime.dll",
+      "line": 0,
+      "base": "ValueType",
+      "fields": [
+        {
+          "name": "min",
+          "line": 0,
+          "kind": "vector2",
+          "type": "Vector2"
+        },
+        {
+          "name": "max",
+          "line": 0,
+          "kind": "vector2",
+          "type": "Vector2"
+        }
+      ],
+      "unsupported": []
+    }
+  },
+  "enums": [
+    "JetBrains.Annotations.ImplicitUseKindFlags",
+    "JetBrains.Annotations.ImplicitUseTargetFlags",
+    "TMPro._HorizontalAlignmentOptions",
+    "TMPro._VerticalAlignmentOptions",
+    "TMPro.CaretPosition",
+    "TMPro.ColorTween\u002BColorTweenMode",
+    "TMPro.Compute_DistanceTransform_EventTypes",
+    "TMPro.FontStyles",
+    "TMPro.FontWeights",
+    "TMPro.MaskingOffsetMode",
+    "TMPro.MaskingTypes",
+    "TMPro.SpriteAssetUtilities.SpriteAssetImportFormats",
+    "TMPro.TagType",
+    "TMPro.TagUnits",
+    "TMPro.TextAlignmentOptions",
+    "TMPro.TextContainerAnchors",
+    "TMPro.TextOverflowModes",
+    "TMPro.TextRenderFlags",
+    "TMPro.TextureMappingOptions",
+    "TMPro.TMP_Compatibility\u002BAnchorPositions",
+    "TMPro.TMP_FontAsset\u002BFontAssetTypes",
+    "TMPro.TMP_InputField\u002BCharacterValidation",
+    "TMPro.TMP_InputField\u002BContentType",
+    "TMPro.TMP_InputField\u002BEditState",
+    "TMPro.TMP_InputField\u002BInputType",
+    "TMPro.TMP_InputField\u002BLineType",
+    "TMPro.TMP_Text\u002BTextInputSources",
+    "TMPro.TMP_TextElementType",
+    "TMPro.TMP_VertexDataUpdateFlags",
+    "TMPro.VertexSortingOrder",
+    "Unity.Collections.Allocator",
+    "Unity.Collections.NativeArrayOptions",
+    "Unity.Collections.NativeLeakDetectionMode",
+    "Unity.Jobs.LowLevel.Unsafe.JobType",
+    "Unity.Jobs.LowLevel.Unsafe.ScheduleMode",
+    "UnityEngine.AdditionalCanvasShaderChannels",
+    "UnityEngine.AI.NavMeshBuildDebugFlags",
+    "UnityEngine.AI.NavMeshBuildSourceShape",
+    "UnityEngine.AI.NavMeshCollectGeometry",
+    "UnityEngine.AI.NavMeshObstacleShape",
+    "UnityEngine.AI.NavMeshPathStatus",
+    "UnityEngine.AI.ObstacleAvoidanceType",
+    "UnityEngine.AI.OffMeshLinkType",
+    "UnityEngine.Analytics.AnalyticsResult",
+    "UnityEngine.Analytics.AnalyticsSessionState",
+    "UnityEngine.Analytics.Gender",
+    "UnityEngine.AnimationBlendMode",
+    "UnityEngine.AnimationCullingType",
+    "UnityEngine.AnimationEventSource",
+    "UnityEngine.AnimationPlayMode",
+    "UnityEngine.Animations.AimConstraint\u002BWorldUpType",
+    "UnityEngine.Animations.Axis",
+    "UnityEngine.AnimatorControllerParameterType",
+    "UnityEngine.AnimatorCullingMode",
+    "UnityEngine.AnimatorRecorderMode",
+    "UnityEngine.AnimatorUpdateMode",
+    "UnityEngine.AnisotropicFiltering",
+    "UnityEngine.ApplicationInstallMode",
+    "UnityEngine.ApplicationSandboxType",
+    "UnityEngine.ArmDoF",
+    "UnityEngine.Audio.AudioMixerUpdateMode",
+    "UnityEngine.AudioClipLoadType",
+    "UnityEngine.AudioCompressionFormat",
+    "UnityEngine.AudioDataLoadState",
+    "UnityEngine.AudioReverbPreset",
+    "UnityEngine.AudioRolloffMode",
+    "UnityEngine.AudioSourceCurveType",
+    "UnityEngine.AudioSpeakerMode",
+    "UnityEngine.AudioType",
+    "UnityEngine.AudioVelocityUpdateMode",
+    "UnityEngine.AvatarIKGoal",
+    "UnityEngine.AvatarIKHint",
+    "UnityEngine.AvatarMaskBodyPart",
+    "UnityEngine.AvatarTarget",
+    "UnityEngine.BatteryStatus",
+    "UnityEngine.Bindings.CodegenOptions",
+    "UnityEngine.Bindings.StaticAccessorType",
+    "UnityEngine.Bindings.TargetType",
+    "UnityEngine.BlendWeights",
+    "UnityEngine.BodyDoF",
+    "UnityEngine.Camera\u002BMonoOrStereoscopicEye",
+    "UnityEngine.Camera\u002BStereoscopicEye",
+    "UnityEngine.CameraClearFlags",
+    "UnityEngine.CameraType",
+    "UnityEngine.CapsuleDirection2D",
+    "UnityEngine.ClusterInputType",
+    "UnityEngine.ColliderErrorState2D",
+    "UnityEngine.CollisionDetectionMode",
+    "UnityEngine.CollisionDetectionMode2D",
+    "UnityEngine.CollisionFlags",
+    "UnityEngine.ColorGamut",
+    "UnityEngine.ColorSpace",
+    "UnityEngine.CompositeCollider2D\u002BGenerationType",
+    "UnityEngine.CompositeCollider2D\u002BGeometryType",
+    "UnityEngine.ComputeBufferType",
+    "UnityEngine.ConfigurableJointMotion",
+    "UnityEngine.ConnectionTesterStatus",
+    "UnityEngine.CSSLayout.CSSAlign",
+    "UnityEngine.CSSLayout.CSSDimension",
+    "UnityEngine.CSSLayout.CSSDirection",
+    "UnityEngine.CSSLayout.CSSEdge",
+    "UnityEngine.CSSLayout.CSSExperimentalFeature",
+    "UnityEngine.CSSLayout.CSSFlexDirection",
+    "UnityEngine.CSSLayout.CSSJustify",
+    "UnityEngine.CSSLayout.CSSLogLevel",
+    "UnityEngine.CSSLayout.CSSMeasureMode",
+    "UnityEngine.CSSLayout.CSSOverflow",
+    "UnityEngine.CSSLayout.CSSPositionType",
+    "UnityEngine.CSSLayout.CSSPrintOptions",
+    "UnityEngine.CSSLayout.CSSWrap",
+    "UnityEngine.CubemapFace",
+    "UnityEngine.CullingQueryOptions",
+    "UnityEngine.CursorLockMode",
+    "UnityEngine.CursorMode",
+    "UnityEngine.CustomRenderTextureInitializationSource",
+    "UnityEngine.CustomRenderTextureUpdateMode",
+    "UnityEngine.CustomRenderTextureUpdateZoneSpace",
+    "UnityEngine.DepthTextureMode",
+    "UnityEngine.DetailRenderMode",
+    "UnityEngine.DeviceOrientation",
+    "UnityEngine.DeviceType",
+    "UnityEngine.DiagnosticSwitchFlags",
+    "UnityEngine.DisableBatchingType",
+    "UnityEngine.DoF",
+    "UnityEngine.DrivenTransformProperties",
+    "UnityEngine.DurationUnit",
+    "UnityEngine.EffectorForceMode2D",
+    "UnityEngine.EffectorSelection2D",
+    "UnityEngine.EnabledOrientation",
+    "UnityEngine.EventModifiers",
+    "UnityEngine.Events.PersistentListenerMode",
+    "UnityEngine.Events.UnityEventCallState",
+    "UnityEngine.EventSystems.EventHandle",
+    "UnityEngine.EventSystems.EventTriggerType",
+    "UnityEngine.EventSystems.MoveDirection",
+    "UnityEngine.EventSystems.PointerEventData\u002BFramePressState",
+    "UnityEngine.EventSystems.PointerEventData\u002BInputButton",
+    "UnityEngine.EventSystems.StandaloneInputModule\u002BInputMode",
+    "UnityEngine.EventType",
+    "UnityEngine.Experimental.AI.NavMeshPolyTypes",
+    "UnityEngine.Experimental.AI.PathQueryStatus",
+    "UnityEngine.Experimental.GlobalIllumination.FalloffType",
+    "UnityEngine.Experimental.GlobalIllumination.LightMode",
+    "UnityEngine.Experimental.GlobalIllumination.LightType",
+    "UnityEngine.Experimental.Rendering.DrawRendererFlags",
+    "UnityEngine.Experimental.Rendering.ReflectionProbeSortOptions",
+    "UnityEngine.Experimental.Rendering.RendererConfiguration",
+    "UnityEngine.Experimental.Rendering.RenderStateMask",
+    "UnityEngine.Experimental.Rendering.SortFlags",
+    "UnityEngine.Experimental.Rendering.SupportedRenderingFeatures\u002BLightmapMixedBakeMode",
+    "UnityEngine.Experimental.Rendering.SupportedRenderingFeatures\u002BReflectionProbeSupportFlags",
+    "UnityEngine.Experimental.Rendering.VertexAttribute",
+    "UnityEngine.Experimental.Rendering.VisibleLightFlags",
+    "UnityEngine.Experimental.UIElements.CallbackPhase",
+    "UnityEngine.Experimental.UIElements.Capture",
+    "UnityEngine.Experimental.UIElements.ChangeType",
+    "UnityEngine.Experimental.UIElements.ClampedDragger\u002BDragDirection",
+    "UnityEngine.Experimental.UIElements.ContextType",
+    "UnityEngine.Experimental.UIElements.ContextualMenu\u002BMenuAction\u002BStatusFlags",
+    "UnityEngine.Experimental.UIElements.EventBase\u002BEventFlags",
+    "UnityEngine.Experimental.UIElements.EventDispatcher\u002BPropagationPaths\u002BType",
+    "UnityEngine.Experimental.UIElements.EventPropagation",
+    "UnityEngine.Experimental.UIElements.MouseButton",
+    "UnityEngine.Experimental.UIElements.PickingMode",
+    "UnityEngine.Experimental.UIElements.PropagationPhase",
+    "UnityEngine.Experimental.UIElements.PseudoStates",
+    "UnityEngine.Experimental.UIElements.Slider\u002BDirection",
+    "UnityEngine.Experimental.UIElements.StyleEnums.Align",
+    "UnityEngine.Experimental.UIElements.StyleEnums.FlexDirection",
+    "UnityEngine.Experimental.UIElements.StyleEnums.ImageScaleMode",
+    "UnityEngine.Experimental.UIElements.StyleEnums.Justify",
+    "UnityEngine.Experimental.UIElements.StyleEnums.Overflow",
+    "UnityEngine.Experimental.UIElements.StyleEnums.PositionType",
+    "UnityEngine.Experimental.UIElements.StyleEnums.Wrap",
+    "UnityEngine.Experimental.UIElements.StyleSheets.StylePropertyApplyMode",
+    "UnityEngine.Experimental.UIElements.StyleSheets.StylePropertyID",
+    "UnityEngine.Experimental.UIElements.VisualElement\u002BClippingOptions",
+    "UnityEngine.Experimental.UIElements.VisualElement\u002BMeasureMode",
+    "UnityEngine.Experimental.UIElements.VisualElementFocusRing\u002BDefaultFocusOrder",
+    "UnityEngine.Experimental.XR.Boundary\u002BType",
+    "UnityEngine.Experimental.XR.PlaneAlignment",
+    "UnityEngine.Experimental.XR.TrackableType",
+    "UnityEngine.Experimental.XR.TrackingState",
+    "UnityEngine.FFTWindow",
+    "UnityEngine.FilterMode",
+    "UnityEngine.FingerDoF",
+    "UnityEngine.FocusType",
+    "UnityEngine.FogMode",
+    "UnityEngine.FontStyle",
+    "UnityEngine.ForceMode",
+    "UnityEngine.ForceMode2D",
+    "UnityEngine.FullScreenMode",
+    "UnityEngine.GradientMode",
+    "UnityEngine.GridBrushBase\u002BFlipAxis",
+    "UnityEngine.GridBrushBase\u002BRotationDirection",
+    "UnityEngine.GridBrushBase\u002BTool",
+    "UnityEngine.GridLayout\u002BCellLayout",
+    "UnityEngine.GridLayout\u002BCellSwizzle",
+    "UnityEngine.GUI\u002BToolbarButtonSize",
+    "UnityEngine.GUILayoutOption\u002BType",
+    "UnityEngine.HeadDoF",
+    "UnityEngine.HideFlags",
+    "UnityEngine.HorizontalWrapMode",
+    "UnityEngine.HumanBodyBones",
+    "UnityEngine.HumanParameter",
+    "UnityEngine.ImagePosition",
+    "UnityEngine.IMECompositionMode",
+    "UnityEngine.JointDriveMode",
+    "UnityEngine.JointLimitState2D",
+    "UnityEngine.JointProjectionMode",
+    "UnityEngine.KeyCode",
+    "UnityEngine.LegDoF",
+    "UnityEngine.LightmapBakeType",
+    "UnityEngine.LightmapsMode",
+    "UnityEngine.LightmapsModeLegacy",
+    "UnityEngine.LightProbeProxyVolume\u002BBoundingBoxMode",
+    "UnityEngine.LightProbeProxyVolume\u002BProbePositionMode",
+    "UnityEngine.LightProbeProxyVolume\u002BRefreshMode",
+    "UnityEngine.LightProbeProxyVolume\u002BResolutionMode",
+    "UnityEngine.LightRenderMode",
+    "UnityEngine.LightShadows",
+    "UnityEngine.LightType",
+    "UnityEngine.LineAlignment",
+    "UnityEngine.LineTextureMode",
+    "UnityEngine.LocationServiceStatus",
+    "UnityEngine.LODFadeMode",
+    "UnityEngine.LogType",
+    "UnityEngine.MasterServerEvent",
+    "UnityEngine.MaterialGlobalIlluminationFlags",
+    "UnityEngine.Mesh\u002BInternalShaderChannel",
+    "UnityEngine.Mesh\u002BInternalVertexChannelType",
+    "UnityEngine.MeshColliderCookingOptions",
+    "UnityEngine.MeshTopology",
+    "UnityEngine.MixedLightingMode",
+    "UnityEngine.MotionVectorGenerationMode",
+    "UnityEngine.NetworkConnectionError",
+    "UnityEngine.NetworkDisconnection",
+    "UnityEngine.Networking.ConnectionAcksType",
+    "UnityEngine.Networking.NetworkError",
+    "UnityEngine.Networking.NetworkEventType",
+    "UnityEngine.Networking.QosType",
+    "UnityEngine.Networking.ReactorModel",
+    "UnityEngine.Networking.Types.AppID",
+    "UnityEngine.Networking.Types.HostPriority",
+    "UnityEngine.Networking.Types.NetworkAccessLevel",
+    "UnityEngine.Networking.Types.NetworkID",
+    "UnityEngine.Networking.Types.NodeID",
+    "UnityEngine.Networking.Types.SourceID",
+    "UnityEngine.Networking.UnityWebRequest\u002BUnityWebRequestError",
+    "UnityEngine.Networking.UnityWebRequest\u002BUnityWebRequestMethod",
+    "UnityEngine.NetworkLogLevel",
+    "UnityEngine.NetworkPeerType",
+    "UnityEngine.NetworkReachability",
+    "UnityEngine.NetworkStateSynchronization",
+    "UnityEngine.NPOTSupport",
+    "UnityEngine.OperatingSystemFamily",
+    "UnityEngine.ParticleSystemAnimationMode",
+    "UnityEngine.ParticleSystemAnimationType",
+    "UnityEngine.ParticleSystemCollisionMode",
+    "UnityEngine.ParticleSystemCollisionQuality",
+    "UnityEngine.ParticleSystemCollisionType",
+    "UnityEngine.ParticleSystemCurveMode",
+    "UnityEngine.ParticleSystemCustomData",
+    "UnityEngine.ParticleSystemCustomDataMode",
+    "UnityEngine.ParticleSystemEmissionType",
+    "UnityEngine.ParticleSystemEmitterVelocityMode",
+    "UnityEngine.ParticleSystemGradientMode",
+    "UnityEngine.ParticleSystemInheritVelocityMode",
+    "UnityEngine.ParticleSystemMeshShapeType",
+    "UnityEngine.ParticleSystemNoiseQuality",
+    "UnityEngine.ParticleSystemOverlapAction",
+    "UnityEngine.ParticleSystemRenderMode",
+    "UnityEngine.ParticleSystemRenderSpace",
+    "UnityEngine.ParticleSystemScalingMode",
+    "UnityEngine.ParticleSystemShapeMultiModeValue",
+    "UnityEngine.ParticleSystemShapeTextureChannel",
+    "UnityEngine.ParticleSystemShapeType",
+    "UnityEngine.ParticleSystemSimulationSpace",
+    "UnityEngine.ParticleSystemSortMode",
+    "UnityEngine.ParticleSystemStopAction",
+    "UnityEngine.ParticleSystemStopBehavior",
+    "UnityEngine.ParticleSystemSubEmitterProperties",
+    "UnityEngine.ParticleSystemSubEmitterType",
+    "UnityEngine.ParticleSystemTrailMode",
+    "UnityEngine.ParticleSystemTrailTextureMode",
+    "UnityEngine.ParticleSystemTriggerEventType",
+    "UnityEngine.ParticleSystemVertexStream",
+    "UnityEngine.ParticleSystemVertexStreams",
+    "UnityEngine.PhysicMaterialCombine",
+    "UnityEngine.PlatformSelection",
+    "UnityEngine.Playables.DataStreamType",
+    "UnityEngine.Playables.DirectorUpdateMode",
+    "UnityEngine.Playables.DirectorWrapMode",
+    "UnityEngine.Playables.FrameData\u002BEvaluationType",
+    "UnityEngine.Playables.FrameData\u002BFlags",
+    "UnityEngine.Playables.PlayState",
+    "UnityEngine.PlayMode",
+    "UnityEngine.PrimitiveType",
+    "UnityEngine.ProceduralCacheSize",
+    "UnityEngine.ProceduralLoadingBehavior",
+    "UnityEngine.ProceduralOutputType",
+    "UnityEngine.ProceduralProcessorUsage",
+    "UnityEngine.ProceduralPropertyType",
+    "UnityEngine.QualityLevel",
+    "UnityEngine.QueryTriggerInteraction",
+    "UnityEngine.QueueMode",
+    "UnityEngine.RectTransform\u002BAxis",
+    "UnityEngine.RectTransform\u002BEdge",
+    "UnityEngine.Rendering.AmbientMode",
+    "UnityEngine.Rendering.BlendMode",
+    "UnityEngine.Rendering.BlendOp",
+    "UnityEngine.Rendering.BuiltinRenderTextureType",
+    "UnityEngine.Rendering.BuiltinShaderDefine",
+    "UnityEngine.Rendering.BuiltinShaderMode",
+    "UnityEngine.Rendering.BuiltinShaderType",
+    "UnityEngine.Rendering.CameraEvent",
+    "UnityEngine.Rendering.CameraHDRMode",
+    "UnityEngine.Rendering.ColorWriteMask",
+    "UnityEngine.Rendering.CompareFunction",
+    "UnityEngine.Rendering.ComputeQueueType",
+    "UnityEngine.Rendering.CopyTextureSupport",
+    "UnityEngine.Rendering.CullMode",
+    "UnityEngine.Rendering.DefaultReflectionMode",
+    "UnityEngine.Rendering.GraphicsDeviceType",
+    "UnityEngine.Rendering.GraphicsTier",
+    "UnityEngine.Rendering.IndexFormat",
+    "UnityEngine.Rendering.LightEvent",
+    "UnityEngine.Rendering.LightProbeUsage",
+    "UnityEngine.Rendering.LightShadowResolution",
+    "UnityEngine.Rendering.OpaqueSortMode",
+    "UnityEngine.Rendering.PassType",
+    "UnityEngine.Rendering.RealtimeGICPUUsage",
+    "UnityEngine.Rendering.ReflectionCubemapCompression",
+    "UnityEngine.Rendering.ReflectionProbeClearFlags",
+    "UnityEngine.Rendering.ReflectionProbeMode",
+    "UnityEngine.Rendering.ReflectionProbeRefreshMode",
+    "UnityEngine.Rendering.ReflectionProbeTimeSlicingMode",
+    "UnityEngine.Rendering.ReflectionProbeType",
+    "UnityEngine.Rendering.ReflectionProbeUsage",
+    "UnityEngine.Rendering.RenderBufferLoadAction",
+    "UnityEngine.Rendering.RenderBufferStoreAction",
+    "UnityEngine.Rendering.RenderQueue",
+    "UnityEngine.Rendering.ShaderHardwareTier",
+    "UnityEngine.Rendering.ShadowCastingMode",
+    "UnityEngine.Rendering.ShadowMapPass",
+    "UnityEngine.Rendering.ShadowSamplingMode",
+    "UnityEngine.Rendering.StencilOp",
+    "UnityEngine.Rendering.SynchronisationStage",
+    "UnityEngine.Rendering.TextureDimension",
+    "UnityEngine.Rendering.UVChannelFlags",
+    "UnityEngine.RenderingPath",
+    "UnityEngine.RenderMode",
+    "UnityEngine.RenderTextureCreationFlags",
+    "UnityEngine.RenderTextureFormat",
+    "UnityEngine.RenderTextureMemoryless",
+    "UnityEngine.RenderTextureReadWrite",
+    "UnityEngine.RigidbodyConstraints",
+    "UnityEngine.RigidbodyConstraints2D",
+    "UnityEngine.RigidbodyInterpolation",
+    "UnityEngine.RigidbodyInterpolation2D",
+    "UnityEngine.RigidbodySleepMode2D",
+    "UnityEngine.RigidbodyType2D",
+    "UnityEngine.RotationDriveMode",
+    "UnityEngine.RotationOrder",
+    "UnityEngine.RPCMode",
+    "UnityEngine.RuntimeInitializeLoadType",
+    "UnityEngine.RuntimePlatform",
+    "UnityEngine.ScaleMode",
+    "UnityEngine.SceneManagement.LoadSceneMode",
+    "UnityEngine.SceneManagement.Scene\u002BLoadingState",
+    "UnityEngine.ScreenOrientation",
+    "UnityEngine.SendMessageOptions",
+    "UnityEngine.ShadowmaskMode",
+    "UnityEngine.ShadowProjection",
+    "UnityEngine.ShadowQuality",
+    "UnityEngine.ShadowResolution",
+    "UnityEngine.SkinQuality",
+    "UnityEngine.SocialPlatforms.TimeScope",
+    "UnityEngine.SocialPlatforms.UserScope",
+    "UnityEngine.SocialPlatforms.UserState",
+    "UnityEngine.Space",
+    "UnityEngine.SpriteAlignment",
+    "UnityEngine.SpriteDrawMode",
+    "UnityEngine.SpriteMaskInteraction",
+    "UnityEngine.SpriteMeshType",
+    "UnityEngine.SpritePackingMode",
+    "UnityEngine.SpritePackingRotation",
+    "UnityEngine.SpriteTileMode",
+    "UnityEngine.StackTraceLogType",
+    "UnityEngine.StateInfoIndex",
+    "UnityEngine.StereoTargetEyeMask",
+    "UnityEngine.StyleSheets.StyleSelectorRelationship",
+    "UnityEngine.StyleSheets.StyleSelectorType",
+    "UnityEngine.StyleSheets.StyleValueKeyword",
+    "UnityEngine.StyleSheets.StyleValueType",
+    "UnityEngine.SystemLanguage",
+    "UnityEngine.Terrain\u002BMaterialType",
+    "UnityEngine.TerrainChangedFlags",
+    "UnityEngine.TerrainData\u002BBoundaryValueType",
+    "UnityEngine.TerrainRenderFlags",
+    "UnityEngine.TexGenMode",
+    "UnityEngine.TextAlignment",
+    "UnityEngine.TextAnchor",
+    "UnityEngine.TextClipping",
+    "UnityEngine.TextEditor\u002BCharacterType",
+    "UnityEngine.TextEditor\u002BDblClickSnapping",
+    "UnityEngine.TextEditor\u002BDirection",
+    "UnityEngine.TextEditor\u002BTextEditOp",
+    "UnityEngine.TextGenerationError",
+    "UnityEngine.Texture2D\u002BEXRFlags",
+    "UnityEngine.TextureFormat",
+    "UnityEngine.TextureWrapMode",
+    "UnityEngine.ThreadPriority",
+    "UnityEngine.Tilemaps.Tile\u002BColliderType",
+    "UnityEngine.Tilemaps.TileFlags",
+    "UnityEngine.Tilemaps.Tilemap\u002BOrientation",
+    "UnityEngine.Tilemaps.TilemapRenderer\u002BDetectChunkCullingBounds",
+    "UnityEngine.Tilemaps.TilemapRenderer\u002BSortOrder",
+    "UnityEngine.TouchPhase",
+    "UnityEngine.TouchScreenKeyboard\u002BStatus",
+    "UnityEngine.TouchScreenKeyboardType",
+    "UnityEngine.TouchType",
+    "UnityEngine.TransitionType",
+    "UnityEngine.TransparencySortMode",
+    "UnityEngine.UI.AspectRatioFitter\u002BAspectMode",
+    "UnityEngine.UI.CanvasScaler\u002BScaleMode",
+    "UnityEngine.UI.CanvasScaler\u002BScreenMatchMode",
+    "UnityEngine.UI.CanvasScaler\u002BUnit",
+    "UnityEngine.UI.CanvasUpdate",
+    "UnityEngine.UI.ContentSizeFitter\u002BFitMode",
+    "UnityEngine.UI.CoroutineTween.ColorTween\u002BColorTweenMode",
+    "UnityEngine.UI.GraphicRaycaster\u002BBlockingObjects",
+    "UnityEngine.UI.GridLayoutGroup\u002BAxis",
+    "UnityEngine.UI.GridLayoutGroup\u002BConstraint",
+    "UnityEngine.UI.GridLayoutGroup\u002BCorner",
+    "UnityEngine.UI.Image\u002BFillMethod",
+    "UnityEngine.UI.Image\u002BOrigin180",
+    "UnityEngine.UI.Image\u002BOrigin360",
+    "UnityEngine.UI.Image\u002BOrigin90",
+    "UnityEngine.UI.Image\u002BOriginHorizontal",
+    "UnityEngine.UI.Image\u002BOriginVertical",
+    "UnityEngine.UI.Image\u002BType",
+    "UnityEngine.UI.InputField\u002BCharacterValidation",
+    "UnityEngine.UI.InputField\u002BContentType",
+    "UnityEngine.UI.InputField\u002BEditState",
+    "UnityEngine.UI.InputField\u002BInputType",
+    "UnityEngine.UI.InputField\u002BLineType",
+    "UnityEngine.UI.Navigation\u002BMode",
+    "UnityEngine.UI.Scrollbar\u002BAxis",
+    "UnityEngine.UI.Scrollbar\u002BDirection",
+    "UnityEngine.UI.ScrollRect\u002BMovementType",
+    "UnityEngine.UI.ScrollRect\u002BScrollbarVisibility",
+    "UnityEngine.UI.Selectable\u002BSelectionState",
+    "UnityEngine.UI.Selectable\u002BTransition",
+    "UnityEngine.UI.Slider\u002BAxis",
+    "UnityEngine.UI.Slider\u002BDirection",
+    "UnityEngine.UI.Toggle\u002BToggleTransition",
+    "UnityEngine.UISystemProfilerApi\u002BSampleType",
+    "UnityEngine.UserAuthorization",
+    "UnityEngine.VerticalWrapMode",
+    "UnityEngine.Video.Video3DLayout",
+    "UnityEngine.Video.VideoAspectRatio",
+    "UnityEngine.Video.VideoAudioOutputMode",
+    "UnityEngine.Video.VideoRenderMode",
+    "UnityEngine.Video.VideoSource",
+    "UnityEngine.Video.VideoTimeReference",
+    "UnityEngine.Video.VideoTimeSource",
+    "UnityEngine.VR.TrackingSpaceType",
+    "UnityEngine.VR.UserPresenceState",
+    "UnityEngine.VR.VRDeviceType",
+    "UnityEngine.VR.VRNode",
+    "UnityEngine.VRTextureUsage",
+    "UnityEngine.WebCamFlags",
+    "UnityEngine.WeightedMode",
+    "UnityEngine.Windows.Speech.ConfidenceLevel",
+    "UnityEngine.Windows.Speech.DictationCompletionCause",
+    "UnityEngine.Windows.Speech.DictationTopicConstraint",
+    "UnityEngine.Windows.Speech.SpeechError",
+    "UnityEngine.Windows.Speech.SpeechSystemStatus",
+    "UnityEngine.WindZoneMode",
+    "UnityEngine.WrapMode",
+    "UnityEngine.XR.ARRenderMode",
+    "UnityEngine.XR.AvailableTrackingData",
+    "UnityEngine.XR.InputTracking\u002BTrackingStateEventType",
+    "UnityEngine.XR.Tango.AreaLearningMode",
+    "UnityEngine.XR.Tango.CoordinateFrame",
+    "UnityEngine.XR.Tango.MeshReconstructionServer\u002BStatus",
+    "UnityEngine.XR.Tango.PoseStatus",
+    "UnityEngine.XR.Tango.SegmentChange",
+    "UnityEngine.XR.Tango.TangoInputTracking\u002BTrackingStateEventType",
+    "UnityEngine.XR.Tango.UpdateMethod",
+    "UnityEngine.XR.TrackingSpaceType",
+    "UnityEngine.XR.UserPresenceState",
+    "UnityEngine.XR.WSA.HolographicSettings\u002BHolographicReprojectionMode",
+    "UnityEngine.XR.WSA.PositionalLocatorState",
+    "UnityEngine.XR.XRNode",
+    "UnityEngineInternal.GITextureType",
+    "UnityEngineInternal.Input.NativeInputEventType",
+    "UnityEngineInternal.Input.NativeInputUpdateType",
+    "UnityEngineInternal.Input.NativeTrackingEvent\u002BFlags",
+    "UnityEngineInternal.LightmapType",
+    "UnityEngineInternal.TypeInferenceRules"
+  ],
+  "skipped": [
+    {
+      "field": "s_DefaultUI",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "s_WhiteTexture",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "m_RectTransform",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "m_CanvasRenderer",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "m_Canvas",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "m_VertsDirty",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "m_MaterialDirty",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "m_OnDirtyLayoutCallback",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "m_OnDirtyVertsCallback",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "m_OnDirtyMaterialCallback",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "s_Mesh",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "s_VertexHelper",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "m_ColorTweenRunner",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "\u003CuseLegacyMeshGeneration\u003Ek__BackingField",
+      "reason": "private"
+    },
+    {
+      "field": "m_ShouldRecalculateStencil",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "m_MaskMaterial",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "m_ParentMask",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "m_Maskable",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "m_IncludeForMasking",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "m_ShouldRecalculate",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "m_StencilValue",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "m_Corners",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "m_TextCache",
+      "reason": "private"
+    },
+    {
+      "field": "m_TextCacheForLayout",
+      "reason": "private"
+    },
+    {
+      "field": "s_DefaultText",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "m_DisableFontTextureRebuiltCallback",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "m_TempVerts",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "s_ETC1DefaultUI",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "m_OverrideSprite",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "m_AlphaHitTestMinimumThreshold",
+      "reason": "private"
+    },
+    {
+      "field": "s_VertScratch",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "s_UVScratch",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "s_Xy",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "s_Uv",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "m_RectTransform",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "m_Graphic",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "m_MaskMaterial",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "m_UnmaskMaterial",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "m_Graphic",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "kMaxEffectDistance",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "s_List",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "m_GroupsAllowInteraction",
+      "reason": "private"
+    },
+    {
+      "field": "m_CurrentSelectionState",
+      "reason": "private"
+    },
+    {
+      "field": "\u003CisPointerInside\u003Ek__BackingField",
+      "reason": "private"
+    },
+    {
+      "field": "\u003CisPointerDown\u003Ek__BackingField",
+      "reason": "private"
+    },
+    {
+      "field": "\u003ChasSelection\u003Ek__BackingField",
+      "reason": "private"
+    },
+    {
+      "field": "m_CanvasGroupCache",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "m_Toggles",
+      "reason": "private"
+    },
+    {
+      "field": "\u003C\u003Ef__am$cache0",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "\u003C\u003Ef__am$cache1",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "m_FillImage",
+      "reason": "private"
+    },
+    {
+      "field": "m_FillTransform",
+      "reason": "private"
+    },
+    {
+      "field": "m_FillContainerRect",
+      "reason": "private"
+    },
+    {
+      "field": "m_HandleTransform",
+      "reason": "private"
+    },
+    {
+      "field": "m_HandleContainerRect",
+      "reason": "private"
+    },
+    {
+      "field": "m_Offset",
+      "reason": "private"
+    },
+    {
+      "field": "m_Tracker",
+      "reason": "private"
+    },
+    {
+      "field": "m_ContainerRect",
+      "reason": "private"
+    },
+    {
+      "field": "m_Offset",
+      "reason": "private"
+    },
+    {
+      "field": "m_Tracker",
+      "reason": "private"
+    },
+    {
+      "field": "m_PointerDownRepeat",
+      "reason": "private"
+    },
+    {
+      "field": "isPointerDownAndNotDragging",
+      "reason": "private"
+    },
+    {
+      "field": "m_PointerStartLocalCursor",
+      "reason": "private"
+    },
+    {
+      "field": "m_ContentStartPosition",
+      "reason": "private"
+    },
+    {
+      "field": "m_ViewRect",
+      "reason": "private"
+    },
+    {
+      "field": "m_ContentBounds",
+      "reason": "private"
+    },
+    {
+      "field": "m_ViewBounds",
+      "reason": "private"
+    },
+    {
+      "field": "m_Velocity",
+      "reason": "private"
+    },
+    {
+      "field": "m_Dragging",
+      "reason": "private"
+    },
+    {
+      "field": "m_PrevPosition",
+      "reason": "private"
+    },
+    {
+      "field": "m_PrevContentBounds",
+      "reason": "private"
+    },
+    {
+      "field": "m_PrevViewBounds",
+      "reason": "private"
+    },
+    {
+      "field": "m_HasRebuiltLayout",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "m_HSliderExpand",
+      "reason": "private"
+    },
+    {
+      "field": "m_VSliderExpand",
+      "reason": "private"
+    },
+    {
+      "field": "m_HSliderHeight",
+      "reason": "private"
+    },
+    {
+      "field": "m_VSliderWidth",
+      "reason": "private"
+    },
+    {
+      "field": "m_Rect",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "m_HorizontalScrollbarRect",
+      "reason": "private"
+    },
+    {
+      "field": "m_VerticalScrollbarRect",
+      "reason": "private"
+    },
+    {
+      "field": "m_Tracker",
+      "reason": "private"
+    },
+    {
+      "field": "m_Corners",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "m_Dropdown",
+      "reason": "private"
+    },
+    {
+      "field": "m_Blocker",
+      "reason": "private"
+    },
+    {
+      "field": "m_Items",
+      "reason": "private"
+    },
+    {
+      "field": "m_AlphaTweenRunner",
+      "reason": "private"
+    },
+    {
+      "field": "validTemplate",
+      "reason": "private"
+    },
+    {
+      "field": "s_NoOptionData",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "m_Keyboard",
+      "reason": "private"
+    },
+    {
+      "field": "kSeparators",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "m_OnValidateInput",
+      "reason": "unsupported-type"
+    },
+    {
+      "field": "m_CaretPosition",
+      "reason": "private"
+    },
+    {
+      "field": "m_CaretSelectPosition",
+      "reason": "private"
+    },
+    {
+      "field": "caretRectTrans",
+      "reason": "private"
+    },
+    {
+      "field": "m_CursorVerts",
+      "reason": "private"
+    },
+    {
+      "field": "m_InputTextCache",
+      "reason": "private"
+    },
+    {
+      "field": "m_CachedInputRenderer",
+      "reason": "private"
+    },
+    {
+      "field": "m_PreventFontCallback",
+      "reason": "private"
+    },
+    {
+      "field": "m_Mesh",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "m_AllowInput",
+      "reason": "private"
+    },
+    {
+      "field": "m_ShouldActivateNextUpdate",
+      "reason": "private"
+    },
+    {
+      "field": "m_UpdateDrag",
+      "reason": "private"
+    },
+    {
+      "field": "m_DragPositionOutOfBounds",
+      "reason": "private"
+    },
+    {
+      "field": "kHScrollSpeed",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "kVScrollSpeed",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "m_CaretVisible",
+      "reason": "private"
+    },
+    {
+      "field": "m_BlinkCoroutine",
+      "reason": "private"
+    },
+    {
+      "field": "m_BlinkStartTime",
+      "reason": "private"
+    },
+    {
+      "field": "m_DrawStart",
+      "reason": "private"
+    },
+    {
+      "field": "m_DrawEnd",
+      "reason": "private"
+    },
+    {
+      "field": "m_DragCoroutine",
+      "reason": "private"
+    },
+    {
+      "field": "m_OriginalText",
+      "reason": "private"
+    },
+    {
+      "field": "m_WasCanceled",
+      "reason": "private"
+    },
+    {
+      "field": "m_HasDoneFocusTransition",
+      "reason": "private"
+    },
+    {
+      "field": "kEmailSpecialCharacters",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "m_ProcessingEvent",
+      "reason": "private"
+    },
+    {
+      "field": "k_MaxTextLength",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "kLogBase",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "m_Canvas",
+      "reason": "private"
+    },
+    {
+      "field": "m_PrevScaleFactor",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "m_PrevReferencePixelsPerUnit",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "kNoEventMaskSet",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "m_Canvas",
+      "reason": "private"
+    },
+    {
+      "field": "m_RaycastResults",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "s_SortedGraphics",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "\u003C\u003Ef__am$cache0",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "m_Rect",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "m_DelayedSetDirty",
+      "reason": "private"
+    },
+    {
+      "field": "m_Tracker",
+      "reason": "private"
+    },
+    {
+      "field": "m_Rect",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "m_Tracker",
+      "reason": "private"
+    },
+    {
+      "field": "m_Rect",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "m_Tracker",
+      "reason": "private"
+    },
+    {
+      "field": "m_TotalMinSize",
+      "reason": "private"
+    },
+    {
+      "field": "m_TotalPreferredSize",
+      "reason": "private"
+    },
+    {
+      "field": "m_TotalFlexibleSize",
+      "reason": "private"
+    },
+    {
+      "field": "m_RectChildren",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "m_SystemInputModules",
+      "reason": "private"
+    },
+    {
+      "field": "m_CurrentInputModule",
+      "reason": "private"
+    },
+    {
+      "field": "m_EventSystems",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "m_CurrentSelected",
+      "reason": "private"
+    },
+    {
+      "field": "m_HasFocus",
+      "reason": "private"
+    },
+    {
+      "field": "m_SelectionGuard",
+      "reason": "private"
+    },
+    {
+      "field": "m_DummyData",
+      "reason": "private"
+    },
+    {
+      "field": "s_RaycastComparer",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "\u003C\u003Ef__mg$cache0",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "m_RaycastResultCache",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "m_AxisEventData",
+      "reason": "private"
+    },
+    {
+      "field": "m_EventSystem",
+      "reason": "private"
+    },
+    {
+      "field": "m_BaseEventData",
+      "reason": "private"
+    },
+    {
+      "field": "m_InputOverride",
+      "reason": "private"
+    },
+    {
+      "field": "m_DefaultInput",
+      "reason": "private"
+    },
+    {
+      "field": "kMouseLeftId",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "kMouseRightId",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "kMouseMiddleId",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "kFakeTouchesId",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "m_PointerData",
+      "reason": "private"
+    },
+    {
+      "field": "m_MouseState",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "m_PrevActionTime",
+      "reason": "private"
+    },
+    {
+      "field": "m_LastMoveVector",
+      "reason": "private"
+    },
+    {
+      "field": "m_ConsecutiveMoveCount",
+      "reason": "private"
+    },
+    {
+      "field": "m_LastMousePosition",
+      "reason": "private"
+    },
+    {
+      "field": "m_MousePosition",
+      "reason": "private"
+    },
+    {
+      "field": "m_CurrentFocusedGameObject",
+      "reason": "private"
+    },
+    {
+      "field": "m_InputPointerEvent",
+      "reason": "private"
+    },
+    {
+      "field": "m_currentFontAsset",
+      "reason": "private"
+    },
+    {
+      "field": "m_isSDFShader",
+      "reason": "private"
+    },
+    {
+      "field": "m_currentMaterial",
+      "reason": "private"
+    },
+    {
+      "field": "m_materialReferences",
+      "reason": "private"
+    },
+    {
+      "field": "m_materialReferenceIndexLookup",
+      "reason": "private"
+    },
+    {
+      "field": "m_materialReferenceStack",
+      "reason": "private"
+    },
+    {
+      "field": "m_currentMaterialIndex",
+      "reason": "private"
+    },
+    {
+      "field": "m_isMaterialDirty",
+      "reason": "private"
+    },
+    {
+      "field": "s_colorWhite",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "m_underlineColor",
+      "reason": "private"
+    },
+    {
+      "field": "m_strikethroughColor",
+      "reason": "private"
+    },
+    {
+      "field": "m_highlightColor",
+      "reason": "private"
+    },
+    {
+      "field": "m_tintSprite",
+      "reason": "private"
+    },
+    {
+      "field": "m_spriteColor",
+      "reason": "private"
+    },
+    {
+      "field": "m_outlineWidth",
+      "reason": "private"
+    },
+    {
+      "field": "m_currentFontSize",
+      "reason": "private"
+    },
+    {
+      "field": "m_sizeStack",
+      "reason": "private"
+    },
+    {
+      "field": "m_fontWeightInternal",
+      "reason": "private"
+    },
+    {
+      "field": "m_fontWeightStack",
+      "reason": "private"
+    },
+    {
+      "field": "m_maxFontSize",
+      "reason": "private"
+    },
+    {
+      "field": "m_minFontSize",
+      "reason": "private"
+    },
+    {
+      "field": "m_style",
+      "reason": "private"
+    },
+    {
+      "field": "m_fontStyleStack",
+      "reason": "private"
+    },
+    {
+      "field": "m_isUsingBold",
+      "reason": "private"
+    },
+    {
+      "field": "m_lineJustification",
+      "reason": "private"
+    },
+    {
+      "field": "m_lineJustificationStack",
+      "reason": "private"
+    },
+    {
+      "field": "m_textContainerLocalCorners",
+      "reason": "private"
+    },
+    {
+      "field": "m_cSpacing",
+      "reason": "private"
+    },
+    {
+      "field": "m_monoSpacing",
+      "reason": "private"
+    },
+    {
+      "field": "m_lineSpacingDelta",
+      "reason": "private"
+    },
+    {
+      "field": "m_lineHeight",
+      "reason": "private"
+    },
+    {
+      "field": "m_charWidthAdjDelta",
+      "reason": "private"
+    },
+    {
+      "field": "m_isCharacterWrappingEnabled",
+      "reason": "private"
+    },
+    {
+      "field": "m_isNonBreakingSpace",
+      "reason": "private"
+    },
+    {
+      "field": "m_isIgnoringAlignment",
+      "reason": "private"
+    },
+    {
+      "field": "m_isOverlay",
+      "reason": "private"
+    },
+    {
+      "field": "m_renderMode",
+      "reason": "private"
+    },
+    {
+      "field": "m_maxVisibleCharacters",
+      "reason": "private"
+    },
+    {
+      "field": "m_maxVisibleWords",
+      "reason": "private"
+    },
+    {
+      "field": "m_maxVisibleLines",
+      "reason": "private"
+    },
+    {
+      "field": "m_isNewPage",
+      "reason": "private"
+    },
+    {
+      "field": "m_marginLeft",
+      "reason": "private"
+    },
+    {
+      "field": "m_marginRight",
+      "reason": "private"
+    },
+    {
+      "field": "m_marginWidth",
+      "reason": "private"
+    },
+    {
+      "field": "m_marginHeight",
+      "reason": "private"
+    },
+    {
+      "field": "m_width",
+      "reason": "private"
+    },
+    {
+      "field": "m_transform",
+      "reason": "private"
+    },
+    {
+      "field": "m_rectTransform",
+      "reason": "private"
+    },
+    {
+      "field": "\u003CautoSizeTextContainer\u003Ek__BackingField",
+      "reason": "private"
+    },
+    {
+      "field": "m_autoSizeTextContainer",
+      "reason": "private"
+    },
+    {
+      "field": "m_mesh",
+      "reason": "private"
+    },
+    {
+      "field": "m_flexibleHeight",
+      "reason": "private"
+    },
+    {
+      "field": "m_flexibleWidth",
+      "reason": "private"
+    },
+    {
+      "field": "m_minWidth",
+      "reason": "private"
+    },
+    {
+      "field": "m_minHeight",
+      "reason": "private"
+    },
+    {
+      "field": "m_maxWidth",
+      "reason": "private"
+    },
+    {
+      "field": "m_maxHeight",
+      "reason": "private"
+    },
+    {
+      "field": "m_LayoutElement",
+      "reason": "private"
+    },
+    {
+      "field": "m_preferredWidth",
+      "reason": "private"
+    },
+    {
+      "field": "m_renderedWidth",
+      "reason": "private"
+    },
+    {
+      "field": "m_isPreferredWidthDirty",
+      "reason": "private"
+    },
+    {
+      "field": "m_preferredHeight",
+      "reason": "private"
+    },
+    {
+      "field": "m_renderedHeight",
+      "reason": "private"
+    },
+    {
+      "field": "m_isPreferredHeightDirty",
+      "reason": "private"
+    },
+    {
+      "field": "m_isCalculatingPreferredValues",
+      "reason": "private"
+    },
+    {
+      "field": "m_recursiveCount",
+      "reason": "private"
+    },
+    {
+      "field": "m_layoutPriority",
+      "reason": "private"
+    },
+    {
+      "field": "m_isCalculateSizeRequired",
+      "reason": "private"
+    },
+    {
+      "field": "m_isLayoutDirty",
+      "reason": "private"
+    },
+    {
+      "field": "m_verticesAlreadyDirty",
+      "reason": "private"
+    },
+    {
+      "field": "m_layoutAlreadyDirty",
+      "reason": "private"
+    },
+    {
+      "field": "m_isAwake",
+      "reason": "private"
+    },
+    {
+      "field": "old_text",
+      "reason": "private"
+    },
+    {
+      "field": "m_fontScale",
+      "reason": "private"
+    },
+    {
+      "field": "m_fontScaleMultiplier",
+      "reason": "private"
+    },
+    {
+      "field": "m_htmlTag",
+      "reason": "private"
+    },
+    {
+      "field": "m_xmlAttribute",
+      "reason": "private"
+    },
+    {
+      "field": "m_attributeParameterValues",
+      "reason": "private"
+    },
+    {
+      "field": "tag_LineIndent",
+      "reason": "private"
+    },
+    {
+      "field": "tag_Indent",
+      "reason": "private"
+    },
+    {
+      "field": "m_indentStack",
+      "reason": "private"
+    },
+    {
+      "field": "tag_NoParsing",
+      "reason": "private"
+    },
+    {
+      "field": "m_isParsingText",
+      "reason": "private"
+    },
+    {
+      "field": "m_FXMatrix",
+      "reason": "private"
+    },
+    {
+      "field": "m_isFXMatrixSet",
+      "reason": "private"
+    },
+    {
+      "field": "m_char_buffer",
+      "reason": "private"
+    },
+    {
+      "field": "m_internalCharacterInfo",
+      "reason": "private"
+    },
+    {
+      "field": "m_input_CharArray",
+      "reason": "private"
+    },
+    {
+      "field": "m_charArray_Length",
+      "reason": "private"
+    },
+    {
+      "field": "m_totalCharacterCount",
+      "reason": "private"
+    },
+    {
+      "field": "m_SavedWordWrapState",
+      "reason": "private"
+    },
+    {
+      "field": "m_SavedLineState",
+      "reason": "private"
+    },
+    {
+      "field": "m_characterCount",
+      "reason": "private"
+    },
+    {
+      "field": "m_firstCharacterOfLine",
+      "reason": "private"
+    },
+    {
+      "field": "m_firstVisibleCharacterOfLine",
+      "reason": "private"
+    },
+    {
+      "field": "m_lastCharacterOfLine",
+      "reason": "private"
+    },
+    {
+      "field": "m_lastVisibleCharacterOfLine",
+      "reason": "private"
+    },
+    {
+      "field": "m_lineNumber",
+      "reason": "private"
+    },
+    {
+      "field": "m_lineVisibleCharacterCount",
+      "reason": "private"
+    },
+    {
+      "field": "m_pageNumber",
+      "reason": "private"
+    },
+    {
+      "field": "m_maxAscender",
+      "reason": "private"
+    },
+    {
+      "field": "m_maxCapHeight",
+      "reason": "private"
+    },
+    {
+      "field": "m_maxDescender",
+      "reason": "private"
+    },
+    {
+      "field": "m_maxLineAscender",
+      "reason": "private"
+    },
+    {
+      "field": "m_maxLineDescender",
+      "reason": "private"
+    },
+    {
+      "field": "m_startOfLineAscender",
+      "reason": "private"
+    },
+    {
+      "field": "m_lineOffset",
+      "reason": "private"
+    },
+    {
+      "field": "m_meshExtents",
+      "reason": "private"
+    },
+    {
+      "field": "m_htmlColor",
+      "reason": "private"
+    },
+    {
+      "field": "m_colorStack",
+      "reason": "private"
+    },
+    {
+      "field": "m_underlineColorStack",
+      "reason": "private"
+    },
+    {
+      "field": "m_strikethroughColorStack",
+      "reason": "private"
+    },
+    {
+      "field": "m_highlightColorStack",
+      "reason": "private"
+    },
+    {
+      "field": "m_colorGradientPreset",
+      "reason": "private"
+    },
+    {
+      "field": "m_colorGradientStack",
+      "reason": "private"
+    },
+    {
+      "field": "m_tabSpacing",
+      "reason": "private"
+    },
+    {
+      "field": "m_spacing",
+      "reason": "private"
+    },
+    {
+      "field": "m_styleStack",
+      "reason": "private"
+    },
+    {
+      "field": "m_actionStack",
+      "reason": "private"
+    },
+    {
+      "field": "m_padding",
+      "reason": "private"
+    },
+    {
+      "field": "m_baselineOffset",
+      "reason": "private"
+    },
+    {
+      "field": "m_baselineOffsetStack",
+      "reason": "private"
+    },
+    {
+      "field": "m_xAdvance",
+      "reason": "private"
+    },
+    {
+      "field": "m_textElementType",
+      "reason": "private"
+    },
+    {
+      "field": "m_cached_TextElement",
+      "reason": "private"
+    },
+    {
+      "field": "m_cached_Underline_GlyphInfo",
+      "reason": "private"
+    },
+    {
+      "field": "m_cached_Ellipsis_GlyphInfo",
+      "reason": "private"
+    },
+    {
+      "field": "m_defaultSpriteAsset",
+      "reason": "private"
+    },
+    {
+      "field": "m_currentSpriteAsset",
+      "reason": "private"
+    },
+    {
+      "field": "m_spriteCount",
+      "reason": "private"
+    },
+    {
+      "field": "m_spriteIndex",
+      "reason": "private"
+    },
+    {
+      "field": "m_spriteAnimationID",
+      "reason": "private"
+    },
+    {
+      "field": "m_ignoreActiveState",
+      "reason": "private"
+    },
+    {
+      "field": "k_Power",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "k_LargePositiveVector2",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "k_LargeNegativeVector2",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "k_LargePositiveFloat",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "k_LargeNegativeFloat",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "k_LargePositiveInt",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "k_LargeNegativeInt",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "m_isRebuildingLayout",
+      "reason": "private"
+    },
+    {
+      "field": "m_previousLossyScaleY",
+      "reason": "private"
+    },
+    {
+      "field": "m_RectTransformCorners",
+      "reason": "private"
+    },
+    {
+      "field": "m_canvasRenderer",
+      "reason": "private"
+    },
+    {
+      "field": "m_canvas",
+      "reason": "private"
+    },
+    {
+      "field": "m_isFirstAllocation",
+      "reason": "private"
+    },
+    {
+      "field": "m_max_characters",
+      "reason": "private"
+    },
+    {
+      "field": "m_isMaskingEnabled",
+      "reason": "private"
+    },
+    {
+      "field": "m_isScrollRegionSet",
+      "reason": "private"
+    },
+    {
+      "field": "m_stencilID",
+      "reason": "private"
+    },
+    {
+      "field": "m_EnvMapMatrix",
+      "reason": "private"
+    },
+    {
+      "field": "m_isRegisteredForEvents",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "m_recursiveCountA",
+      "reason": "private"
+    },
+    {
+      "field": "loopCountA",
+      "reason": "private"
+    },
+    {
+      "field": "m_Dropdown",
+      "reason": "private"
+    },
+    {
+      "field": "m_Blocker",
+      "reason": "private"
+    },
+    {
+      "field": "m_Items",
+      "reason": "private"
+    },
+    {
+      "field": "m_AlphaTweenRunner",
+      "reason": "private"
+    },
+    {
+      "field": "validTemplate",
+      "reason": "private"
+    },
+    {
+      "field": "s_NoOptionData",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "kDefaultNormalAnimName",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "kDefaultSelectedAnimName",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "kDefaultPressedAnimName",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "kDefaultDisabledAnimName",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "k_InfinityVectorPositive",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "k_InfinityVectorNegative",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "m_CachedMeshInfo",
+      "reason": "private"
+    },
+    {
+      "field": "linkID",
+      "reason": "private"
+    },
+    {
+      "field": "controlCharacterCount",
+      "reason": "private"
+    },
+    {
+      "field": "s_DefaultColor",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "s_DefaultNormal",
+      "reason": "static/const/readonly/nonserialized"
+    },
+    {
+      "field": "s_DefaultTangent",
+      "reason": "static/const/readonly/nonserialized"
+    }
+  ],
+  "report": {
+    "scripts_total": 39,
+    "nested": 19
+  }
+}

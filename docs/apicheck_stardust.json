@@ -1,0 +1,618 @@
+{
+  "dll": "Stardust_Raiders_1.0.4_Windows\\Stardust Raiders 1.0.4_Data\\Managed\\Assembly-CSharp.dll",
+  "typeref_unity_count": 120,
+  "memberref_skipped_generics": 39,
+  "methodspect_generic_calls": 10,
+  "modules": {
+    "UnityEngine.CoreModule": {
+      "classes": 62,
+      "members": 224
+    },
+    "UnityEngine.AudioModule": {
+      "classes": 5,
+      "members": 13
+    },
+    "UnityEngine.UI": {
+      "classes": 15,
+      "members": 18
+    },
+    "UnityEngine.PhysicsModule": {
+      "classes": 5,
+      "members": 4
+    },
+    "UnityEngine.AnimationModule": {
+      "classes": 2,
+      "members": 4
+    },
+    "TextMeshPro-2017.3-Runtime": {
+      "classes": 25,
+      "members": 79
+    },
+    "UnityEngine.TextRenderingModule": {
+      "classes": 3,
+      "members": 8
+    },
+    "UnityEngine.UIModule": {
+      "classes": 3,
+      "members": 4
+    }
+  },
+  "by_module": {
+    "TextMeshPro-2017.3-Runtime": {
+      "TMP_InputField+SubmitEvent": [],
+      "TMPro.FastAction`1": [],
+      "TMPro.ShaderUtilities": [
+        "ID_GlowPower"
+      ],
+      "TMPro.TMP_Asset": [
+        "material"
+      ],
+      "TMPro.TMP_CharacterInfo": [
+        "baseLine",
+        "bottomLeft",
+        "bottomRight",
+        "character",
+        "elementType",
+        "isVisible",
+        "materialReferenceIndex",
+        "topRight",
+        "vertexIndex"
+      ],
+      "TMPro.TMP_Dropdown": [
+        "RefreshShownValue",
+        "set_value"
+      ],
+      "TMPro.TMP_FontAsset": [],
+      "TMPro.TMP_InputField": [
+        "ActivateInputField",
+        "get_onSubmit",
+        "set_text"
+      ],
+      "TMPro.TMP_InputValidator": [
+        ".ctor"
+      ],
+      "TMPro.TMP_LineInfo": [
+        "characterCount",
+        "firstCharacterIndex",
+        "lastCharacterIndex"
+      ],
+      "TMPro.TMP_LinkInfo": [
+        "GetLinkID",
+        "GetLinkText"
+      ],
+      "TMPro.TMP_MeshInfo": [
+        "SortGeometry",
+        "SwapVertexData",
+        "colors32",
+        "mesh",
+        "uvs0",
+        "uvs2",
+        "vertices"
+      ],
+      "TMPro.TMP_Text": [
+        "ForceMeshUpdate",
+        "GetPreferredValues",
+        "SetText",
+        "UpdateGeometry",
+        "UpdateVertexData",
+        "get_bounds",
+        "get_font",
+        "get_fontSharedMaterial",
+        "get_havePropertiesChanged",
+        "get_mesh",
+        "get_rectTransform",
+        "get_text",
+        "get_textInfo",
+        "set_alignment",
+        "set_autoSizeTextContainer",
+        "set_enableKerning",
+        "set_enableWordWrapping",
+        "set_extraPadding",
+        "set_font",
+        "set_fontSharedMaterial",
+        "set_fontSize",
+        "set_havePropertiesChanged",
+        "set_isOrthographic",
+        "set_isOverlay",
+        "set_margin",
+        "set_maxVisibleCharacters",
+        "set_text"
+      ],
+      "TMPro.TMP_TextElementType": [],
+      "TMPro.TMP_TextInfo": [
+        "CopyMeshInfoVertexData",
+        "characterCount",
+        "characterInfo",
+        "lineCount",
+        "lineInfo",
+        "linkInfo",
+        "meshInfo",
+        "wordCount",
+        "wordInfo"
+      ],
+      "TMPro.TMP_TextUtilities": [
+        "FindIntersectingCharacter",
+        "FindIntersectingLine",
+        "FindIntersectingLink",
+        "FindIntersectingWord",
+        "IsIntersectingRectTransform"
+      ],
+      "TMPro.TMP_VertexDataUpdateFlags": [],
+      "TMPro.TMP_WordInfo": [
+        "GetWord",
+        "characterCount",
+        "firstCharacterIndex",
+        "lastCharacterIndex"
+      ],
+      "TMPro.TMPro_EventManager": [
+        "TEXT_CHANGED_EVENT"
+      ],
+      "TMPro.TMPro_ExtensionMethods": [
+        "Compare",
+        "Tint"
+      ],
+      "TMPro.TextAlignmentOptions": [],
+      "TMPro.TextContainer": [
+        "set_anchorPosition"
+      ],
+      "TMPro.TextContainerAnchors": [],
+      "TMPro.TextMeshPro": [
+        "get_transform"
+      ],
+      "TMPro.TextMeshProUGUI": []
+    },
+    "UnityEngine.AnimationModule": {
+      "UnityEngine.Animator": [
+        "GetCurrentAnimatorStateInfo",
+        "get_speed",
+        "set_speed"
+      ],
+      "UnityEngine.AnimatorStateInfo": [
+        "IsName"
+      ]
+    },
+    "UnityEngine.AudioModule": {
+      "UnityEngine.Audio.AudioMixer": [
+        "SetFloat"
+      ],
+      "UnityEngine.Audio.AudioMixerGroup": [],
+      "UnityEngine.Audio.AudioMixerSnapshot": [
+        "TransitionTo"
+      ],
+      "UnityEngine.AudioClip": [
+        "get_length"
+      ],
+      "UnityEngine.AudioSource": [
+        "Play",
+        "Stop",
+        "get_clip",
+        "get_isPlaying",
+        "get_time",
+        "set_clip",
+        "set_loop",
+        "set_outputAudioMixerGroup",
+        "set_pitch",
+        "set_volume"
+      ]
+    },
+    "UnityEngine.CoreModule": {
+      "UnityEngine.AnimationCurve": [
+        ".ctor",
+        "Evaluate",
+        "get_keys",
+        "set_keys",
+        "set_postWrapMode",
+        "set_preWrapMode"
+      ],
+      "UnityEngine.Application": [
+        "Quit",
+        "get_platform",
+        "get_version",
+        "set_targetFrameRate"
+      ],
+      "UnityEngine.AsyncOperation": [
+        "get_isDone",
+        "get_progress"
+      ],
+      "UnityEngine.Behaviour": [
+        "get_enabled",
+        "set_enabled"
+      ],
+      "UnityEngine.Bounds": [
+        "get_max",
+        "get_min"
+      ],
+      "UnityEngine.Camera": [
+        "ScreenPointToRay",
+        "ViewportToWorldPoint",
+        "WorldToScreenPoint",
+        "get_main",
+        "set_orthographicSize"
+      ],
+      "UnityEngine.Color": [
+        "Lerp",
+        "a",
+        "get_black"
+      ],
+      "UnityEngine.Color32": [
+        ".ctor",
+        "b",
+        "g",
+        "op_Implicit",
+        "r"
+      ],
+      "UnityEngine.Component": [
+        "CompareTag",
+        "GetComponent",
+        "GetComponent<T>",
+        "GetComponentInChildren",
+        "GetComponentInChildren<T>",
+        "GetComponentsInChildren",
+        "GetComponentsInChildren<T>",
+        "get_gameObject",
+        "get_tag",
+        "get_transform"
+      ],
+      "UnityEngine.Coroutine": [],
+      "UnityEngine.Debug": [
+        "Log",
+        "LogError",
+        "LogWarning"
+      ],
+      "UnityEngine.Events.UnityAction`1": [],
+      "UnityEngine.Events.UnityAction`2": [],
+      "UnityEngine.Events.UnityAction`3": [],
+      "UnityEngine.Events.UnityEvent`1": [],
+      "UnityEngine.Events.UnityEvent`2": [],
+      "UnityEngine.Events.UnityEvent`3": [],
+      "UnityEngine.ExecuteInEditMode": [
+        ".ctor"
+      ],
+      "UnityEngine.GameObject": [
+        ".ctor",
+        "AddComponent",
+        "AddComponent<T>",
+        "Find",
+        "FindGameObjectWithTag",
+        "GetComponent",
+        "GetComponent<T>",
+        "GetComponentInChildren",
+        "GetComponentInChildren<T>",
+        "GetComponentInParent",
+        "GetComponentInParent<T>",
+        "GetComponentsInChildren",
+        "GetComponentsInChildren<T>",
+        "SendMessageUpwards",
+        "SetActive",
+        "get_activeInHierarchy",
+        "get_activeSelf",
+        "get_gameObject",
+        "get_transform"
+      ],
+      "UnityEngine.HeaderAttribute": [
+        ".ctor"
+      ],
+      "UnityEngine.HideInInspector": [
+        ".ctor"
+      ],
+      "UnityEngine.Input": [
+        "GetAxis",
+        "GetButtonDown",
+        "GetKey",
+        "GetKeyDown",
+        "GetMouseButton",
+        "GetTouch",
+        "get_mousePosition",
+        "get_touchCount",
+        "set_simulateMouseWithTouches"
+      ],
+      "UnityEngine.KeyCode": [],
+      "UnityEngine.Keyframe": [
+        ".ctor",
+        "get_value"
+      ],
+      "UnityEngine.Light": [
+        "get_color"
+      ],
+      "UnityEngine.Material": [
+        "SetFloat",
+        "SetMatrix",
+        "get_color",
+        "set_color"
+      ],
+      "UnityEngine.Mathf": [
+        "Abs",
+        "Acos",
+        "Clamp",
+        "Clamp01",
+        "Cos",
+        "Max",
+        "PingPong",
+        "RoundToInt",
+        "Sin",
+        "SmoothStep"
+      ],
+      "UnityEngine.Matrix4x4": [
+        "MultiplyPoint3x4",
+        "SetTRS",
+        "TRS"
+      ],
+      "UnityEngine.Mesh": [
+        "set_colors32",
+        "set_uv",
+        "set_vertices"
+      ],
+      "UnityEngine.MeshRenderer": [],
+      "UnityEngine.MonoBehaviour": [
+        ".ctor",
+        "Invoke",
+        "StartCoroutine"
+      ],
+      "UnityEngine.Object": [
+        "Destroy",
+        "DontDestroyOnLoad",
+        "Instantiate",
+        "Instantiate<T>",
+        "get_name",
+        "op_Equality",
+        "op_Implicit",
+        "op_Inequality"
+      ],
+      "UnityEngine.QualitySettings": [
+        "GetQualityLevel",
+        "SetQualityLevel",
+        "get_vSyncCount"
+      ],
+      "UnityEngine.Quaternion": [
+        ".ctor",
+        "AngleAxis",
+        "Euler",
+        "Lerp",
+        "LookRotation",
+        "RotateTowards",
+        "Slerp",
+        "get_eulerAngles",
+        "get_identity",
+        "op_Multiply",
+        "w",
+        "x",
+        "y",
+        "z"
+      ],
+      "UnityEngine.Random": [
+        "Range",
+        "get_insideUnitSphere"
+      ],
+      "UnityEngine.RangeAttribute": [
+        ".ctor"
+      ],
+      "UnityEngine.Ray": [],
+      "UnityEngine.Rect": [
+        "get_height"
+      ],
+      "UnityEngine.RectTransform": [
+        "get_anchoredPosition",
+        "get_rect",
+        "get_sizeDelta",
+        "set_anchorMax",
+        "set_anchorMin",
+        "set_anchoredPosition",
+        "set_pivot",
+        "set_sizeDelta"
+      ],
+      "UnityEngine.Renderer": [
+        "get_material",
+        "set_material",
+        "set_sharedMaterial"
+      ],
+      "UnityEngine.RequireComponent": [
+        ".ctor"
+      ],
+      "UnityEngine.Resolution": [
+        "get_height",
+        "get_width"
+      ],
+      "UnityEngine.Resources": [
+        "Load",
+        "Load<T>"
+      ],
+      "UnityEngine.RuntimePlatform": [],
+      "UnityEngine.SceneManagement.LoadSceneMode": [],
+      "UnityEngine.SceneManagement.Scene": [
+        "get_buildIndex"
+      ],
+      "UnityEngine.SceneManagement.SceneManager": [
+        "GetActiveScene",
+        "LoadSceneAsync",
+        "add_sceneLoaded",
+        "get_sceneCountInBuildSettings"
+      ],
+      "UnityEngine.Screen": [
+        "SetResolution",
+        "get_currentResolution",
+        "get_fullScreen",
+        "get_height",
+        "get_resolutions",
+        "get_width",
+        "set_fullScreen"
+      ],
+      "UnityEngine.SerializeField": [
+        ".ctor"
+      ],
+      "UnityEngine.Space": [],
+      "UnityEngine.SpaceAttribute": [
+        ".ctor"
+      ],
+      "UnityEngine.TextAreaAttribute": [
+        ".ctor"
+      ],
+      "UnityEngine.Time": [
+        "get_deltaTime",
+        "get_fixedDeltaTime",
+        "get_realtimeSinceStartup",
+        "get_time",
+        "get_timeScale",
+        "get_unscaledDeltaTime",
+        "set_timeScale"
+      ],
+      "UnityEngine.Touch": [
+        "get_deltaPosition",
+        "get_phase",
+        "get_position"
+      ],
+      "UnityEngine.TouchPhase": [],
+      "UnityEngine.Transform": [
+        "GetEnumerator",
+        "LookAt",
+        "Rotate",
+        "RotateAround",
+        "SetParent",
+        "TransformDirection",
+        "TransformPoint",
+        "Translate",
+        "get_forward",
+        "get_localPosition",
+        "get_localRotation",
+        "get_localScale",
+        "get_lossyScale",
+        "get_parent",
+        "get_position",
+        "get_rotation",
+        "get_up",
+        "set_forward",
+        "set_localPosition",
+        "set_localRotation",
+        "set_localScale",
+        "set_parent",
+        "set_position",
+        "set_rotation"
+      ],
+      "UnityEngine.Vector2": [
+        ".ctor",
+        "get_magnitude",
+        "get_one",
+        "op_Implicit",
+        "op_Subtraction",
+        "x",
+        "y"
+      ],
+      "UnityEngine.Vector3": [
+        ".ctor",
+        "Cross",
+        "Dot",
+        "Lerp",
+        "Project",
+        "SmoothDamp",
+        "get_forward",
+        "get_magnitude",
+        "get_normalized",
+        "get_one",
+        "get_right",
+        "get_up",
+        "get_zero",
+        "op_Addition",
+        "op_Division",
+        "op_Multiply",
+        "op_Subtraction",
+        "op_UnaryNegation",
+        "x",
+        "y",
+        "z"
+      ],
+      "UnityEngine.Vector4": [
+        ".ctor"
+      ],
+      "UnityEngine.WaitForEndOfFrame": [
+        ".ctor"
+      ],
+      "UnityEngine.WaitForSeconds": [
+        ".ctor"
+      ],
+      "UnityEngine.WrapMode": []
+    },
+    "UnityEngine.PhysicsModule": {
+      "UnityEngine.Collider": [
+        "ClosestPointOnBounds"
+      ],
+      "UnityEngine.ForceMode": [],
+      "UnityEngine.Physics": [
+        "Raycast"
+      ],
+      "UnityEngine.RaycastHit": [
+        "get_transform"
+      ],
+      "UnityEngine.Rigidbody": [
+        "AddForce"
+      ]
+    },
+    "UnityEngine.TextRenderingModule": {
+      "UnityEngine.Font": [
+        "get_material"
+      ],
+      "UnityEngine.TextAnchor": [],
+      "UnityEngine.TextMesh": [
+        "get_color",
+        "get_font",
+        "set_anchor",
+        "set_color",
+        "set_font",
+        "set_fontSize",
+        "set_text"
+      ]
+    },
+    "UnityEngine.UI": {
+      "UnityEngine.EventSystems.EventSystem": [
+        "SetSelectedGameObject",
+        "get_current",
+        "get_currentSelectedGameObject",
+        "get_firstSelectedGameObject"
+      ],
+      "UnityEngine.EventSystems.IEventSystemHandler": [],
+      "UnityEngine.EventSystems.IPointerClickHandler": [],
+      "UnityEngine.EventSystems.IPointerEnterHandler": [],
+      "UnityEngine.EventSystems.IPointerExitHandler": [],
+      "UnityEngine.EventSystems.IPointerUpHandler": [],
+      "UnityEngine.EventSystems.PointerEventData": [],
+      "UnityEngine.UI.Dropdown": [
+        "AddOptions",
+        "ClearOptions",
+        "RefreshShownValue",
+        "set_value"
+      ],
+      "UnityEngine.UI.Graphic": [
+        "get_color",
+        "set_color"
+      ],
+      "UnityEngine.UI.Image": [],
+      "UnityEngine.UI.ScrollRect": [
+        "get_content"
+      ],
+      "UnityEngine.UI.Scrollbar": [
+        "set_value"
+      ],
+      "UnityEngine.UI.Slider": [
+        "set_value"
+      ],
+      "UnityEngine.UI.Text": [
+        "set_alignment",
+        "set_font",
+        "set_fontSize",
+        "set_text"
+      ],
+      "UnityEngine.UI.Toggle": [
+        "set_isOn"
+      ]
+    },
+    "UnityEngine.UIModule": {
+      "UnityEngine.Canvas": [
+        "get_renderMode",
+        "get_worldCamera",
+        "set_worldCamera"
+      ],
+      "UnityEngine.RectTransformUtility": [
+        "ScreenPointToWorldPointInRectangle"
+      ],
+      "UnityEngine.RenderMode": []
+    }
+  }
+}

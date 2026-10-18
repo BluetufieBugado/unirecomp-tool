@@ -1,0 +1,425 @@
+{
+  "project": "Stardust Raiders",
+  "editor_version": "2018.1.5f1",
+  "build_version": "2018.1.5f1",
+  "versions_match": true,
+  "is_mono": true,
+  "is_il2cpp": false,
+  "assembly_csharp_kb": 132,
+  "scripts_count": 55,
+  "scripts_editor_only": [
+    "Assets/Scripts/Editor/ObstacleEditorWindow.cs",
+    "Assets/Scripts/Editor/SectorEditor.cs"
+  ],
+  "net_scripts": [],
+  "risk_hits": [],
+  "api_counts": {
+    "Vector3": 113,
+    "Quaternion": 66,
+    "Time.": 65,
+    "Destroy": 59,
+    "Transform": 52,
+    "Input.": 50,
+    "Camera": 40,
+    "Canvas": 29,
+    "Collider": 27,
+    "AudioSource": 26,
+    "Trigger": 21,
+    "Text": 20,
+    "SceneManager": 15,
+    "Instantiate": 10,
+    "AudioClip": 10,
+    "Image": 8,
+    "Application.": 7,
+    "Animator": 5,
+    "Rigidbody": 4,
+    "Button": 3,
+    "Resources.Load": 3,
+    "DontDestroyOnLoad": 2,
+    "Collision": 1,
+    "Gizmos": 1
+  },
+  "shaders_custom": [
+    "Assets/Shaders/Normal-DiffuseCullFront.shader",
+    "Assets/UI/TextMesh Pro/Resources/Shaders/TMP_Bitmap-Mobile.shader",
+    "Assets/UI/TextMesh Pro/Resources/Shaders/TMP_Bitmap.shader",
+    "Assets/UI/TextMesh Pro/Resources/Shaders/TMP_SDF Overlay.shader",
+    "Assets/UI/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile Masking.shader",
+    "Assets/UI/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile Overlay.shader",
+    "Assets/UI/TextMesh Pro/Resources/Shaders/TMP_SDF-Mobile.shader",
+    "Assets/UI/TextMesh Pro/Resources/Shaders/TMP_SDF-Surface-Mobile.shader",
+    "Assets/UI/TextMesh Pro/Resources/Shaders/TMP_SDF-Surface.shader",
+    "Assets/UI/TextMesh Pro/Resources/Shaders/TMP_SDF.shader",
+    "Assets/UI/TextMesh Pro/Resources/Shaders/TMP_Sprite.shader"
+  ],
+  "scenes_game": [
+    "Assets/_Scenes/boss_fight.unity",
+    "Assets/_Scenes/credits.unity",
+    "Assets/_Scenes/enemy_test.unity",
+    "Assets/_Scenes/level_01.unity",
+    "Assets/_Scenes/main_menu.unity",
+    "Assets/_Scenes/modeling.unity",
+    "Assets/_Scenes/sound_test.unity"
+  ],
+  "scenes_third_party_count": 31,
+  "build": {
+    "data_dir": "Stardust_Raiders_1.0.4_Windows\\Stardust Raiders 1.0.4_Data",
+    "managed": [
+      {
+        "name": "Assembly-CSharp.dll",
+        "kb": 132
+      },
+      {
+        "name": "KdTreeLib.dll",
+        "kb": 18
+      },
+      {
+        "name": "Mono.Security.dll",
+        "kb": 286
+      },
+      {
+        "name": "mscorlib.dll",
+        "kb": 2438
+      },
+      {
+        "name": "pb_Stl.dll",
+        "kb": 13
+      },
+      {
+        "name": "Poly2Tri.dll",
+        "kb": 34
+      },
+      {
+        "name": "ProBuilderCore.dll",
+        "kb": 254
+      },
+      {
+        "name": "ProBuilderMeshOps.dll",
+        "kb": 98
+      },
+      {
+        "name": "System.Core.dll",
+        "kb": 260
+      },
+      {
+        "name": "System.dll",
+        "kb": 1044
+      },
+      {
+        "name": "TextMeshPro-2017.3-Runtime.dll",
+        "kb": 307
+      },
+      {
+        "name": "UnityEngine.AccessibilityModule.dll",
+        "kb": 8
+      },
+      {
+        "name": "UnityEngine.AIModule.dll",
+        "kb": 38
+      },
+      {
+        "name": "UnityEngine.Analytics.dll",
+        "kb": 20
+      },
+      {
+        "name": "UnityEngine.AnimationModule.dll",
+        "kb": 91
+      },
+      {
+        "name": "UnityEngine.ARModule.dll",
+        "kb": 22
+      },
+      {
+        "name": "UnityEngine.AssetBundleModule.dll",
+        "kb": 13
+      },
+      {
+        "name": "UnityEngine.AudioModule.dll",
+        "kb": 53
+      },
+      {
+        "name": "UnityEngine.BaselibModule.dll",
+        "kb": 6
+      },
+      {
+        "name": "UnityEngine.ClothModule.dll",
+        "kb": 12
+      },
+      {
+        "name": "UnityEngine.CloudWebServicesModule.dll",
+        "kb": 6
+      },
+      {
+        "name": "UnityEngine.ClusterInputModule.dll",
+        "kb": 6
+      },
+      {
+        "name": "UnityEngine.ClusterRendererModule.dll",
+        "kb": 6
+      },
+      {
+        "name": "UnityEngine.CoreModule.dll",
+        "kb": 750
+      },
+      {
+        "name": "UnityEngine.CrashReportingModule.dll",
+        "kb": 6
+      },
+      {
+        "name": "UnityEngine.DirectorModule.dll",
+        "kb": 10
+      },
+      {
+        "name": "UnityEngine.dll",
+        "kb": 62
+      },
+      {
+        "name": "UnityEngine.FacebookModule.dll",
+        "kb": 6
+      },
+      {
+        "name": "UnityEngine.GameCenterModule.dll",
+        "kb": 23
+      },
+      {
+        "name": "UnityEngine.GridModule.dll",
+        "kb": 10
+      },
+      {
+        "name": "UnityEngine.HotReloadModule.dll",
+        "kb": 6
+      },
+      {
+        "name": "UnityEngine.ImageConversionModule.dll",
+        "kb": 6
+      },
+      {
+        "name": "UnityEngine.IMGUIModule.dll",
+        "kb": 140
+      },
+      {
+        "name": "UnityEngine.InputModule.dll",
+        "kb": 12
+      },
+      {
+        "name": "UnityEngine.JSONSerializeModule.dll",
+        "kb": 6
+      },
+      {
+        "name": "UnityEngine.Networking.dll",
+        "kb": 250
+      },
+      {
+        "name": "UnityEngine.ParticlesLegacyModule.dll",
+        "kb": 6
+      },
+      {
+        "name": "UnityEngine.ParticleSystemModule.dll",
+        "kb": 110
+      },
+      {
+        "name": "UnityEngine.PerformanceReportingModule.dll",
+        "kb": 6
+      },
+      {
+        "name": "UnityEngine.Physics2DModule.dll",
+        "kb": 80
+      },
+      {
+        "name": "UnityEngine.PhysicsModule.dll",
+        "kb": 64
+      },
+      {
+        "name": "UnityEngine.ScreenCaptureModule.dll",
+        "kb": 6
+      },
+      {
+        "name": "UnityEngine.SharedInternalsModule.dll",
+        "kb": 18
+      },
+      {
+        "name": "UnityEngine.SpatialTracking.dll",
+        "kb": 9
+      },
+      {
+        "name": "UnityEngine.SpatialTrackingModule.dll",
+        "kb": 6
+      },
+      {
+        "name": "UnityEngine.SpriteMaskModule.dll",
+        "kb": 6
+      },
+      {
+        "name": "UnityEngine.SpriteShapeModule.dll",
+        "kb": 7
+      },
+      {
+        "name": "UnityEngine.StandardEvents.dll",
+        "kb": 32
+      },
+      {
+        "name": "UnityEngine.StyleSheetsModule.dll",
+        "kb": 12
+      },
+      {
+        "name": "UnityEngine.SubstanceModule.dll",
+        "kb": 10
+      },
+      {
+        "name": "UnityEngine.TerrainModule.dll",
+        "kb": 31
+      },
+      {
+        "name": "UnityEngine.TerrainPhysicsModule.dll",
+        "kb": 6
+      },
+      {
+        "name": "UnityEngine.TextRenderingModule.dll",
+        "kb": 23
+      },
+      {
+        "name": "UnityEngine.TilemapModule.dll",
+        "kb": 20
+      },
+      {
+        "name": "UnityEngine.Timeline.dll",
+        "kb": 91
+      },
+      {
+        "name": "UnityEngine.TimelineModule.dll",
+        "kb": 6
+      },
+      {
+        "name": "UnityEngine.TLSModule.dll",
+        "kb": 6
+      },
+      {
+        "name": "UnityEngine.UI.dll",
+        "kb": 244
+      },
+      {
+        "name": "UnityEngine.UIElementsModule.dll",
+        "kb": 226
+      },
+      {
+        "name": "UnityEngine.UIModule.dll",
+        "kb": 18
+      },
+      {
+        "name": "UnityEngine.UmbraModule.dll",
+        "kb": 6
+      },
+      {
+        "name": "UnityEngine.UNETModule.dll",
+        "kb": 75
+      },
+      {
+        "name": "UnityEngine.UnityAnalyticsModule.dll",
+        "kb": 12
+      },
+      {
+        "name": "UnityEngine.UnityConnectModule.dll",
+        "kb": 13
+      },
+      {
+        "name": "UnityEngine.UnityWebRequestAssetBundleModule.dll",
+        "kb": 8
+      },
+      {
+        "name": "UnityEngine.UnityWebRequestAudioModule.dll",
+        "kb": 8
+      },
+      {
+        "name": "UnityEngine.UnityWebRequestModule.dll",
+        "kb": 38
+      },
+      {
+        "name": "UnityEngine.UnityWebRequestTextureModule.dll",
+        "kb": 8
+      },
+      {
+        "name": "UnityEngine.UnityWebRequestWWWModule.dll",
+        "kb": 16
+      },
+      {
+        "name": "UnityEngine.VehiclesModule.dll",
+        "kb": 9
+      },
+      {
+        "name": "UnityEngine.VideoModule.dll",
+        "kb": 22
+      },
+      {
+        "name": "UnityEngine.VRModule.dll",
+        "kb": 22
+      },
+      {
+        "name": "UnityEngine.WebModule.dll",
+        "kb": 28
+      },
+      {
+        "name": "UnityEngine.WindModule.dll",
+        "kb": 6
+      },
+      {
+        "name": "UnityEngine.XRModule.dll",
+        "kb": 28
+      }
+    ],
+    "native_plugins": [],
+    "levels": [
+      "level0",
+      "level1",
+      "level2",
+      "level3"
+    ],
+    "asset_files": [
+      {
+        "name": "sharedassets0.assets.resS",
+        "mb": 13.66
+      },
+      {
+        "name": "sharedassets1.resource",
+        "mb": 3.21
+      },
+      {
+        "name": "sharedassets1.assets.resS",
+        "mb": 3.06
+      },
+      {
+        "name": "sharedassets0.resource",
+        "mb": 3.03
+      },
+      {
+        "name": "sharedassets3.resource",
+        "mb": 1.28
+      },
+      {
+        "name": "sharedassets0.assets",
+        "mb": 0.43
+      },
+      {
+        "name": "sharedassets0.assets",
+        "mb": 0.43
+      },
+      {
+        "name": "resources.assets",
+        "mb": 0.24
+      },
+      {
+        "name": "sharedassets1.assets",
+        "mb": 0.2
+      },
+      {
+        "name": "sharedassets1.assets",
+        "mb": 0.2
+      }
+    ],
+    "is_mono": true,
+    "is_il2cpp": false,
+    "build_version": "2018.1.5f1",
+    "build_versions_all": [
+      "2018.1.5f1"
+    ]
+  }
+}

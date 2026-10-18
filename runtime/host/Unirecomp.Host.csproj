@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <AssemblyName>Unirecomp.Host</AssemblyName>
+    <RootNamespace>Unirecomp.Host</RootNamespace>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <!-- Requer .NET 8 SDK: dotnet build runtime/host -->
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\shim\CoreModule\UnityEngine.CoreModule.csproj" />
+    <ProjectReference Include="..\shim\AnimationModule\UnityEngine.AnimationModule.csproj" />
+    <ProjectReference Include="..\shim\AudioModule\UnityEngine.AudioModule.csproj" />
+    <ProjectReference Include="..\shim\PhysicsModule\UnityEngine.PhysicsModule.csproj" />
+    <ProjectReference Include="..\shim\TextRenderingModule\UnityEngine.TextRenderingModule.csproj" />
+    <ProjectReference Include="..\shim\UIModule\UnityEngine.UIModule.csproj" />
+    <ProjectReference Include="..\shim\UI\UnityEngine.UI.csproj" />
+    <ProjectReference Include="..\shim\TextMeshPro\TextMeshPro-2017.3-Runtime.csproj" />
+    <ProjectReference Include="..\shim\ParticleSystem\UnityEngine.ParticleSystemModule.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Silk.NET.Input" Version="2.23.0" />
+    <PackageReference Include="Silk.NET.OpenGL" Version="2.23.0" />
+    <PackageReference Include="Silk.NET.Windowing" Version="2.23.0" />
+    <PackageReference Include="SixLabors.ImageSharp" Version="3.1.7" />
+  </ItemGroup>
+
+</Project>

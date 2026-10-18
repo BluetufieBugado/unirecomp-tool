@@ -1,0 +1,23 @@
+Compilação de 13/10/2026 21:12:01 iniciada.
+Execução de teste para C:\BTbugado\Projects\UniRecomp Tool\runtime\host\ShaderTests\bin\Debug\net8.0\ShaderTests.dll (.NETCoreApp,Version=v8.0)
+Versão do VSTest 17.11.1 (x64)
+
+Iniciando execução de teste, espere...
+1 arquivos de teste no total corresponderam ao padrão especificado.
+[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.5.3.1+6b60a9e56a (64-bit .NET 8.0.31)
+[xUnit.net 00:00:00.13]   Discovering: ShaderTests
+[xUnit.net 00:00:00.19]   Discovered:  ShaderTests
+[xUnit.net 00:00:00.19]   Starting:    ShaderTests
+[xUnit.net 00:00:00.27]   Finished:    ShaderTests
+  Aprovado ShaderTests.UnitTest1.Test1 [3 ms]
+
+Execução de Teste Bem-sucedida.
+Total de testes: 1
+     Aprovados: 1
+Tempo total: 1,3897 Segundos
+
+Compilação com êxito.
+    0 Aviso(s)
+    0 Erro(s)
+
+Tempo Decorrido 00:00:02.99
