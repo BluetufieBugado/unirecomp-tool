@@ -124,8 +124,10 @@ MIT — see [`LICENSE`](LICENSE). Covers only the original code and docs in this
 ## Credits
 
 - Author: **EdDev**
-- Demo game: *Stardust Raiders* (open Unity project used as the MVP target — attribution to
-  be completed by the author).
+- Demo game: *Stardust Raiders* by **Rubén Crispín** — a free Unity 2018.1 prototype whose
+  project files are publicly downloadable: https://ruben-crispin.itch.io/stardust-raiders
+  (art by Amaya Mateos, music by Markel Badallo). Used here only as the MVP test target;
+  **not** redistributed in this repository.
 - Case study: *Steven Universe: Save the Light* (measured only; **not** included).
 
 ---
@@ -236,6 +238,8 @@ MIT — ver [`LICENSE`](LICENSE). Cobre apenas o código e a documentação orig
 ## Créditos
 
 - Autor: **EdDev**
-- Jogo demo: *Stardust Raiders* (projeto Unity aberto usado como alvo do MVP — atribuição a
-  completar pelo autor).
+- Jogo demo: *Stardust Raiders*, de **Rubén Crispín** — um protótipo gratuito de Unity 2018.1
+  cujos arquivos de projeto são públicos: https://ruben-crispin.itch.io/stardust-raiders
+  (arte de Amaya Mateos, música de Markel Badallo). Usado aqui apenas como alvo de teste do
+  MVP; **não** é redistribuído neste repositório.
 - Estudo de caso: *Steven Universe: Save the Light* (apenas medido; **não** incluído).

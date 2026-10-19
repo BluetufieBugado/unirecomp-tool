@@ -47,7 +47,8 @@ the Unity Mono world: read the game's containers, read its code, and provide the
 ## 3. What worked
 
 The first four steps worked, and the fifth worked far enough to be convincing on a small game
-(*Stardust Raiders*, Unity 2018.1.5f1, Mono, 55 scripts, zero native plugins):
+(*Stardust Raiders* — a free Unity 2018.1.5f1 prototype by Rubén Crispín — Mono, 55 scripts,
+zero native plugins):
 
 - **Container reader validated at 100%** against UnityPy across 11 files.
 - **`MonoScript` map at 100%** (2046/2046).
@@ -169,7 +170,8 @@ engine.
 ## 3. O que funcionou
 
 Os quatro primeiros passos funcionaram, e o quinto foi longe o bastante pra ser convincente num
-jogo pequeno (*Stardust Raiders*, Unity 2018.1.5f1, Mono, 55 scripts, zero plugins nativos):
+jogo pequeno (*Stardust Raiders* — um protótipo gratuito de Unity 2018.1.5f1 de Rubén Crispín —
+Mono, 55 scripts, zero plugins nativos):
 
 - **Leitor de container validado a 100%** contra o UnityPy em 11 arquivos.
 - **Mapa de `MonoScript` a 100%** (2046/2046).
